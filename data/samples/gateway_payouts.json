@@ -1,0 +1,90 @@
+[
+  {
+    "payout_id": "PO_2026_001",
+    "gateway_reference": "AMZN-INV-882194 BATCH-8821",
+    "gross_amount_minor": 125000,
+    "processing_fee_minor": 2500,
+    "refund_amount_minor": 0,
+    "chargeback_amount_minor": 0,
+    "net_settlement_amount_minor": 122500,
+    "settlement_timestamp": "2026-08-21T02:00:00Z",
+    "batch_token": "BATCH-8821"
+  },
+  {
+    "payout_id": "PO_2026_002",
+    "gateway_reference": "ZOMA-ORD-449102 SWIG-ORD-331908 BATCH-FOOD-99",
+    "gross_amount_minor": 150000,
+    "processing_fee_minor": 3000,
+    "refund_amount_minor": 0,
+    "chargeback_amount_minor": 0,
+    "net_settlement_amount_minor": 147000,
+    "settlement_timestamp": "2026-08-21T02:30:00Z",
+    "batch_token": "BATCH-FOOD-99"
+  },
+  {
+    "payout_id": "PO_2026_003",
+    "gateway_reference": "FLPK-INV-992341 BATCH-9923",
+    "gross_amount_minor": 210000,
+    "processing_fee_minor": 4200,
+    "refund_amount_minor": 0,
+    "chargeback_amount_minor": 0,
+    "net_settlement_amount_minor": 205800,
+    "settlement_timestamp": "2026-08-21T03:00:00Z",
+    "batch_token": "BATCH-9923"
+  },
+  {
+    "payout_id": "PO_2026_004",
+    "gateway_reference": "BLNK-ORD-112450 SINGLE-1124",
+    "gross_amount_minor": 45000,
+    "processing_fee_minor": 900,
+    "refund_amount_minor": 0,
+    "chargeback_amount_minor": 0,
+    "net_settlement_amount_minor": 44100,
+    "settlement_timestamp": "2026-08-21T03:30:00Z",
+    "batch_token": null
+  },
+  {
+    "payout_id": "PO_2026_005",
+    "gateway_reference": "MYNT-INV-773412 BATCH-7734",
+    "gross_amount_minor": 180000,
+    "processing_fee_minor": 3600,
+    "refund_amount_minor": 0,
+    "chargeback_amount_minor": 0,
+    "net_settlement_amount_minor": 176400,
+    "settlement_timestamp": "2026-08-21T04:00:00Z",
+    "batch_token": "BATCH-7734"
+  },
+  {
+    "payout_id": "PO_2026_006",
+    "gateway_reference": "TATA-INV-552109 BATCH-5521",
+    "gross_amount_minor": 320000,
+    "processing_fee_minor": 6400,
+    "refund_amount_minor": 0,
+    "chargeback_amount_minor": 0,
+    "net_settlement_amount_minor": 313600,
+    "settlement_timestamp": "2026-08-21T04:30:00Z",
+    "batch_token": "BATCH-5521"
+  },
+  {
+    "payout_id": "PO_2026_007",
+    "gateway_reference": "UBER-TRP-881230 OLAA-TRP-442190 BATCH-MOB-88",
+    "gross_amount_minor": 103000,
+    "processing_fee_minor": 2060,
+    "refund_amount_minor": 0,
+    "chargeback_amount_minor": 0,
+    "net_settlement_amount_minor": 100940,
+    "settlement_timestamp": "2026-08-21T05:00:00Z",
+    "batch_token": "BATCH-MOB-88"
+  },
+  {
+    "payout_id": "PO_2026_008",
+    "gateway_reference": "JIOO-SUB-661902 BATCH-6619",
+    "gross_amount_minor": 119000,
+    "processing_fee_minor": 2380,
+    "refund_amount_minor": 0,
+    "chargeback_amount_minor": 0,
+    "net_settlement_amount_minor": 116620,
+    "settlement_timestamp": "2026-08-21T05:30:00Z",
+    "batch_token": "BATCH-6619"
+  }
+]

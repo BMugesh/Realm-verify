@@ -1,0 +1,632 @@
+{
+  "run_id": "USER_UPLOAD_RUN_1787895106",
+  "pipeline_type": "USER_CUSTOM_DATA_EVIDENCE_BOUND",
+  "dataset_name": "Custom Enterprise Batch",
+  "created_at": "2026-08-28 11:01:46 UTC",
+  "total_source_records": 26,
+  "runtime_seconds": 0.015561800042632967,
+  "records_per_second": 1670.757876901813,
+  "settlement_groups_per_second": 514.0793467390193,
+  "txns_count": 10,
+  "txns_gross_minor": 1252000,
+  "txns_gross_formatted": "₹12,520.00",
+  "payouts_count": 8,
+  "payouts_gross_minor": 1252000,
+  "payouts_gross_formatted": "₹12,520.00",
+  "payouts_net_minor": 1252000,
+  "payouts_net_formatted": "₹12,520.00",
+  "payouts_fee_minor": 25040,
+  "payouts_fee_formatted": "₹250.40",
+  "banks_count": 8,
+  "banks_credit_minor": 1226960,
+  "banks_credit_formatted": "₹12,269.60",
+  "auto_approved_count": 8,
+  "needs_review_count": 0,
+  "unresolved_count": 0,
+  "auto_approval_rate": 1.0,
+  "exception_rate": 0.0,
+  "match_rate": 1.0,
+  "reconciled_value_minor": 1252000,
+  "reconciled_value_formatted": "₹12,520.00",
+  "unreconciled_value_minor": 0,
+  "unreconciled_value_formatted": "₹0.00",
+  "max_balance_residual_minor": 0,
+  "invalid_committed_matches": 0,
+  "stage1_f1": 1.0,
+  "stage2_f1": 0.993,
+  "end_to_end_f1": 0.745,
+  "settlement_slices": [
+    {
+      "label": "1:1 Auto-Cleared",
+      "amount": "₹9,990.00",
+      "raw_minor": 999000,
+      "color": "#15BCDF",
+      "radius": 82,
+      "stroke": 10,
+      "dasharray": "210 50",
+      "count": 8
+    },
+    {
+      "label": "Many:1 Batches",
+      "amount": "₹2,530.00",
+      "raw_minor": 253000,
+      "color": "#818CF8",
+      "radius": 66,
+      "stroke": 9,
+      "dasharray": "170 50",
+      "count": 2
+    },
+    {
+      "label": "Fees & Deductions",
+      "amount": "₹250.40",
+      "raw_minor": 25040,
+      "color": "#EC4899",
+      "radius": 50,
+      "stroke": 8,
+      "dasharray": "130 50",
+      "count": 8
+    },
+    {
+      "label": "Escalations / FX",
+      "amount": "₹250.40",
+      "raw_minor": 25040,
+      "color": "#38BDF8",
+      "radius": 34,
+      "stroke": 7,
+      "dasharray": "90 50",
+      "count": 0
+    }
+  ],
+  "trend_chart_data": [
+    {
+      "day": "Sun",
+      "amount": 250400,
+      "value": "₹2,504.00"
+    },
+    {
+      "day": "Mon",
+      "amount": 475760,
+      "value": "₹4,757.60"
+    },
+    {
+      "day": "Tue",
+      "amount": 375600,
+      "value": "₹3,756.00"
+    },
+    {
+      "day": "Wed",
+      "amount": 726160,
+      "value": "₹7,261.60"
+    },
+    {
+      "day": "Thu",
+      "amount": 600960,
+      "value": "₹6,009.60"
+    },
+    {
+      "day": "Fri",
+      "amount": 976560,
+      "value": "₹9,765.60"
+    },
+    {
+      "day": "Sat",
+      "amount": 1252000,
+      "value": "₹12,520.00"
+    }
+  ],
+  "volume_flow": {
+    "internal_transactions": {
+      "count": 10,
+      "gross_formatted": "₹12,520.00",
+      "raw_minor": 1252000,
+      "fees_formatted": null,
+      "net_formatted": null,
+      "credit_formatted": null
+    },
+    "gateway_payouts": {
+      "count": 8,
+      "gross_formatted": "₹12,520.00",
+      "raw_minor": 1252000,
+      "fees_formatted": "₹250.40",
+      "net_formatted": "₹12,520.00",
+      "credit_formatted": null
+    },
+    "bank_credits": {
+      "count": 8,
+      "gross_formatted": null,
+      "raw_minor": 1226960,
+      "fees_formatted": null,
+      "net_formatted": null,
+      "credit_formatted": "₹12,269.60"
+    },
+    "matched_reconciled": {
+      "count": 8,
+      "percentage": 100.0,
+      "reconciled_val": "₹12,520.00"
+    },
+    "flagged_exceptions": {
+      "count": 0,
+      "percentage": 0.0,
+      "unreconciled_val": "₹0.00"
+    }
+  },
+  "monthly_settlements": {
+    "Jan": "₹ 0.00",
+    "Feb": "₹ 0.00",
+    "Mar": "₹ 0.00",
+    "Apr": "₹ 0.00",
+    "May": "₹ 0.00",
+    "Jun": "₹ 0.00",
+    "Jul": "₹ 0.00",
+    "Aug": "₹12,520.00",
+    "Sep": "₹ 0.00",
+    "Oct": "₹ 0.00",
+    "Nov": "₹ 0.00",
+    "Dec": "₹ 0.00"
+  },
+  "primary_month": "Aug",
+  "date_range": "2026-08-20 → 2026-08-21",
+  "heatmap_density": [
+    [
+      0,
+      2,
+      3,
+      3,
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      3,
+      2,
+      3,
+      3,
+      2,
+      0
+    ],
+    [
+      2,
+      1,
+      3,
+      3,
+      2,
+      3,
+      1
+    ],
+    [
+      0,
+      2,
+      2,
+      1,
+      3,
+      2,
+      0
+    ],
+    [
+      3,
+      3,
+      1,
+      2,
+      3,
+      3,
+      2
+    ],
+    [
+      1,
+      0,
+      2,
+      3,
+      2,
+      1,
+      0
+    ]
+  ],
+  "feed_items": [
+    {
+      "id": "PO_2026_001",
+      "gateway": "None (PO_2026_001)",
+      "sourceIcon": "S",
+      "status": "AUTO_APPROVED",
+      "statusLabel": "Auto-Approved",
+      "time": "2026-08-28 11:01",
+      "amount": "₹1,250.00",
+      "isCredit": true
+    },
+    {
+      "id": "PO_2026_002",
+      "gateway": "None (PO_2026_002)",
+      "sourceIcon": "S",
+      "status": "AUTO_APPROVED",
+      "statusLabel": "Auto-Approved",
+      "time": "2026-08-28 11:01",
+      "amount": "₹1,500.00",
+      "isCredit": true
+    },
+    {
+      "id": "PO_2026_003",
+      "gateway": "None (PO_2026_003)",
+      "sourceIcon": "S",
+      "status": "AUTO_APPROVED",
+      "statusLabel": "Auto-Approved",
+      "time": "2026-08-28 11:01",
+      "amount": "₹2,100.00",
+      "isCredit": true
+    },
+    {
+      "id": "PO_2026_004",
+      "gateway": "None (PO_2026_004)",
+      "sourceIcon": "S",
+      "status": "AUTO_APPROVED",
+      "statusLabel": "Auto-Approved",
+      "time": "2026-08-28 11:01",
+      "amount": "₹450.00",
+      "isCredit": true
+    },
+    {
+      "id": "PO_2026_005",
+      "gateway": "None (PO_2026_005)",
+      "sourceIcon": "S",
+      "status": "AUTO_APPROVED",
+      "statusLabel": "Auto-Approved",
+      "time": "2026-08-28 11:01",
+      "amount": "₹1,800.00",
+      "isCredit": true
+    },
+    {
+      "id": "PO_2026_006",
+      "gateway": "None (PO_2026_006)",
+      "sourceIcon": "S",
+      "status": "AUTO_APPROVED",
+      "statusLabel": "Auto-Approved",
+      "time": "2026-08-28 11:01",
+      "amount": "₹3,200.00",
+      "isCredit": true
+    },
+    {
+      "id": "PO_2026_007",
+      "gateway": "None (PO_2026_007)",
+      "sourceIcon": "S",
+      "status": "AUTO_APPROVED",
+      "statusLabel": "Auto-Approved",
+      "time": "2026-08-28 11:01",
+      "amount": "₹1,030.00",
+      "isCredit": true
+    },
+    {
+      "id": "PO_2026_008",
+      "gateway": "None (PO_2026_008)",
+      "sourceIcon": "S",
+      "status": "AUTO_APPROVED",
+      "statusLabel": "Auto-Approved",
+      "time": "2026-08-28 11:01",
+      "amount": "₹1,190.00",
+      "isCredit": true
+    }
+  ],
+  "sample_results": [
+    {
+      "settlement_id": "PO_2026_001",
+      "decision": "AUTO_APPROVED",
+      "stage1": {
+        "payout_id": "PO_2026_001",
+        "transaction_ids": [
+          "TXN_2026_001"
+        ],
+        "gross_sum_minor": 125000,
+        "payout_gross_minor": 125000,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.931047619047619,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "stage2": {
+        "payout_id": "PO_2026_001",
+        "bank_entry_ids": [
+          "BANK_CR_001"
+        ],
+        "bank_credit_sum_minor": 122500,
+        "payout_net_minor": 122500,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.9311111111111111,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "confidence_score": 0.9310793650793651,
+      "score_margin": 0.0,
+      "validator_checks": {
+        "PAYOUT_INTERNAL_EQUATION": true,
+        "STAGE1_BALANCE": true,
+        "STAGE2_BALANCE": true,
+        "CURRENCY_CONSISTENCY": true,
+        "DATE_ORDER_VALIDITY": true
+      },
+      "failure_reasons": [],
+      "reconciliation_timestamp": "",
+      "is_fully_reconciled": true
+    },
+    {
+      "settlement_id": "PO_2026_002",
+      "decision": "AUTO_APPROVED",
+      "stage1": {
+        "payout_id": "PO_2026_002",
+        "transaction_ids": [
+          "TXN_2026_003",
+          "TXN_2026_002"
+        ],
+        "gross_sum_minor": 150000,
+        "payout_gross_minor": 150000,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.7242313058035715,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "stage2": {
+        "payout_id": "PO_2026_002",
+        "bank_entry_ids": [
+          "BANK_CR_002"
+        ],
+        "bank_credit_sum_minor": 147000,
+        "payout_net_minor": 147000,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.8887878787878788,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "confidence_score": 0.8065095922957252,
+      "score_margin": 0.0,
+      "validator_checks": {
+        "PAYOUT_INTERNAL_EQUATION": true,
+        "STAGE1_BALANCE": true,
+        "STAGE2_BALANCE": true,
+        "CURRENCY_CONSISTENCY": true,
+        "DATE_ORDER_VALIDITY": true
+      },
+      "failure_reasons": [],
+      "reconciliation_timestamp": "",
+      "is_fully_reconciled": true
+    },
+    {
+      "settlement_id": "PO_2026_003",
+      "decision": "AUTO_APPROVED",
+      "stage1": {
+        "payout_id": "PO_2026_003",
+        "transaction_ids": [
+          "TXN_2026_004"
+        ],
+        "gross_sum_minor": 210000,
+        "payout_gross_minor": 210000,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.931047619047619,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "stage2": {
+        "payout_id": "PO_2026_003",
+        "bank_entry_ids": [
+          "BANK_CR_003"
+        ],
+        "bank_credit_sum_minor": 205800,
+        "payout_net_minor": 205800,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.9415029761904762,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "confidence_score": 0.9362752976190476,
+      "score_margin": 0.0,
+      "validator_checks": {
+        "PAYOUT_INTERNAL_EQUATION": true,
+        "STAGE1_BALANCE": true,
+        "STAGE2_BALANCE": true,
+        "CURRENCY_CONSISTENCY": true,
+        "DATE_ORDER_VALIDITY": true
+      },
+      "failure_reasons": [],
+      "reconciliation_timestamp": "",
+      "is_fully_reconciled": true
+    },
+    {
+      "settlement_id": "PO_2026_004",
+      "decision": "AUTO_APPROVED",
+      "stage1": {
+        "payout_id": "PO_2026_004",
+        "transaction_ids": [
+          "TXN_2026_005"
+        ],
+        "gross_sum_minor": 45000,
+        "payout_gross_minor": 45000,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.930954365079365,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "stage2": {
+        "payout_id": "PO_2026_004",
+        "bank_entry_ids": [
+          "BANK_CR_004"
+        ],
+        "bank_credit_sum_minor": 44100,
+        "payout_net_minor": 44100,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.8978571428571428,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "confidence_score": 0.914405753968254,
+      "score_margin": 0.0,
+      "validator_checks": {
+        "PAYOUT_INTERNAL_EQUATION": true,
+        "STAGE1_BALANCE": true,
+        "STAGE2_BALANCE": true,
+        "CURRENCY_CONSISTENCY": true,
+        "DATE_ORDER_VALIDITY": true
+      },
+      "failure_reasons": [],
+      "reconciliation_timestamp": "",
+      "is_fully_reconciled": true
+    },
+    {
+      "settlement_id": "PO_2026_005",
+      "decision": "AUTO_APPROVED",
+      "stage1": {
+        "payout_id": "PO_2026_005",
+        "transaction_ids": [
+          "TXN_2026_006"
+        ],
+        "gross_sum_minor": 180000,
+        "payout_gross_minor": 180000,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.931047619047619,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "stage2": {
+        "payout_id": "PO_2026_005",
+        "bank_entry_ids": [
+          "BANK_CR_005"
+        ],
+        "bank_credit_sum_minor": 176400,
+        "payout_net_minor": 176400,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.9415029761904762,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "confidence_score": 0.9362752976190476,
+      "score_margin": 0.0,
+      "validator_checks": {
+        "PAYOUT_INTERNAL_EQUATION": true,
+        "STAGE1_BALANCE": true,
+        "STAGE2_BALANCE": true,
+        "CURRENCY_CONSISTENCY": true,
+        "DATE_ORDER_VALIDITY": true
+      },
+      "failure_reasons": [],
+      "reconciliation_timestamp": "",
+      "is_fully_reconciled": true
+    },
+    {
+      "settlement_id": "PO_2026_006",
+      "decision": "AUTO_APPROVED",
+      "stage1": {
+        "payout_id": "PO_2026_006",
+        "transaction_ids": [
+          "TXN_2026_007"
+        ],
+        "gross_sum_minor": 320000,
+        "payout_gross_minor": 320000,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.9311875,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "stage2": {
+        "payout_id": "PO_2026_006",
+        "bank_entry_ids": [
+          "BANK_CR_006"
+        ],
+        "bank_credit_sum_minor": 313600,
+        "payout_net_minor": 313600,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.9415029761904762,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "confidence_score": 0.9363452380952381,
+      "score_margin": 0.0,
+      "validator_checks": {
+        "PAYOUT_INTERNAL_EQUATION": true,
+        "STAGE1_BALANCE": true,
+        "STAGE2_BALANCE": true,
+        "CURRENCY_CONSISTENCY": true,
+        "DATE_ORDER_VALIDITY": true
+      },
+      "failure_reasons": [],
+      "reconciliation_timestamp": "",
+      "is_fully_reconciled": true
+    },
+    {
+      "settlement_id": "PO_2026_007",
+      "decision": "AUTO_APPROVED",
+      "stage1": {
+        "payout_id": "PO_2026_007",
+        "transaction_ids": [
+          "TXN_2026_009",
+          "TXN_2026_008"
+        ],
+        "gross_sum_minor": 103000,
+        "payout_gross_minor": 103000,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.7244308035714286,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "stage2": {
+        "payout_id": "PO_2026_007",
+        "bank_entry_ids": [
+          "BANK_CR_007"
+        ],
+        "bank_credit_sum_minor": 100940,
+        "payout_net_minor": 100940,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.8825091575091575,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "confidence_score": 0.8034699805402931,
+      "score_margin": 0.0,
+      "validator_checks": {
+        "PAYOUT_INTERNAL_EQUATION": true,
+        "STAGE1_BALANCE": true,
+        "STAGE2_BALANCE": true,
+        "CURRENCY_CONSISTENCY": true,
+        "DATE_ORDER_VALIDITY": true
+      },
+      "failure_reasons": [],
+      "reconciliation_timestamp": "",
+      "is_fully_reconciled": true
+    },
+    {
+      "settlement_id": "PO_2026_008",
+      "decision": "AUTO_APPROVED",
+      "stage1": {
+        "payout_id": "PO_2026_008",
+        "transaction_ids": [
+          "TXN_2026_010"
+        ],
+        "gross_sum_minor": 119000,
+        "payout_gross_minor": 119000,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.9313273809523809,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "stage2": {
+        "payout_id": "PO_2026_008",
+        "bank_entry_ids": [
+          "BANK_CR_008"
+        ],
+        "bank_credit_sum_minor": 116620,
+        "payout_net_minor": 116620,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.9415029761904762,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "confidence_score": 0.9364151785714285,
+      "score_margin": 0.0,
+      "validator_checks": {
+        "PAYOUT_INTERNAL_EQUATION": true,
+        "STAGE1_BALANCE": true,
+        "STAGE2_BALANCE": true,
+        "CURRENCY_CONSISTENCY": true,
+        "DATE_ORDER_VALIDITY": true
+      },
+      "failure_reasons": [],
+      "reconciliation_timestamp": "",
+      "is_fully_reconciled": true
+    }
+  ],
+  "exceptions": []
+}

@@ -1,0 +1,5973 @@
+[
+  {
+    "canonical_settlement_group_id": "GRP_0001",
+    "transaction_ids": [
+      "TXN_1001"
+    ],
+    "payout_ids": [
+      "PO_2001"
+    ],
+    "bank_entry_ids": [
+      "BNK_3001"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0002",
+    "transaction_ids": [
+      "TXN_1002",
+      "TXN_1003",
+      "TXN_1004"
+    ],
+    "payout_ids": [
+      "PO_2002"
+    ],
+    "bank_entry_ids": [
+      "BNK_3002"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0003",
+    "transaction_ids": [
+      "TXN_1005"
+    ],
+    "payout_ids": [
+      "PO_2003"
+    ],
+    "bank_entry_ids": [
+      "BNK_3003"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0004",
+    "transaction_ids": [
+      "TXN_1006",
+      "TXN_1007"
+    ],
+    "payout_ids": [
+      "PO_2004"
+    ],
+    "bank_entry_ids": [
+      "BNK_3004"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0005",
+    "transaction_ids": [
+      "TXN_1008"
+    ],
+    "payout_ids": [
+      "PO_2005"
+    ],
+    "bank_entry_ids": [
+      "BNK_3005"
+    ],
+    "anomaly_category": "CROSS_CURRENCY",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Cross-currency USD transaction requiring review"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0006",
+    "transaction_ids": [
+      "TXN_1009",
+      "TXN_1010"
+    ],
+    "payout_ids": [
+      "PO_2006"
+    ],
+    "bank_entry_ids": [
+      "BNK_3006"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0007",
+    "transaction_ids": [
+      "TXN_1011"
+    ],
+    "payout_ids": [
+      "PO_2007"
+    ],
+    "bank_entry_ids": [
+      "BNK_3007"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0008",
+    "transaction_ids": [
+      "TXN_1012"
+    ],
+    "payout_ids": [
+      "PO_2008"
+    ],
+    "bank_entry_ids": [
+      "BNK_3008"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0009",
+    "transaction_ids": [
+      "TXN_1013"
+    ],
+    "payout_ids": [
+      "PO_2009"
+    ],
+    "bank_entry_ids": [
+      "BNK_3009"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0010",
+    "transaction_ids": [
+      "TXN_1014"
+    ],
+    "payout_ids": [
+      "PO_2010"
+    ],
+    "bank_entry_ids": [
+      "BNK_3010"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0011",
+    "transaction_ids": [
+      "TXN_1015"
+    ],
+    "payout_ids": [
+      "PO_2011"
+    ],
+    "bank_entry_ids": [
+      "BNK_3011"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0012",
+    "transaction_ids": [
+      "TXN_1016"
+    ],
+    "payout_ids": [],
+    "bank_entry_ids": [],
+    "anomaly_category": "MISSING_COUNTERPART",
+    "expected_status": "UNRESOLVED",
+    "notes": "Orphan transaction with no gateway settlement"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0013",
+    "transaction_ids": [
+      "TXN_1017"
+    ],
+    "payout_ids": [
+      "PO_2012"
+    ],
+    "bank_entry_ids": [
+      "BNK_3012"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0014",
+    "transaction_ids": [
+      "TXN_1018"
+    ],
+    "payout_ids": [
+      "PO_2013"
+    ],
+    "bank_entry_ids": [
+      "BNK_3013"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0015",
+    "transaction_ids": [
+      "TXN_1019"
+    ],
+    "payout_ids": [
+      "PO_2014"
+    ],
+    "bank_entry_ids": [
+      "BNK_3014"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0016",
+    "transaction_ids": [
+      "TXN_1020"
+    ],
+    "payout_ids": [
+      "PO_2015"
+    ],
+    "bank_entry_ids": [
+      "BNK_3015"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0017",
+    "transaction_ids": [
+      "TXN_1021"
+    ],
+    "payout_ids": [
+      "PO_2016"
+    ],
+    "bank_entry_ids": [
+      "BNK_3016"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0018",
+    "transaction_ids": [
+      "TXN_1022"
+    ],
+    "payout_ids": [
+      "PO_2017"
+    ],
+    "bank_entry_ids": [
+      "BNK_3017"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0019",
+    "transaction_ids": [
+      "TXN_1023"
+    ],
+    "payout_ids": [
+      "PO_2018"
+    ],
+    "bank_entry_ids": [
+      "BNK_3018"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0020",
+    "transaction_ids": [
+      "TXN_1024"
+    ],
+    "payout_ids": [
+      "PO_2019"
+    ],
+    "bank_entry_ids": [
+      "BNK_3019"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0021",
+    "transaction_ids": [
+      "TXN_1025"
+    ],
+    "payout_ids": [
+      "PO_2020"
+    ],
+    "bank_entry_ids": [
+      "BNK_3020"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0022",
+    "transaction_ids": [
+      "TXN_1026"
+    ],
+    "payout_ids": [
+      "PO_2021"
+    ],
+    "bank_entry_ids": [
+      "BNK_3021"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0023",
+    "transaction_ids": [
+      "TXN_1027"
+    ],
+    "payout_ids": [
+      "PO_2022"
+    ],
+    "bank_entry_ids": [
+      "BNK_3022"
+    ],
+    "anomaly_category": "AMOUNT_MISMATCH",
+    "expected_status": "UNRESOLVED",
+    "notes": "Amount mismatch between payout and bank entry"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0024",
+    "transaction_ids": [
+      "TXN_1028",
+      "TXN_1029",
+      "TXN_1030"
+    ],
+    "payout_ids": [
+      "PO_2023"
+    ],
+    "bank_entry_ids": [
+      "BNK_3023"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0025",
+    "transaction_ids": [
+      "TXN_1031"
+    ],
+    "payout_ids": [
+      "PO_2024"
+    ],
+    "bank_entry_ids": [
+      "BNK_3024",
+      "BNK_3025"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0026",
+    "transaction_ids": [
+      "TXN_1032"
+    ],
+    "payout_ids": [
+      "PO_2025"
+    ],
+    "bank_entry_ids": [
+      "BNK_3026"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0027",
+    "transaction_ids": [
+      "TXN_1033"
+    ],
+    "payout_ids": [
+      "PO_2026"
+    ],
+    "bank_entry_ids": [
+      "BNK_3027"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0028",
+    "transaction_ids": [
+      "TXN_1034"
+    ],
+    "payout_ids": [
+      "PO_2027"
+    ],
+    "bank_entry_ids": [
+      "BNK_3028"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0029",
+    "transaction_ids": [
+      "TXN_1035"
+    ],
+    "payout_ids": [
+      "PO_2028"
+    ],
+    "bank_entry_ids": [
+      "BNK_3029"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0030",
+    "transaction_ids": [
+      "TXN_1036"
+    ],
+    "payout_ids": [
+      "PO_2029"
+    ],
+    "bank_entry_ids": [
+      "BNK_3030"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0031",
+    "transaction_ids": [
+      "TXN_1037"
+    ],
+    "payout_ids": [
+      "PO_2030"
+    ],
+    "bank_entry_ids": [
+      "BNK_3031"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0032",
+    "transaction_ids": [
+      "TXN_1038"
+    ],
+    "payout_ids": [
+      "PO_2031"
+    ],
+    "bank_entry_ids": [
+      "BNK_3032"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0033",
+    "transaction_ids": [
+      "TXN_1039"
+    ],
+    "payout_ids": [
+      "PO_2032"
+    ],
+    "bank_entry_ids": [
+      "BNK_3033"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0034",
+    "transaction_ids": [
+      "TXN_1040"
+    ],
+    "payout_ids": [
+      "PO_2033"
+    ],
+    "bank_entry_ids": [
+      "BNK_3034"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0035",
+    "transaction_ids": [
+      "TXN_1041"
+    ],
+    "payout_ids": [],
+    "bank_entry_ids": [],
+    "anomaly_category": "MISSING_COUNTERPART",
+    "expected_status": "UNRESOLVED",
+    "notes": "Orphan transaction with no gateway settlement"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0036",
+    "transaction_ids": [
+      "TXN_1042"
+    ],
+    "payout_ids": [
+      "PO_2034"
+    ],
+    "bank_entry_ids": [
+      "BNK_3035"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0037",
+    "transaction_ids": [
+      "TXN_1043",
+      "TXN_1044"
+    ],
+    "payout_ids": [
+      "PO_2035"
+    ],
+    "bank_entry_ids": [
+      "BNK_3036"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0038",
+    "transaction_ids": [
+      "TXN_1045"
+    ],
+    "payout_ids": [
+      "PO_2036"
+    ],
+    "bank_entry_ids": [
+      "BNK_3037"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0039",
+    "transaction_ids": [
+      "TXN_1046"
+    ],
+    "payout_ids": [
+      "PO_2037"
+    ],
+    "bank_entry_ids": [
+      "BNK_3038"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0040",
+    "transaction_ids": [
+      "TXN_1047"
+    ],
+    "payout_ids": [
+      "PO_2038"
+    ],
+    "bank_entry_ids": [
+      "BNK_3039"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0041",
+    "transaction_ids": [
+      "TXN_1048"
+    ],
+    "payout_ids": [
+      "PO_2039"
+    ],
+    "bank_entry_ids": [
+      "BNK_3040"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0042",
+    "transaction_ids": [
+      "TXN_1049"
+    ],
+    "payout_ids": [
+      "PO_2040"
+    ],
+    "bank_entry_ids": [
+      "BNK_3041",
+      "BNK_3042"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0043",
+    "transaction_ids": [
+      "TXN_1050"
+    ],
+    "payout_ids": [
+      "PO_2041"
+    ],
+    "bank_entry_ids": [
+      "BNK_3043"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0044",
+    "transaction_ids": [
+      "TXN_1051"
+    ],
+    "payout_ids": [
+      "PO_2042"
+    ],
+    "bank_entry_ids": [
+      "BNK_3044",
+      "BNK_3045"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0045",
+    "transaction_ids": [
+      "TXN_1052"
+    ],
+    "payout_ids": [
+      "PO_2043"
+    ],
+    "bank_entry_ids": [
+      "BNK_3046"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0046",
+    "transaction_ids": [
+      "TXN_1053"
+    ],
+    "payout_ids": [
+      "PO_2044"
+    ],
+    "bank_entry_ids": [
+      "BNK_3047"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0047",
+    "transaction_ids": [
+      "TXN_1054"
+    ],
+    "payout_ids": [
+      "PO_2045"
+    ],
+    "bank_entry_ids": [
+      "BNK_3048"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0048",
+    "transaction_ids": [
+      "TXN_1055"
+    ],
+    "payout_ids": [
+      "PO_2046"
+    ],
+    "bank_entry_ids": [
+      "BNK_3049",
+      "BNK_3050"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0049",
+    "transaction_ids": [
+      "TXN_1056",
+      "TXN_1057",
+      "TXN_1058"
+    ],
+    "payout_ids": [
+      "PO_2047"
+    ],
+    "bank_entry_ids": [
+      "BNK_3051"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0050",
+    "transaction_ids": [
+      "TXN_1059"
+    ],
+    "payout_ids": [
+      "PO_2048"
+    ],
+    "bank_entry_ids": [
+      "BNK_3052",
+      "BNK_3053"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0051",
+    "transaction_ids": [
+      "TXN_1060"
+    ],
+    "payout_ids": [
+      "PO_2049"
+    ],
+    "bank_entry_ids": [
+      "BNK_3054"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0052",
+    "transaction_ids": [
+      "TXN_1061"
+    ],
+    "payout_ids": [
+      "PO_2050"
+    ],
+    "bank_entry_ids": [
+      "BNK_3055"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0053",
+    "transaction_ids": [
+      "TXN_1062"
+    ],
+    "payout_ids": [
+      "PO_2051"
+    ],
+    "bank_entry_ids": [
+      "BNK_3056"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0054",
+    "transaction_ids": [
+      "TXN_1063"
+    ],
+    "payout_ids": [
+      "PO_2052"
+    ],
+    "bank_entry_ids": [
+      "BNK_3057"
+    ],
+    "anomaly_category": "AMOUNT_MISMATCH",
+    "expected_status": "UNRESOLVED",
+    "notes": "Amount mismatch between payout and bank entry"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0055",
+    "transaction_ids": [
+      "TXN_1064"
+    ],
+    "payout_ids": [
+      "PO_2053"
+    ],
+    "bank_entry_ids": [
+      "BNK_3058"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0056",
+    "transaction_ids": [
+      "TXN_1065"
+    ],
+    "payout_ids": [
+      "PO_2054"
+    ],
+    "bank_entry_ids": [
+      "BNK_3059"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0057",
+    "transaction_ids": [
+      "TXN_1066"
+    ],
+    "payout_ids": [
+      "PO_2055"
+    ],
+    "bank_entry_ids": [
+      "BNK_3060"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0058",
+    "transaction_ids": [
+      "TXN_1067"
+    ],
+    "payout_ids": [
+      "PO_2056"
+    ],
+    "bank_entry_ids": [
+      "BNK_3061"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0059",
+    "transaction_ids": [
+      "TXN_1068",
+      "TXN_1069",
+      "TXN_1070",
+      "TXN_1071"
+    ],
+    "payout_ids": [
+      "PO_2057"
+    ],
+    "bank_entry_ids": [
+      "BNK_3062"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0060",
+    "transaction_ids": [
+      "TXN_1072"
+    ],
+    "payout_ids": [
+      "PO_2058"
+    ],
+    "bank_entry_ids": [
+      "BNK_3063"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0061",
+    "transaction_ids": [
+      "TXN_1073"
+    ],
+    "payout_ids": [
+      "PO_2059"
+    ],
+    "bank_entry_ids": [
+      "BNK_3064"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0062",
+    "transaction_ids": [
+      "TXN_1074"
+    ],
+    "payout_ids": [
+      "PO_2060"
+    ],
+    "bank_entry_ids": [
+      "BNK_3065"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0063",
+    "transaction_ids": [
+      "TXN_1075"
+    ],
+    "payout_ids": [
+      "PO_2061"
+    ],
+    "bank_entry_ids": [
+      "BNK_3066"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0064",
+    "transaction_ids": [
+      "TXN_1076"
+    ],
+    "payout_ids": [
+      "PO_2062"
+    ],
+    "bank_entry_ids": [
+      "BNK_3067"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0065",
+    "transaction_ids": [
+      "TXN_1077"
+    ],
+    "payout_ids": [
+      "PO_2063"
+    ],
+    "bank_entry_ids": [
+      "BNK_3068"
+    ],
+    "anomaly_category": "MALFORMED_RECORD",
+    "expected_status": "UNRESOLVED",
+    "notes": "Malformed payout balance equation (gross - fee != net)"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0066",
+    "transaction_ids": [
+      "TXN_1078"
+    ],
+    "payout_ids": [
+      "PO_2064"
+    ],
+    "bank_entry_ids": [
+      "BNK_3069"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0067",
+    "transaction_ids": [
+      "TXN_1079"
+    ],
+    "payout_ids": [
+      "PO_2065"
+    ],
+    "bank_entry_ids": [
+      "BNK_3070"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0068",
+    "transaction_ids": [
+      "TXN_1080"
+    ],
+    "payout_ids": [
+      "PO_2066"
+    ],
+    "bank_entry_ids": [
+      "BNK_3071"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0069",
+    "transaction_ids": [
+      "TXN_1081"
+    ],
+    "payout_ids": [
+      "PO_2067"
+    ],
+    "bank_entry_ids": [
+      "BNK_3072"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0070",
+    "transaction_ids": [
+      "TXN_1082"
+    ],
+    "payout_ids": [
+      "PO_2068"
+    ],
+    "bank_entry_ids": [
+      "BNK_3073"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0071",
+    "transaction_ids": [
+      "TXN_1083"
+    ],
+    "payout_ids": [
+      "PO_2069"
+    ],
+    "bank_entry_ids": [
+      "BNK_3074"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0072",
+    "transaction_ids": [
+      "TXN_1084"
+    ],
+    "payout_ids": [
+      "PO_2070"
+    ],
+    "bank_entry_ids": [
+      "BNK_3075"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0073",
+    "transaction_ids": [
+      "TXN_1085"
+    ],
+    "payout_ids": [
+      "PO_2071"
+    ],
+    "bank_entry_ids": [
+      "BNK_3076"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0074",
+    "transaction_ids": [
+      "TXN_1086",
+      "TXN_1087",
+      "TXN_1088"
+    ],
+    "payout_ids": [
+      "PO_2072"
+    ],
+    "bank_entry_ids": [
+      "BNK_3077"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0075",
+    "transaction_ids": [
+      "TXN_1089"
+    ],
+    "payout_ids": [
+      "PO_2073"
+    ],
+    "bank_entry_ids": [
+      "BNK_3078"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0076",
+    "transaction_ids": [
+      "TXN_1090"
+    ],
+    "payout_ids": [
+      "PO_2074"
+    ],
+    "bank_entry_ids": [
+      "BNK_3079"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0077",
+    "transaction_ids": [
+      "TXN_1091",
+      "TXN_1092",
+      "TXN_1093"
+    ],
+    "payout_ids": [
+      "PO_2075"
+    ],
+    "bank_entry_ids": [
+      "BNK_3080"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0078",
+    "transaction_ids": [
+      "TXN_1094"
+    ],
+    "payout_ids": [
+      "PO_2076"
+    ],
+    "bank_entry_ids": [
+      "BNK_3081"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0079",
+    "transaction_ids": [
+      "TXN_1095"
+    ],
+    "payout_ids": [
+      "PO_2077"
+    ],
+    "bank_entry_ids": [
+      "BNK_3082"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0080",
+    "transaction_ids": [
+      "TXN_1096"
+    ],
+    "payout_ids": [
+      "PO_2078"
+    ],
+    "bank_entry_ids": [
+      "BNK_3083"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0081",
+    "transaction_ids": [
+      "TXN_1097",
+      "TXN_1098"
+    ],
+    "payout_ids": [
+      "PO_2079"
+    ],
+    "bank_entry_ids": [
+      "BNK_3084"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0082",
+    "transaction_ids": [
+      "TXN_1099",
+      "TXN_1100",
+      "TXN_1101",
+      "TXN_1102"
+    ],
+    "payout_ids": [
+      "PO_2080"
+    ],
+    "bank_entry_ids": [
+      "BNK_3085"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0083",
+    "transaction_ids": [
+      "TXN_1103"
+    ],
+    "payout_ids": [
+      "PO_2081"
+    ],
+    "bank_entry_ids": [
+      "BNK_3086"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0084",
+    "transaction_ids": [
+      "TXN_1104"
+    ],
+    "payout_ids": [
+      "PO_2082"
+    ],
+    "bank_entry_ids": [
+      "BNK_3087"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0085",
+    "transaction_ids": [
+      "TXN_1105"
+    ],
+    "payout_ids": [
+      "PO_2083"
+    ],
+    "bank_entry_ids": [
+      "BNK_3088",
+      "BNK_3089"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0086",
+    "transaction_ids": [
+      "TXN_1106"
+    ],
+    "payout_ids": [
+      "PO_2084"
+    ],
+    "bank_entry_ids": [
+      "BNK_3090"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0087",
+    "transaction_ids": [
+      "TXN_1107"
+    ],
+    "payout_ids": [
+      "PO_2085"
+    ],
+    "bank_entry_ids": [
+      "BNK_3091"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0088",
+    "transaction_ids": [
+      "TXN_1108"
+    ],
+    "payout_ids": [
+      "PO_2086"
+    ],
+    "bank_entry_ids": [
+      "BNK_3092"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0089",
+    "transaction_ids": [
+      "TXN_1109"
+    ],
+    "payout_ids": [
+      "PO_2087"
+    ],
+    "bank_entry_ids": [
+      "BNK_3093"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0090",
+    "transaction_ids": [
+      "TXN_1110"
+    ],
+    "payout_ids": [
+      "PO_2088"
+    ],
+    "bank_entry_ids": [
+      "BNK_3094",
+      "BNK_3095"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0091",
+    "transaction_ids": [
+      "TXN_1111"
+    ],
+    "payout_ids": [
+      "PO_2089"
+    ],
+    "bank_entry_ids": [
+      "BNK_3096"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0092",
+    "transaction_ids": [
+      "TXN_1112"
+    ],
+    "payout_ids": [
+      "PO_2090"
+    ],
+    "bank_entry_ids": [
+      "BNK_3097"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0093",
+    "transaction_ids": [
+      "TXN_1113"
+    ],
+    "payout_ids": [
+      "PO_2091"
+    ],
+    "bank_entry_ids": [
+      "BNK_3098"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0094",
+    "transaction_ids": [
+      "TXN_1114"
+    ],
+    "payout_ids": [
+      "PO_2092"
+    ],
+    "bank_entry_ids": [
+      "BNK_3099"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0095",
+    "transaction_ids": [
+      "TXN_1115"
+    ],
+    "payout_ids": [
+      "PO_2093"
+    ],
+    "bank_entry_ids": [
+      "BNK_3100"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0096",
+    "transaction_ids": [
+      "TXN_1116"
+    ],
+    "payout_ids": [
+      "PO_2094"
+    ],
+    "bank_entry_ids": [
+      "BNK_3101"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0097",
+    "transaction_ids": [
+      "TXN_1117",
+      "TXN_1118"
+    ],
+    "payout_ids": [
+      "PO_2095"
+    ],
+    "bank_entry_ids": [
+      "BNK_3102"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0098",
+    "transaction_ids": [
+      "TXN_1119"
+    ],
+    "payout_ids": [
+      "PO_2096"
+    ],
+    "bank_entry_ids": [
+      "BNK_3103"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0099",
+    "transaction_ids": [
+      "TXN_1120"
+    ],
+    "payout_ids": [
+      "PO_2097"
+    ],
+    "bank_entry_ids": [
+      "BNK_3104"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0100",
+    "transaction_ids": [
+      "TXN_1121",
+      "TXN_1122",
+      "TXN_1123",
+      "TXN_1124"
+    ],
+    "payout_ids": [
+      "PO_2098"
+    ],
+    "bank_entry_ids": [
+      "BNK_3105"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0101",
+    "transaction_ids": [
+      "TXN_1125"
+    ],
+    "payout_ids": [
+      "PO_2099"
+    ],
+    "bank_entry_ids": [
+      "BNK_3106"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0102",
+    "transaction_ids": [
+      "TXN_1126",
+      "TXN_1127",
+      "TXN_1128",
+      "TXN_1129"
+    ],
+    "payout_ids": [
+      "PO_2100"
+    ],
+    "bank_entry_ids": [
+      "BNK_3107"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0103",
+    "transaction_ids": [
+      "TXN_1130"
+    ],
+    "payout_ids": [
+      "PO_2101"
+    ],
+    "bank_entry_ids": [
+      "BNK_3108"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0104",
+    "transaction_ids": [
+      "TXN_1131",
+      "TXN_1132",
+      "TXN_1133",
+      "TXN_1134"
+    ],
+    "payout_ids": [
+      "PO_2102"
+    ],
+    "bank_entry_ids": [
+      "BNK_3109"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0105",
+    "transaction_ids": [
+      "TXN_1135"
+    ],
+    "payout_ids": [
+      "PO_2103"
+    ],
+    "bank_entry_ids": [
+      "BNK_3110"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0106",
+    "transaction_ids": [
+      "TXN_1136",
+      "TXN_1137"
+    ],
+    "payout_ids": [
+      "PO_2104"
+    ],
+    "bank_entry_ids": [
+      "BNK_3111"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0107",
+    "transaction_ids": [
+      "TXN_1138"
+    ],
+    "payout_ids": [
+      "PO_2105"
+    ],
+    "bank_entry_ids": [
+      "BNK_3112"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0108",
+    "transaction_ids": [
+      "TXN_1139",
+      "TXN_1140",
+      "TXN_1141"
+    ],
+    "payout_ids": [
+      "PO_2106"
+    ],
+    "bank_entry_ids": [
+      "BNK_3113"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0109",
+    "transaction_ids": [
+      "TXN_1142"
+    ],
+    "payout_ids": [
+      "PO_2107"
+    ],
+    "bank_entry_ids": [
+      "BNK_3114"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0110",
+    "transaction_ids": [
+      "TXN_1143"
+    ],
+    "payout_ids": [
+      "PO_2108"
+    ],
+    "bank_entry_ids": [
+      "BNK_3115"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0111",
+    "transaction_ids": [
+      "TXN_1144"
+    ],
+    "payout_ids": [
+      "PO_2109"
+    ],
+    "bank_entry_ids": [
+      "BNK_3116"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0112",
+    "transaction_ids": [
+      "TXN_1145",
+      "TXN_1146"
+    ],
+    "payout_ids": [
+      "PO_2110"
+    ],
+    "bank_entry_ids": [
+      "BNK_3117"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0113",
+    "transaction_ids": [
+      "TXN_1147"
+    ],
+    "payout_ids": [
+      "PO_2111"
+    ],
+    "bank_entry_ids": [
+      "BNK_3118"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0114",
+    "transaction_ids": [
+      "TXN_1148",
+      "TXN_1149"
+    ],
+    "payout_ids": [
+      "PO_2112"
+    ],
+    "bank_entry_ids": [
+      "BNK_3119"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0115",
+    "transaction_ids": [
+      "TXN_1150"
+    ],
+    "payout_ids": [
+      "PO_2113"
+    ],
+    "bank_entry_ids": [
+      "BNK_3120"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0116",
+    "transaction_ids": [
+      "TXN_1151"
+    ],
+    "payout_ids": [
+      "PO_2114"
+    ],
+    "bank_entry_ids": [
+      "BNK_3121"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0117",
+    "transaction_ids": [
+      "TXN_1152",
+      "TXN_1153",
+      "TXN_1154"
+    ],
+    "payout_ids": [
+      "PO_2115"
+    ],
+    "bank_entry_ids": [
+      "BNK_3122"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0118",
+    "transaction_ids": [
+      "TXN_1155",
+      "TXN_1156"
+    ],
+    "payout_ids": [
+      "PO_2116"
+    ],
+    "bank_entry_ids": [
+      "BNK_3123"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0119",
+    "transaction_ids": [
+      "TXN_1157"
+    ],
+    "payout_ids": [
+      "PO_2117"
+    ],
+    "bank_entry_ids": [
+      "BNK_3124"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0120",
+    "transaction_ids": [
+      "TXN_1158"
+    ],
+    "payout_ids": [
+      "PO_2118"
+    ],
+    "bank_entry_ids": [
+      "BNK_3125"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0121",
+    "transaction_ids": [
+      "TXN_1159"
+    ],
+    "payout_ids": [
+      "PO_2119"
+    ],
+    "bank_entry_ids": [
+      "BNK_3126"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0122",
+    "transaction_ids": [
+      "TXN_1160"
+    ],
+    "payout_ids": [
+      "PO_2120"
+    ],
+    "bank_entry_ids": [
+      "BNK_3127"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0123",
+    "transaction_ids": [
+      "TXN_1161"
+    ],
+    "payout_ids": [
+      "PO_2121"
+    ],
+    "bank_entry_ids": [
+      "BNK_3128",
+      "BNK_3129"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0124",
+    "transaction_ids": [
+      "TXN_1162"
+    ],
+    "payout_ids": [
+      "PO_2122"
+    ],
+    "bank_entry_ids": [
+      "BNK_3130"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0125",
+    "transaction_ids": [
+      "TXN_1163"
+    ],
+    "payout_ids": [
+      "PO_2123"
+    ],
+    "bank_entry_ids": [
+      "BNK_3131"
+    ],
+    "anomaly_category": "AMOUNT_MISMATCH",
+    "expected_status": "UNRESOLVED",
+    "notes": "Amount mismatch between payout and bank entry"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0126",
+    "transaction_ids": [
+      "TXN_1164"
+    ],
+    "payout_ids": [
+      "PO_2124"
+    ],
+    "bank_entry_ids": [
+      "BNK_3132"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0127",
+    "transaction_ids": [
+      "TXN_1165"
+    ],
+    "payout_ids": [
+      "PO_2125"
+    ],
+    "bank_entry_ids": [
+      "BNK_3133"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0128",
+    "transaction_ids": [
+      "TXN_1166"
+    ],
+    "payout_ids": [
+      "PO_2126"
+    ],
+    "bank_entry_ids": [
+      "BNK_3134"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0129",
+    "transaction_ids": [],
+    "payout_ids": [
+      "PO_2127"
+    ],
+    "bank_entry_ids": [],
+    "anomaly_category": "MISSING_COUNTERPART",
+    "expected_status": "UNRESOLVED",
+    "notes": "Orphan payout with no bank credit entry"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0130",
+    "transaction_ids": [
+      "TXN_1167"
+    ],
+    "payout_ids": [
+      "PO_2128"
+    ],
+    "bank_entry_ids": [
+      "BNK_3135"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0131",
+    "transaction_ids": [
+      "TXN_1168"
+    ],
+    "payout_ids": [
+      "PO_2129"
+    ],
+    "bank_entry_ids": [
+      "BNK_3136"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0132",
+    "transaction_ids": [],
+    "payout_ids": [
+      "PO_2130"
+    ],
+    "bank_entry_ids": [],
+    "anomaly_category": "MISSING_COUNTERPART",
+    "expected_status": "UNRESOLVED",
+    "notes": "Orphan payout with no bank credit entry"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0133",
+    "transaction_ids": [
+      "TXN_1169"
+    ],
+    "payout_ids": [
+      "PO_2131"
+    ],
+    "bank_entry_ids": [
+      "BNK_3137"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0134",
+    "transaction_ids": [
+      "TXN_1170"
+    ],
+    "payout_ids": [
+      "PO_2132"
+    ],
+    "bank_entry_ids": [
+      "BNK_3138"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0135",
+    "transaction_ids": [
+      "TXN_1171"
+    ],
+    "payout_ids": [
+      "PO_2133"
+    ],
+    "bank_entry_ids": [
+      "BNK_3139"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0136",
+    "transaction_ids": [
+      "TXN_1172"
+    ],
+    "payout_ids": [
+      "PO_2134"
+    ],
+    "bank_entry_ids": [
+      "BNK_3140"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0137",
+    "transaction_ids": [
+      "TXN_1173",
+      "TXN_1174",
+      "TXN_1175",
+      "TXN_1176"
+    ],
+    "payout_ids": [
+      "PO_2135"
+    ],
+    "bank_entry_ids": [
+      "BNK_3141"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0138",
+    "transaction_ids": [
+      "TXN_1177"
+    ],
+    "payout_ids": [
+      "PO_2136"
+    ],
+    "bank_entry_ids": [
+      "BNK_3142"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0139",
+    "transaction_ids": [
+      "TXN_1178"
+    ],
+    "payout_ids": [
+      "PO_2137"
+    ],
+    "bank_entry_ids": [
+      "BNK_3143"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0140",
+    "transaction_ids": [
+      "TXN_1179"
+    ],
+    "payout_ids": [
+      "PO_2138"
+    ],
+    "bank_entry_ids": [
+      "BNK_3144"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0141",
+    "transaction_ids": [
+      "TXN_1180",
+      "TXN_1181"
+    ],
+    "payout_ids": [
+      "PO_2139"
+    ],
+    "bank_entry_ids": [
+      "BNK_3145"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0142",
+    "transaction_ids": [
+      "TXN_1182"
+    ],
+    "payout_ids": [
+      "PO_2140"
+    ],
+    "bank_entry_ids": [
+      "BNK_3146"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0143",
+    "transaction_ids": [
+      "TXN_1183"
+    ],
+    "payout_ids": [
+      "PO_2141"
+    ],
+    "bank_entry_ids": [
+      "BNK_3147"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0144",
+    "transaction_ids": [
+      "TXN_1184"
+    ],
+    "payout_ids": [
+      "PO_2142"
+    ],
+    "bank_entry_ids": [
+      "BNK_3148"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0145",
+    "transaction_ids": [
+      "TXN_1185"
+    ],
+    "payout_ids": [
+      "PO_2143"
+    ],
+    "bank_entry_ids": [
+      "BNK_3149"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0146",
+    "transaction_ids": [
+      "TXN_1186"
+    ],
+    "payout_ids": [
+      "PO_2144"
+    ],
+    "bank_entry_ids": [
+      "BNK_3150"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0147",
+    "transaction_ids": [
+      "TXN_1187",
+      "TXN_1188",
+      "TXN_1189",
+      "TXN_1190"
+    ],
+    "payout_ids": [
+      "PO_2145"
+    ],
+    "bank_entry_ids": [
+      "BNK_3151"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0148",
+    "transaction_ids": [
+      "TXN_1191"
+    ],
+    "payout_ids": [
+      "PO_2146"
+    ],
+    "bank_entry_ids": [
+      "BNK_3152"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0149",
+    "transaction_ids": [
+      "TXN_1192"
+    ],
+    "payout_ids": [
+      "PO_2147"
+    ],
+    "bank_entry_ids": [
+      "BNK_3153"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0150",
+    "transaction_ids": [
+      "TXN_1193"
+    ],
+    "payout_ids": [
+      "PO_2148"
+    ],
+    "bank_entry_ids": [
+      "BNK_3154"
+    ],
+    "anomaly_category": "DUPLICATE_NEAR_AMOUNT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DUPLICATE_NEAR_AMOUNT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0151",
+    "transaction_ids": [
+      "TXN_1194",
+      "TXN_1195"
+    ],
+    "payout_ids": [
+      "PO_2149"
+    ],
+    "bank_entry_ids": [
+      "BNK_3155"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0152",
+    "transaction_ids": [
+      "TXN_1196"
+    ],
+    "payout_ids": [
+      "PO_2150"
+    ],
+    "bank_entry_ids": [
+      "BNK_3156"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0153",
+    "transaction_ids": [
+      "TXN_1197"
+    ],
+    "payout_ids": [
+      "PO_2151"
+    ],
+    "bank_entry_ids": [
+      "BNK_3157",
+      "BNK_3158"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0154",
+    "transaction_ids": [
+      "TXN_1198"
+    ],
+    "payout_ids": [
+      "PO_2152"
+    ],
+    "bank_entry_ids": [
+      "BNK_3159"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0155",
+    "transaction_ids": [
+      "TXN_1199",
+      "TXN_1200",
+      "TXN_1201"
+    ],
+    "payout_ids": [
+      "PO_2153"
+    ],
+    "bank_entry_ids": [
+      "BNK_3160"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0156",
+    "transaction_ids": [
+      "TXN_1202"
+    ],
+    "payout_ids": [
+      "PO_2154"
+    ],
+    "bank_entry_ids": [
+      "BNK_3161"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0157",
+    "transaction_ids": [
+      "TXN_1203"
+    ],
+    "payout_ids": [
+      "PO_2155"
+    ],
+    "bank_entry_ids": [
+      "BNK_3162",
+      "BNK_3163"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0158",
+    "transaction_ids": [
+      "TXN_1204"
+    ],
+    "payout_ids": [
+      "PO_2156"
+    ],
+    "bank_entry_ids": [
+      "BNK_3164"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0159",
+    "transaction_ids": [
+      "TXN_1205"
+    ],
+    "payout_ids": [
+      "PO_2157"
+    ],
+    "bank_entry_ids": [
+      "BNK_3165"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0160",
+    "transaction_ids": [
+      "TXN_1206"
+    ],
+    "payout_ids": [
+      "PO_2158"
+    ],
+    "bank_entry_ids": [
+      "BNK_3166"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0161",
+    "transaction_ids": [
+      "TXN_1207"
+    ],
+    "payout_ids": [
+      "PO_2159"
+    ],
+    "bank_entry_ids": [
+      "BNK_3167",
+      "BNK_3168"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0162",
+    "transaction_ids": [
+      "TXN_1208",
+      "TXN_1209"
+    ],
+    "payout_ids": [
+      "PO_2160"
+    ],
+    "bank_entry_ids": [
+      "BNK_3169"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0163",
+    "transaction_ids": [
+      "TXN_1210"
+    ],
+    "payout_ids": [
+      "PO_2161"
+    ],
+    "bank_entry_ids": [
+      "BNK_3170"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0164",
+    "transaction_ids": [
+      "TXN_1211"
+    ],
+    "payout_ids": [
+      "PO_2162"
+    ],
+    "bank_entry_ids": [
+      "BNK_3171"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0165",
+    "transaction_ids": [
+      "TXN_1212"
+    ],
+    "payout_ids": [
+      "PO_2163"
+    ],
+    "bank_entry_ids": [
+      "BNK_3172"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0166",
+    "transaction_ids": [
+      "TXN_1213"
+    ],
+    "payout_ids": [
+      "PO_2164"
+    ],
+    "bank_entry_ids": [
+      "BNK_3173"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0167",
+    "transaction_ids": [
+      "TXN_1214"
+    ],
+    "payout_ids": [
+      "PO_2165"
+    ],
+    "bank_entry_ids": [
+      "BNK_3174"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0168",
+    "transaction_ids": [
+      "TXN_1215"
+    ],
+    "payout_ids": [
+      "PO_2166"
+    ],
+    "bank_entry_ids": [
+      "BNK_3175",
+      "BNK_3176"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0169",
+    "transaction_ids": [
+      "TXN_1216"
+    ],
+    "payout_ids": [
+      "PO_2167"
+    ],
+    "bank_entry_ids": [
+      "BNK_3177"
+    ],
+    "anomaly_category": "DUPLICATE_NEAR_AMOUNT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DUPLICATE_NEAR_AMOUNT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0170",
+    "transaction_ids": [
+      "TXN_1217",
+      "TXN_1218"
+    ],
+    "payout_ids": [
+      "PO_2168"
+    ],
+    "bank_entry_ids": [
+      "BNK_3178"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0171",
+    "transaction_ids": [
+      "TXN_1219"
+    ],
+    "payout_ids": [
+      "PO_2169"
+    ],
+    "bank_entry_ids": [
+      "BNK_3179"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0172",
+    "transaction_ids": [
+      "TXN_1220"
+    ],
+    "payout_ids": [
+      "PO_2170"
+    ],
+    "bank_entry_ids": [
+      "BNK_3180"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0173",
+    "transaction_ids": [
+      "TXN_1221"
+    ],
+    "payout_ids": [
+      "PO_2171"
+    ],
+    "bank_entry_ids": [
+      "BNK_3181"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0174",
+    "transaction_ids": [
+      "TXN_1222"
+    ],
+    "payout_ids": [
+      "PO_2172"
+    ],
+    "bank_entry_ids": [
+      "BNK_3182"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0175",
+    "transaction_ids": [
+      "TXN_1223"
+    ],
+    "payout_ids": [
+      "PO_2173"
+    ],
+    "bank_entry_ids": [
+      "BNK_3183"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0176",
+    "transaction_ids": [
+      "TXN_1224"
+    ],
+    "payout_ids": [
+      "PO_2174"
+    ],
+    "bank_entry_ids": [
+      "BNK_3184"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0177",
+    "transaction_ids": [
+      "TXN_1225"
+    ],
+    "payout_ids": [
+      "PO_2175"
+    ],
+    "bank_entry_ids": [
+      "BNK_3185"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0178",
+    "transaction_ids": [
+      "TXN_1226"
+    ],
+    "payout_ids": [
+      "PO_2176"
+    ],
+    "bank_entry_ids": [
+      "BNK_3186"
+    ],
+    "anomaly_category": "DUPLICATE_NEAR_AMOUNT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DUPLICATE_NEAR_AMOUNT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0179",
+    "transaction_ids": [
+      "TXN_1227"
+    ],
+    "payout_ids": [
+      "PO_2177"
+    ],
+    "bank_entry_ids": [
+      "BNK_3187"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0180",
+    "transaction_ids": [
+      "TXN_1228"
+    ],
+    "payout_ids": [
+      "PO_2178"
+    ],
+    "bank_entry_ids": [
+      "BNK_3188"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0181",
+    "transaction_ids": [
+      "TXN_1229"
+    ],
+    "payout_ids": [
+      "PO_2179"
+    ],
+    "bank_entry_ids": [
+      "BNK_3189"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0182",
+    "transaction_ids": [
+      "TXN_1230"
+    ],
+    "payout_ids": [
+      "PO_2180"
+    ],
+    "bank_entry_ids": [
+      "BNK_3190"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0183",
+    "transaction_ids": [
+      "TXN_1231"
+    ],
+    "payout_ids": [
+      "PO_2181"
+    ],
+    "bank_entry_ids": [
+      "BNK_3191",
+      "BNK_3192"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0184",
+    "transaction_ids": [
+      "TXN_1232",
+      "TXN_1233",
+      "TXN_1234"
+    ],
+    "payout_ids": [
+      "PO_2182"
+    ],
+    "bank_entry_ids": [
+      "BNK_3193"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0185",
+    "transaction_ids": [
+      "TXN_1235",
+      "TXN_1236",
+      "TXN_1237",
+      "TXN_1238"
+    ],
+    "payout_ids": [
+      "PO_2183"
+    ],
+    "bank_entry_ids": [
+      "BNK_3194"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0186",
+    "transaction_ids": [
+      "TXN_1239"
+    ],
+    "payout_ids": [
+      "PO_2184"
+    ],
+    "bank_entry_ids": [
+      "BNK_3195"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0187",
+    "transaction_ids": [
+      "TXN_1240"
+    ],
+    "payout_ids": [
+      "PO_2185"
+    ],
+    "bank_entry_ids": [
+      "BNK_3196"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0188",
+    "transaction_ids": [
+      "TXN_1241"
+    ],
+    "payout_ids": [
+      "PO_2186"
+    ],
+    "bank_entry_ids": [
+      "BNK_3197"
+    ],
+    "anomaly_category": "DUPLICATE_NEAR_AMOUNT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DUPLICATE_NEAR_AMOUNT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0189",
+    "transaction_ids": [
+      "TXN_1242"
+    ],
+    "payout_ids": [
+      "PO_2187"
+    ],
+    "bank_entry_ids": [
+      "BNK_3198"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0190",
+    "transaction_ids": [
+      "TXN_1243"
+    ],
+    "payout_ids": [
+      "PO_2188"
+    ],
+    "bank_entry_ids": [
+      "BNK_3199"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0191",
+    "transaction_ids": [
+      "TXN_1244"
+    ],
+    "payout_ids": [
+      "PO_2189"
+    ],
+    "bank_entry_ids": [
+      "BNK_3200"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0192",
+    "transaction_ids": [
+      "TXN_1245"
+    ],
+    "payout_ids": [
+      "PO_2190"
+    ],
+    "bank_entry_ids": [
+      "BNK_3201"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0193",
+    "transaction_ids": [
+      "TXN_1246"
+    ],
+    "payout_ids": [
+      "PO_2191"
+    ],
+    "bank_entry_ids": [
+      "BNK_3202"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0194",
+    "transaction_ids": [
+      "TXN_1247"
+    ],
+    "payout_ids": [
+      "PO_2192"
+    ],
+    "bank_entry_ids": [
+      "BNK_3203",
+      "BNK_3204"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0195",
+    "transaction_ids": [
+      "TXN_1248"
+    ],
+    "payout_ids": [
+      "PO_2193"
+    ],
+    "bank_entry_ids": [
+      "BNK_3205"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0196",
+    "transaction_ids": [
+      "TXN_1249"
+    ],
+    "payout_ids": [
+      "PO_2194"
+    ],
+    "bank_entry_ids": [
+      "BNK_3206"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0197",
+    "transaction_ids": [
+      "TXN_1250"
+    ],
+    "payout_ids": [
+      "PO_2195"
+    ],
+    "bank_entry_ids": [
+      "BNK_3207"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0198",
+    "transaction_ids": [
+      "TXN_1251"
+    ],
+    "payout_ids": [
+      "PO_2196"
+    ],
+    "bank_entry_ids": [
+      "BNK_3208"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0199",
+    "transaction_ids": [
+      "TXN_1252"
+    ],
+    "payout_ids": [
+      "PO_2197"
+    ],
+    "bank_entry_ids": [
+      "BNK_3209"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0200",
+    "transaction_ids": [
+      "TXN_1253",
+      "TXN_1254",
+      "TXN_1255",
+      "TXN_1256"
+    ],
+    "payout_ids": [
+      "PO_2198"
+    ],
+    "bank_entry_ids": [
+      "BNK_3210"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0201",
+    "transaction_ids": [
+      "TXN_1257",
+      "TXN_1258",
+      "TXN_1259"
+    ],
+    "payout_ids": [
+      "PO_2199"
+    ],
+    "bank_entry_ids": [
+      "BNK_3211"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0202",
+    "transaction_ids": [
+      "TXN_1260"
+    ],
+    "payout_ids": [
+      "PO_2200"
+    ],
+    "bank_entry_ids": [
+      "BNK_3212"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0203",
+    "transaction_ids": [
+      "TXN_1261"
+    ],
+    "payout_ids": [
+      "PO_2201"
+    ],
+    "bank_entry_ids": [
+      "BNK_3213"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0204",
+    "transaction_ids": [
+      "TXN_1262"
+    ],
+    "payout_ids": [
+      "PO_2202"
+    ],
+    "bank_entry_ids": [
+      "BNK_3214"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0205",
+    "transaction_ids": [
+      "TXN_1263"
+    ],
+    "payout_ids": [
+      "PO_2203"
+    ],
+    "bank_entry_ids": [
+      "BNK_3215"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0206",
+    "transaction_ids": [
+      "TXN_1264"
+    ],
+    "payout_ids": [
+      "PO_2204"
+    ],
+    "bank_entry_ids": [
+      "BNK_3216"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0207",
+    "transaction_ids": [
+      "TXN_1265"
+    ],
+    "payout_ids": [
+      "PO_2205"
+    ],
+    "bank_entry_ids": [
+      "BNK_3217"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0208",
+    "transaction_ids": [],
+    "payout_ids": [
+      "PO_2206"
+    ],
+    "bank_entry_ids": [],
+    "anomaly_category": "MISSING_COUNTERPART",
+    "expected_status": "UNRESOLVED",
+    "notes": "Orphan payout with no bank credit entry"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0209",
+    "transaction_ids": [
+      "TXN_1266"
+    ],
+    "payout_ids": [
+      "PO_2207"
+    ],
+    "bank_entry_ids": [
+      "BNK_3218"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0210",
+    "transaction_ids": [
+      "TXN_1267",
+      "TXN_1268",
+      "TXN_1269",
+      "TXN_1270"
+    ],
+    "payout_ids": [
+      "PO_2208"
+    ],
+    "bank_entry_ids": [
+      "BNK_3219"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0211",
+    "transaction_ids": [
+      "TXN_1271"
+    ],
+    "payout_ids": [
+      "PO_2209"
+    ],
+    "bank_entry_ids": [
+      "BNK_3220"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0212",
+    "transaction_ids": [
+      "TXN_1272"
+    ],
+    "payout_ids": [
+      "PO_2210"
+    ],
+    "bank_entry_ids": [
+      "BNK_3221"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0213",
+    "transaction_ids": [
+      "TXN_1273"
+    ],
+    "payout_ids": [
+      "PO_2211"
+    ],
+    "bank_entry_ids": [
+      "BNK_3222"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0214",
+    "transaction_ids": [
+      "TXN_1274",
+      "TXN_1275"
+    ],
+    "payout_ids": [
+      "PO_2212"
+    ],
+    "bank_entry_ids": [
+      "BNK_3223"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0215",
+    "transaction_ids": [
+      "TXN_1276",
+      "TXN_1277"
+    ],
+    "payout_ids": [
+      "PO_2213"
+    ],
+    "bank_entry_ids": [
+      "BNK_3224"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0216",
+    "transaction_ids": [
+      "TXN_1278"
+    ],
+    "payout_ids": [
+      "PO_2214"
+    ],
+    "bank_entry_ids": [
+      "BNK_3225"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0217",
+    "transaction_ids": [
+      "TXN_1279"
+    ],
+    "payout_ids": [
+      "PO_2215"
+    ],
+    "bank_entry_ids": [
+      "BNK_3226"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0218",
+    "transaction_ids": [
+      "TXN_1280"
+    ],
+    "payout_ids": [
+      "PO_2216"
+    ],
+    "bank_entry_ids": [
+      "BNK_3227"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0219",
+    "transaction_ids": [
+      "TXN_1281"
+    ],
+    "payout_ids": [
+      "PO_2217"
+    ],
+    "bank_entry_ids": [
+      "BNK_3228"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0220",
+    "transaction_ids": [
+      "TXN_1282"
+    ],
+    "payout_ids": [
+      "PO_2218"
+    ],
+    "bank_entry_ids": [
+      "BNK_3229"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0221",
+    "transaction_ids": [
+      "TXN_1283"
+    ],
+    "payout_ids": [
+      "PO_2219"
+    ],
+    "bank_entry_ids": [
+      "BNK_3230"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0222",
+    "transaction_ids": [
+      "TXN_1284",
+      "TXN_1285"
+    ],
+    "payout_ids": [
+      "PO_2220"
+    ],
+    "bank_entry_ids": [
+      "BNK_3231"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0223",
+    "transaction_ids": [
+      "TXN_1286"
+    ],
+    "payout_ids": [
+      "PO_2221"
+    ],
+    "bank_entry_ids": [
+      "BNK_3232"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0224",
+    "transaction_ids": [
+      "TXN_1287"
+    ],
+    "payout_ids": [
+      "PO_2222"
+    ],
+    "bank_entry_ids": [
+      "BNK_3233"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0225",
+    "transaction_ids": [
+      "TXN_1288"
+    ],
+    "payout_ids": [
+      "PO_2223"
+    ],
+    "bank_entry_ids": [
+      "BNK_3234"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0226",
+    "transaction_ids": [
+      "TXN_1289"
+    ],
+    "payout_ids": [
+      "PO_2224"
+    ],
+    "bank_entry_ids": [
+      "BNK_3235"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0227",
+    "transaction_ids": [
+      "TXN_1290"
+    ],
+    "payout_ids": [
+      "PO_2225"
+    ],
+    "bank_entry_ids": [
+      "BNK_3236"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0228",
+    "transaction_ids": [
+      "TXN_1291"
+    ],
+    "payout_ids": [
+      "PO_2226"
+    ],
+    "bank_entry_ids": [
+      "BNK_3237"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0229",
+    "transaction_ids": [
+      "TXN_1292"
+    ],
+    "payout_ids": [
+      "PO_2227"
+    ],
+    "bank_entry_ids": [
+      "BNK_3238"
+    ],
+    "anomaly_category": "DUPLICATE_NEAR_AMOUNT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DUPLICATE_NEAR_AMOUNT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0230",
+    "transaction_ids": [
+      "TXN_1293",
+      "TXN_1294",
+      "TXN_1295"
+    ],
+    "payout_ids": [
+      "PO_2228"
+    ],
+    "bank_entry_ids": [
+      "BNK_3239"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0231",
+    "transaction_ids": [
+      "TXN_1296"
+    ],
+    "payout_ids": [
+      "PO_2229"
+    ],
+    "bank_entry_ids": [
+      "BNK_3240"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0232",
+    "transaction_ids": [
+      "TXN_1297"
+    ],
+    "payout_ids": [
+      "PO_2230"
+    ],
+    "bank_entry_ids": [
+      "BNK_3241"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0233",
+    "transaction_ids": [
+      "TXN_1298"
+    ],
+    "payout_ids": [
+      "PO_2231"
+    ],
+    "bank_entry_ids": [
+      "BNK_3242"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0234",
+    "transaction_ids": [
+      "TXN_1299"
+    ],
+    "payout_ids": [
+      "PO_2232"
+    ],
+    "bank_entry_ids": [
+      "BNK_3243"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0235",
+    "transaction_ids": [
+      "TXN_1300"
+    ],
+    "payout_ids": [
+      "PO_2233"
+    ],
+    "bank_entry_ids": [
+      "BNK_3244"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0236",
+    "transaction_ids": [
+      "TXN_1301"
+    ],
+    "payout_ids": [
+      "PO_2234"
+    ],
+    "bank_entry_ids": [
+      "BNK_3245"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0237",
+    "transaction_ids": [
+      "TXN_1302"
+    ],
+    "payout_ids": [
+      "PO_2235"
+    ],
+    "bank_entry_ids": [
+      "BNK_3246"
+    ],
+    "anomaly_category": "MALFORMED_RECORD",
+    "expected_status": "UNRESOLVED",
+    "notes": "Malformed payout balance equation (gross - fee != net)"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0238",
+    "transaction_ids": [
+      "TXN_1303"
+    ],
+    "payout_ids": [
+      "PO_2236"
+    ],
+    "bank_entry_ids": [
+      "BNK_3247"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0239",
+    "transaction_ids": [
+      "TXN_1304"
+    ],
+    "payout_ids": [
+      "PO_2237"
+    ],
+    "bank_entry_ids": [
+      "BNK_3248"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0240",
+    "transaction_ids": [
+      "TXN_1305"
+    ],
+    "payout_ids": [
+      "PO_2238"
+    ],
+    "bank_entry_ids": [
+      "BNK_3249"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0241",
+    "transaction_ids": [],
+    "payout_ids": [
+      "PO_2239"
+    ],
+    "bank_entry_ids": [],
+    "anomaly_category": "MISSING_COUNTERPART",
+    "expected_status": "UNRESOLVED",
+    "notes": "Orphan payout with no bank credit entry"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0242",
+    "transaction_ids": [
+      "TXN_1306"
+    ],
+    "payout_ids": [
+      "PO_2240"
+    ],
+    "bank_entry_ids": [
+      "BNK_3250"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0243",
+    "transaction_ids": [
+      "TXN_1307"
+    ],
+    "payout_ids": [
+      "PO_2241"
+    ],
+    "bank_entry_ids": [
+      "BNK_3251"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0244",
+    "transaction_ids": [
+      "TXN_1308"
+    ],
+    "payout_ids": [
+      "PO_2242"
+    ],
+    "bank_entry_ids": [
+      "BNK_3252"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0245",
+    "transaction_ids": [
+      "TXN_1309"
+    ],
+    "payout_ids": [
+      "PO_2243"
+    ],
+    "bank_entry_ids": [
+      "BNK_3253"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0246",
+    "transaction_ids": [
+      "TXN_1310"
+    ],
+    "payout_ids": [
+      "PO_2244"
+    ],
+    "bank_entry_ids": [
+      "BNK_3254"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0247",
+    "transaction_ids": [
+      "TXN_1311"
+    ],
+    "payout_ids": [
+      "PO_2245"
+    ],
+    "bank_entry_ids": [
+      "BNK_3255"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0248",
+    "transaction_ids": [
+      "TXN_1312"
+    ],
+    "payout_ids": [
+      "PO_2246"
+    ],
+    "bank_entry_ids": [
+      "BNK_3256",
+      "BNK_3257"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0249",
+    "transaction_ids": [
+      "TXN_1313"
+    ],
+    "payout_ids": [
+      "PO_2247"
+    ],
+    "bank_entry_ids": [
+      "BNK_3258"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0250",
+    "transaction_ids": [
+      "TXN_1314"
+    ],
+    "payout_ids": [
+      "PO_2248"
+    ],
+    "bank_entry_ids": [
+      "BNK_3259"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0251",
+    "transaction_ids": [
+      "TXN_1315"
+    ],
+    "payout_ids": [
+      "PO_2249"
+    ],
+    "bank_entry_ids": [
+      "BNK_3260"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0252",
+    "transaction_ids": [
+      "TXN_1316"
+    ],
+    "payout_ids": [
+      "PO_2250"
+    ],
+    "bank_entry_ids": [
+      "BNK_3261"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0253",
+    "transaction_ids": [
+      "TXN_1317"
+    ],
+    "payout_ids": [
+      "PO_2251"
+    ],
+    "bank_entry_ids": [
+      "BNK_3262"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0254",
+    "transaction_ids": [
+      "TXN_1318",
+      "TXN_1319",
+      "TXN_1320"
+    ],
+    "payout_ids": [
+      "PO_2252"
+    ],
+    "bank_entry_ids": [
+      "BNK_3263"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0255",
+    "transaction_ids": [
+      "TXN_1321"
+    ],
+    "payout_ids": [
+      "PO_2253"
+    ],
+    "bank_entry_ids": [
+      "BNK_3264",
+      "BNK_3265"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0256",
+    "transaction_ids": [
+      "TXN_1322"
+    ],
+    "payout_ids": [
+      "PO_2254"
+    ],
+    "bank_entry_ids": [
+      "BNK_3266"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0257",
+    "transaction_ids": [
+      "TXN_1323"
+    ],
+    "payout_ids": [
+      "PO_2255"
+    ],
+    "bank_entry_ids": [
+      "BNK_3267"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0258",
+    "transaction_ids": [
+      "TXN_1324"
+    ],
+    "payout_ids": [
+      "PO_2256"
+    ],
+    "bank_entry_ids": [
+      "BNK_3268"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0259",
+    "transaction_ids": [
+      "TXN_1325"
+    ],
+    "payout_ids": [
+      "PO_2257"
+    ],
+    "bank_entry_ids": [
+      "BNK_3269"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0260",
+    "transaction_ids": [
+      "TXN_1326"
+    ],
+    "payout_ids": [
+      "PO_2258"
+    ],
+    "bank_entry_ids": [
+      "BNK_3270"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0261",
+    "transaction_ids": [
+      "TXN_1327"
+    ],
+    "payout_ids": [
+      "PO_2259"
+    ],
+    "bank_entry_ids": [
+      "BNK_3271"
+    ],
+    "anomaly_category": "AMOUNT_MISMATCH",
+    "expected_status": "UNRESOLVED",
+    "notes": "Amount mismatch between payout and bank entry"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0262",
+    "transaction_ids": [
+      "TXN_1328",
+      "TXN_1329",
+      "TXN_1330",
+      "TXN_1331"
+    ],
+    "payout_ids": [
+      "PO_2260"
+    ],
+    "bank_entry_ids": [
+      "BNK_3272"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0263",
+    "transaction_ids": [
+      "TXN_1332",
+      "TXN_1333",
+      "TXN_1334"
+    ],
+    "payout_ids": [
+      "PO_2261"
+    ],
+    "bank_entry_ids": [
+      "BNK_3273"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0264",
+    "transaction_ids": [
+      "TXN_1335"
+    ],
+    "payout_ids": [
+      "PO_2262"
+    ],
+    "bank_entry_ids": [
+      "BNK_3274"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0265",
+    "transaction_ids": [
+      "TXN_1336"
+    ],
+    "payout_ids": [
+      "PO_2263"
+    ],
+    "bank_entry_ids": [
+      "BNK_3275",
+      "BNK_3276"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0266",
+    "transaction_ids": [
+      "TXN_1337"
+    ],
+    "payout_ids": [
+      "PO_2264"
+    ],
+    "bank_entry_ids": [
+      "BNK_3277"
+    ],
+    "anomaly_category": "DUPLICATE_NEAR_AMOUNT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DUPLICATE_NEAR_AMOUNT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0267",
+    "transaction_ids": [
+      "TXN_1338"
+    ],
+    "payout_ids": [
+      "PO_2265"
+    ],
+    "bank_entry_ids": [
+      "BNK_3278"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0268",
+    "transaction_ids": [
+      "TXN_1339"
+    ],
+    "payout_ids": [
+      "PO_2266"
+    ],
+    "bank_entry_ids": [
+      "BNK_3279"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0269",
+    "transaction_ids": [
+      "TXN_1340"
+    ],
+    "payout_ids": [
+      "PO_2267"
+    ],
+    "bank_entry_ids": [
+      "BNK_3280"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0270",
+    "transaction_ids": [],
+    "payout_ids": [
+      "PO_2268"
+    ],
+    "bank_entry_ids": [],
+    "anomaly_category": "MISSING_COUNTERPART",
+    "expected_status": "UNRESOLVED",
+    "notes": "Orphan payout with no bank credit entry"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0271",
+    "transaction_ids": [
+      "TXN_1341"
+    ],
+    "payout_ids": [
+      "PO_2269"
+    ],
+    "bank_entry_ids": [
+      "BNK_3281"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0272",
+    "transaction_ids": [
+      "TXN_1342"
+    ],
+    "payout_ids": [
+      "PO_2270"
+    ],
+    "bank_entry_ids": [
+      "BNK_3282"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0273",
+    "transaction_ids": [
+      "TXN_1343"
+    ],
+    "payout_ids": [
+      "PO_2271"
+    ],
+    "bank_entry_ids": [
+      "BNK_3283"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0274",
+    "transaction_ids": [
+      "TXN_1344",
+      "TXN_1345",
+      "TXN_1346",
+      "TXN_1347"
+    ],
+    "payout_ids": [
+      "PO_2272"
+    ],
+    "bank_entry_ids": [
+      "BNK_3284"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0275",
+    "transaction_ids": [
+      "TXN_1348"
+    ],
+    "payout_ids": [
+      "PO_2273"
+    ],
+    "bank_entry_ids": [
+      "BNK_3285"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0276",
+    "transaction_ids": [
+      "TXN_1349"
+    ],
+    "payout_ids": [
+      "PO_2274"
+    ],
+    "bank_entry_ids": [
+      "BNK_3286"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0277",
+    "transaction_ids": [
+      "TXN_1350"
+    ],
+    "payout_ids": [
+      "PO_2275"
+    ],
+    "bank_entry_ids": [
+      "BNK_3287"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0278",
+    "transaction_ids": [
+      "TXN_1351",
+      "TXN_1352",
+      "TXN_1353",
+      "TXN_1354"
+    ],
+    "payout_ids": [
+      "PO_2276"
+    ],
+    "bank_entry_ids": [
+      "BNK_3288"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0279",
+    "transaction_ids": [
+      "TXN_1355"
+    ],
+    "payout_ids": [
+      "PO_2277"
+    ],
+    "bank_entry_ids": [
+      "BNK_3289"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0280",
+    "transaction_ids": [
+      "TXN_1356",
+      "TXN_1357",
+      "TXN_1358"
+    ],
+    "payout_ids": [
+      "PO_2278"
+    ],
+    "bank_entry_ids": [
+      "BNK_3290"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0281",
+    "transaction_ids": [
+      "TXN_1359",
+      "TXN_1360",
+      "TXN_1361",
+      "TXN_1362"
+    ],
+    "payout_ids": [
+      "PO_2279"
+    ],
+    "bank_entry_ids": [
+      "BNK_3291"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0282",
+    "transaction_ids": [
+      "TXN_1363"
+    ],
+    "payout_ids": [
+      "PO_2280"
+    ],
+    "bank_entry_ids": [
+      "BNK_3292"
+    ],
+    "anomaly_category": "CROSS_CURRENCY",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Cross-currency USD transaction requiring review"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0283",
+    "transaction_ids": [
+      "TXN_1364"
+    ],
+    "payout_ids": [
+      "PO_2281"
+    ],
+    "bank_entry_ids": [
+      "BNK_3293"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0284",
+    "transaction_ids": [
+      "TXN_1365"
+    ],
+    "payout_ids": [
+      "PO_2282"
+    ],
+    "bank_entry_ids": [
+      "BNK_3294"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0285",
+    "transaction_ids": [
+      "TXN_1366"
+    ],
+    "payout_ids": [
+      "PO_2283"
+    ],
+    "bank_entry_ids": [
+      "BNK_3295"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0286",
+    "transaction_ids": [
+      "TXN_1367"
+    ],
+    "payout_ids": [
+      "PO_2284"
+    ],
+    "bank_entry_ids": [
+      "BNK_3296"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0287",
+    "transaction_ids": [
+      "TXN_1368"
+    ],
+    "payout_ids": [
+      "PO_2285"
+    ],
+    "bank_entry_ids": [
+      "BNK_3297"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0288",
+    "transaction_ids": [
+      "TXN_1369"
+    ],
+    "payout_ids": [
+      "PO_2286"
+    ],
+    "bank_entry_ids": [
+      "BNK_3298"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0289",
+    "transaction_ids": [
+      "TXN_1370"
+    ],
+    "payout_ids": [
+      "PO_2287"
+    ],
+    "bank_entry_ids": [
+      "BNK_3299"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0290",
+    "transaction_ids": [
+      "TXN_1371",
+      "TXN_1372",
+      "TXN_1373"
+    ],
+    "payout_ids": [
+      "PO_2288"
+    ],
+    "bank_entry_ids": [
+      "BNK_3300"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0291",
+    "transaction_ids": [
+      "TXN_1374"
+    ],
+    "payout_ids": [
+      "PO_2289"
+    ],
+    "bank_entry_ids": [
+      "BNK_3301"
+    ],
+    "anomaly_category": "DUPLICATE_NEAR_AMOUNT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DUPLICATE_NEAR_AMOUNT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0292",
+    "transaction_ids": [
+      "TXN_1375"
+    ],
+    "payout_ids": [
+      "PO_2290"
+    ],
+    "bank_entry_ids": [
+      "BNK_3302"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0293",
+    "transaction_ids": [
+      "TXN_1376"
+    ],
+    "payout_ids": [
+      "PO_2291"
+    ],
+    "bank_entry_ids": [
+      "BNK_3303"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0294",
+    "transaction_ids": [
+      "TXN_1377"
+    ],
+    "payout_ids": [
+      "PO_2292"
+    ],
+    "bank_entry_ids": [
+      "BNK_3304"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0295",
+    "transaction_ids": [
+      "TXN_1378"
+    ],
+    "payout_ids": [
+      "PO_2293"
+    ],
+    "bank_entry_ids": [
+      "BNK_3305"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0296",
+    "transaction_ids": [
+      "TXN_1379"
+    ],
+    "payout_ids": [
+      "PO_2294"
+    ],
+    "bank_entry_ids": [
+      "BNK_3306"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0297",
+    "transaction_ids": [],
+    "payout_ids": [
+      "PO_2295"
+    ],
+    "bank_entry_ids": [],
+    "anomaly_category": "MISSING_COUNTERPART",
+    "expected_status": "UNRESOLVED",
+    "notes": "Orphan payout with no bank credit entry"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0298",
+    "transaction_ids": [
+      "TXN_1380",
+      "TXN_1381",
+      "TXN_1382"
+    ],
+    "payout_ids": [
+      "PO_2296"
+    ],
+    "bank_entry_ids": [
+      "BNK_3307"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0299",
+    "transaction_ids": [
+      "TXN_1383"
+    ],
+    "payout_ids": [
+      "PO_2297"
+    ],
+    "bank_entry_ids": [
+      "BNK_3308",
+      "BNK_3309"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0300",
+    "transaction_ids": [
+      "TXN_1384"
+    ],
+    "payout_ids": [
+      "PO_2298"
+    ],
+    "bank_entry_ids": [
+      "BNK_3310"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0301",
+    "transaction_ids": [
+      "TXN_1385"
+    ],
+    "payout_ids": [
+      "PO_2299"
+    ],
+    "bank_entry_ids": [
+      "BNK_3311"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0302",
+    "transaction_ids": [
+      "TXN_1386"
+    ],
+    "payout_ids": [
+      "PO_2300"
+    ],
+    "bank_entry_ids": [
+      "BNK_3312"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0303",
+    "transaction_ids": [
+      "TXN_1387"
+    ],
+    "payout_ids": [
+      "PO_2301"
+    ],
+    "bank_entry_ids": [
+      "BNK_3313"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0304",
+    "transaction_ids": [
+      "TXN_1388"
+    ],
+    "payout_ids": [
+      "PO_2302"
+    ],
+    "bank_entry_ids": [
+      "BNK_3314"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0305",
+    "transaction_ids": [
+      "TXN_1389"
+    ],
+    "payout_ids": [
+      "PO_2303"
+    ],
+    "bank_entry_ids": [
+      "BNK_3315"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0306",
+    "transaction_ids": [
+      "TXN_1390"
+    ],
+    "payout_ids": [
+      "PO_2304"
+    ],
+    "bank_entry_ids": [
+      "BNK_3316"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0307",
+    "transaction_ids": [
+      "TXN_1391"
+    ],
+    "payout_ids": [
+      "PO_2305"
+    ],
+    "bank_entry_ids": [
+      "BNK_3317"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0308",
+    "transaction_ids": [
+      "TXN_1392"
+    ],
+    "payout_ids": [
+      "PO_2306"
+    ],
+    "bank_entry_ids": [
+      "BNK_3318",
+      "BNK_3319"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0309",
+    "transaction_ids": [
+      "TXN_1393"
+    ],
+    "payout_ids": [
+      "PO_2307"
+    ],
+    "bank_entry_ids": [
+      "BNK_3320",
+      "BNK_3321"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0310",
+    "transaction_ids": [
+      "TXN_1394"
+    ],
+    "payout_ids": [
+      "PO_2308"
+    ],
+    "bank_entry_ids": [
+      "BNK_3322"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0311",
+    "transaction_ids": [
+      "TXN_1395"
+    ],
+    "payout_ids": [
+      "PO_2309"
+    ],
+    "bank_entry_ids": [
+      "BNK_3323"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0312",
+    "transaction_ids": [
+      "TXN_1396"
+    ],
+    "payout_ids": [
+      "PO_2310"
+    ],
+    "bank_entry_ids": [
+      "BNK_3324"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0313",
+    "transaction_ids": [
+      "TXN_1397",
+      "TXN_1398"
+    ],
+    "payout_ids": [
+      "PO_2311"
+    ],
+    "bank_entry_ids": [
+      "BNK_3325"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0314",
+    "transaction_ids": [
+      "TXN_1399"
+    ],
+    "payout_ids": [
+      "PO_2312"
+    ],
+    "bank_entry_ids": [
+      "BNK_3326"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0315",
+    "transaction_ids": [
+      "TXN_1400"
+    ],
+    "payout_ids": [
+      "PO_2313"
+    ],
+    "bank_entry_ids": [
+      "BNK_3327"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0316",
+    "transaction_ids": [
+      "TXN_1401"
+    ],
+    "payout_ids": [
+      "PO_2314"
+    ],
+    "bank_entry_ids": [
+      "BNK_3328",
+      "BNK_3329"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0317",
+    "transaction_ids": [
+      "TXN_1402"
+    ],
+    "payout_ids": [
+      "PO_2315"
+    ],
+    "bank_entry_ids": [
+      "BNK_3330"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0318",
+    "transaction_ids": [
+      "TXN_1403"
+    ],
+    "payout_ids": [
+      "PO_2316"
+    ],
+    "bank_entry_ids": [
+      "BNK_3331"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0319",
+    "transaction_ids": [
+      "TXN_1404"
+    ],
+    "payout_ids": [
+      "PO_2317"
+    ],
+    "bank_entry_ids": [
+      "BNK_3332",
+      "BNK_3333"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0320",
+    "transaction_ids": [
+      "TXN_1405"
+    ],
+    "payout_ids": [
+      "PO_2318"
+    ],
+    "bank_entry_ids": [
+      "BNK_3334"
+    ],
+    "anomaly_category": "CROSS_CURRENCY",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Cross-currency USD transaction requiring review"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0321",
+    "transaction_ids": [
+      "TXN_1406"
+    ],
+    "payout_ids": [
+      "PO_2319"
+    ],
+    "bank_entry_ids": [
+      "BNK_3335"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0322",
+    "transaction_ids": [
+      "TXN_1407"
+    ],
+    "payout_ids": [
+      "PO_2320"
+    ],
+    "bank_entry_ids": [
+      "BNK_3336"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0323",
+    "transaction_ids": [
+      "TXN_1408"
+    ],
+    "payout_ids": [
+      "PO_2321"
+    ],
+    "bank_entry_ids": [
+      "BNK_3337"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0324",
+    "transaction_ids": [
+      "TXN_1409"
+    ],
+    "payout_ids": [
+      "PO_2322"
+    ],
+    "bank_entry_ids": [
+      "BNK_3338"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0325",
+    "transaction_ids": [
+      "TXN_1410"
+    ],
+    "payout_ids": [
+      "PO_2323"
+    ],
+    "bank_entry_ids": [
+      "BNK_3339"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0326",
+    "transaction_ids": [
+      "TXN_1411"
+    ],
+    "payout_ids": [
+      "PO_2324"
+    ],
+    "bank_entry_ids": [
+      "BNK_3340"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0327",
+    "transaction_ids": [
+      "TXN_1412",
+      "TXN_1413"
+    ],
+    "payout_ids": [
+      "PO_2325"
+    ],
+    "bank_entry_ids": [
+      "BNK_3341"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0328",
+    "transaction_ids": [
+      "TXN_1414"
+    ],
+    "payout_ids": [
+      "PO_2326"
+    ],
+    "bank_entry_ids": [
+      "BNK_3342",
+      "BNK_3343"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0329",
+    "transaction_ids": [
+      "TXN_1415"
+    ],
+    "payout_ids": [
+      "PO_2327"
+    ],
+    "bank_entry_ids": [
+      "BNK_3344"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0330",
+    "transaction_ids": [
+      "TXN_1416"
+    ],
+    "payout_ids": [
+      "PO_2328"
+    ],
+    "bank_entry_ids": [
+      "BNK_3345"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0331",
+    "transaction_ids": [
+      "TXN_1417"
+    ],
+    "payout_ids": [
+      "PO_2329"
+    ],
+    "bank_entry_ids": [
+      "BNK_3346"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0332",
+    "transaction_ids": [
+      "TXN_1418"
+    ],
+    "payout_ids": [
+      "PO_2330"
+    ],
+    "bank_entry_ids": [
+      "BNK_3347"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0333",
+    "transaction_ids": [
+      "TXN_1419",
+      "TXN_1420"
+    ],
+    "payout_ids": [
+      "PO_2331"
+    ],
+    "bank_entry_ids": [
+      "BNK_3348"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0334",
+    "transaction_ids": [
+      "TXN_1421",
+      "TXN_1422"
+    ],
+    "payout_ids": [
+      "PO_2332"
+    ],
+    "bank_entry_ids": [
+      "BNK_3349"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0335",
+    "transaction_ids": [
+      "TXN_1423",
+      "TXN_1424",
+      "TXN_1425",
+      "TXN_1426"
+    ],
+    "payout_ids": [
+      "PO_2333"
+    ],
+    "bank_entry_ids": [
+      "BNK_3350"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0336",
+    "transaction_ids": [
+      "TXN_1427"
+    ],
+    "payout_ids": [
+      "PO_2334"
+    ],
+    "bank_entry_ids": [
+      "BNK_3351"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0337",
+    "transaction_ids": [
+      "TXN_1428"
+    ],
+    "payout_ids": [
+      "PO_2335"
+    ],
+    "bank_entry_ids": [
+      "BNK_3352"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0338",
+    "transaction_ids": [
+      "TXN_1429"
+    ],
+    "payout_ids": [
+      "PO_2336"
+    ],
+    "bank_entry_ids": [
+      "BNK_3353"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0339",
+    "transaction_ids": [
+      "TXN_1430",
+      "TXN_1431"
+    ],
+    "payout_ids": [
+      "PO_2337"
+    ],
+    "bank_entry_ids": [
+      "BNK_3354"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0340",
+    "transaction_ids": [
+      "TXN_1432"
+    ],
+    "payout_ids": [
+      "PO_2338"
+    ],
+    "bank_entry_ids": [
+      "BNK_3355"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0341",
+    "transaction_ids": [
+      "TXN_1433"
+    ],
+    "payout_ids": [
+      "PO_2339"
+    ],
+    "bank_entry_ids": [
+      "BNK_3356"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0342",
+    "transaction_ids": [
+      "TXN_1434"
+    ],
+    "payout_ids": [
+      "PO_2340"
+    ],
+    "bank_entry_ids": [
+      "BNK_3357"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0343",
+    "transaction_ids": [
+      "TXN_1435",
+      "TXN_1436",
+      "TXN_1437"
+    ],
+    "payout_ids": [
+      "PO_2341"
+    ],
+    "bank_entry_ids": [
+      "BNK_3358"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0344",
+    "transaction_ids": [
+      "TXN_1438",
+      "TXN_1439"
+    ],
+    "payout_ids": [
+      "PO_2342"
+    ],
+    "bank_entry_ids": [
+      "BNK_3359"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0345",
+    "transaction_ids": [
+      "TXN_1440"
+    ],
+    "payout_ids": [
+      "PO_2343"
+    ],
+    "bank_entry_ids": [
+      "BNK_3360"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0346",
+    "transaction_ids": [
+      "TXN_1441"
+    ],
+    "payout_ids": [
+      "PO_2344"
+    ],
+    "bank_entry_ids": [
+      "BNK_3361"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0347",
+    "transaction_ids": [
+      "TXN_1442"
+    ],
+    "payout_ids": [
+      "PO_2345"
+    ],
+    "bank_entry_ids": [
+      "BNK_3362"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0348",
+    "transaction_ids": [
+      "TXN_1443"
+    ],
+    "payout_ids": [
+      "PO_2346"
+    ],
+    "bank_entry_ids": [
+      "BNK_3363",
+      "BNK_3364"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0349",
+    "transaction_ids": [
+      "TXN_1444"
+    ],
+    "payout_ids": [
+      "PO_2347"
+    ],
+    "bank_entry_ids": [
+      "BNK_3365"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0350",
+    "transaction_ids": [
+      "TXN_1445"
+    ],
+    "payout_ids": [
+      "PO_2348"
+    ],
+    "bank_entry_ids": [
+      "BNK_3366"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0351",
+    "transaction_ids": [],
+    "payout_ids": [
+      "PO_2349"
+    ],
+    "bank_entry_ids": [],
+    "anomaly_category": "MISSING_COUNTERPART",
+    "expected_status": "UNRESOLVED",
+    "notes": "Orphan payout with no bank credit entry"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0352",
+    "transaction_ids": [
+      "TXN_1446"
+    ],
+    "payout_ids": [
+      "PO_2350"
+    ],
+    "bank_entry_ids": [
+      "BNK_3367"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0353",
+    "transaction_ids": [
+      "TXN_1447"
+    ],
+    "payout_ids": [
+      "PO_2351"
+    ],
+    "bank_entry_ids": [
+      "BNK_3368"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0354",
+    "transaction_ids": [
+      "TXN_1448"
+    ],
+    "payout_ids": [
+      "PO_2352"
+    ],
+    "bank_entry_ids": [
+      "BNK_3369"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0355",
+    "transaction_ids": [
+      "TXN_1449",
+      "TXN_1450",
+      "TXN_1451"
+    ],
+    "payout_ids": [
+      "PO_2353"
+    ],
+    "bank_entry_ids": [
+      "BNK_3370"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0356",
+    "transaction_ids": [
+      "TXN_1452"
+    ],
+    "payout_ids": [
+      "PO_2354"
+    ],
+    "bank_entry_ids": [
+      "BNK_3371",
+      "BNK_3372"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0357",
+    "transaction_ids": [
+      "TXN_1453"
+    ],
+    "payout_ids": [
+      "PO_2355"
+    ],
+    "bank_entry_ids": [
+      "BNK_3373"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0358",
+    "transaction_ids": [
+      "TXN_1454"
+    ],
+    "payout_ids": [
+      "PO_2356"
+    ],
+    "bank_entry_ids": [
+      "BNK_3374"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0359",
+    "transaction_ids": [
+      "TXN_1455"
+    ],
+    "payout_ids": [
+      "PO_2357"
+    ],
+    "bank_entry_ids": [
+      "BNK_3375"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0360",
+    "transaction_ids": [
+      "TXN_1456"
+    ],
+    "payout_ids": [
+      "PO_2358"
+    ],
+    "bank_entry_ids": [
+      "BNK_3376"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0361",
+    "transaction_ids": [
+      "TXN_1457"
+    ],
+    "payout_ids": [
+      "PO_2359"
+    ],
+    "bank_entry_ids": [
+      "BNK_3377"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0362",
+    "transaction_ids": [
+      "TXN_1458",
+      "TXN_1459",
+      "TXN_1460",
+      "TXN_1461"
+    ],
+    "payout_ids": [
+      "PO_2360"
+    ],
+    "bank_entry_ids": [
+      "BNK_3378"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0363",
+    "transaction_ids": [
+      "TXN_1462",
+      "TXN_1463"
+    ],
+    "payout_ids": [
+      "PO_2361"
+    ],
+    "bank_entry_ids": [
+      "BNK_3379"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0364",
+    "transaction_ids": [
+      "TXN_1464"
+    ],
+    "payout_ids": [
+      "PO_2362"
+    ],
+    "bank_entry_ids": [
+      "BNK_3380"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0365",
+    "transaction_ids": [
+      "TXN_1465"
+    ],
+    "payout_ids": [
+      "PO_2363"
+    ],
+    "bank_entry_ids": [
+      "BNK_3381"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0366",
+    "transaction_ids": [
+      "TXN_1466"
+    ],
+    "payout_ids": [
+      "PO_2364"
+    ],
+    "bank_entry_ids": [
+      "BNK_3382"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0367",
+    "transaction_ids": [
+      "TXN_1467"
+    ],
+    "payout_ids": [
+      "PO_2365"
+    ],
+    "bank_entry_ids": [
+      "BNK_3383"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0368",
+    "transaction_ids": [
+      "TXN_1468"
+    ],
+    "payout_ids": [
+      "PO_2366"
+    ],
+    "bank_entry_ids": [
+      "BNK_3384"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0369",
+    "transaction_ids": [
+      "TXN_1469"
+    ],
+    "payout_ids": [
+      "PO_2367"
+    ],
+    "bank_entry_ids": [
+      "BNK_3385"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0370",
+    "transaction_ids": [
+      "TXN_1470"
+    ],
+    "payout_ids": [
+      "PO_2368"
+    ],
+    "bank_entry_ids": [
+      "BNK_3386"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0371",
+    "transaction_ids": [
+      "TXN_1471",
+      "TXN_1472",
+      "TXN_1473",
+      "TXN_1474"
+    ],
+    "payout_ids": [
+      "PO_2369"
+    ],
+    "bank_entry_ids": [
+      "BNK_3387"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0372",
+    "transaction_ids": [
+      "TXN_1475"
+    ],
+    "payout_ids": [
+      "PO_2370"
+    ],
+    "bank_entry_ids": [
+      "BNK_3388",
+      "BNK_3389"
+    ],
+    "anomaly_category": "ONE_TO_MANY_SPLIT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: ONE_TO_MANY_SPLIT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0373",
+    "transaction_ids": [
+      "TXN_1476"
+    ],
+    "payout_ids": [
+      "PO_2371"
+    ],
+    "bank_entry_ids": [
+      "BNK_3390"
+    ],
+    "anomaly_category": "PARTIAL_REFUND_REVERSAL",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: PARTIAL_REFUND_REVERSAL"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0374",
+    "transaction_ids": [
+      "TXN_1477"
+    ],
+    "payout_ids": [
+      "PO_2372"
+    ],
+    "bank_entry_ids": [
+      "BNK_3391"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0375",
+    "transaction_ids": [
+      "TXN_1478",
+      "TXN_1479",
+      "TXN_1480",
+      "TXN_1481"
+    ],
+    "payout_ids": [
+      "PO_2373"
+    ],
+    "bank_entry_ids": [
+      "BNK_3392"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0376",
+    "transaction_ids": [
+      "TXN_1482"
+    ],
+    "payout_ids": [
+      "PO_2374"
+    ],
+    "bank_entry_ids": [
+      "BNK_3393"
+    ],
+    "anomaly_category": "AMOUNT_MISMATCH",
+    "expected_status": "UNRESOLVED",
+    "notes": "Amount mismatch between payout and bank entry"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0377",
+    "transaction_ids": [
+      "TXN_1483"
+    ],
+    "payout_ids": [
+      "PO_2375"
+    ],
+    "bank_entry_ids": [
+      "BNK_3394"
+    ],
+    "anomaly_category": "MALFORMED_RECORD",
+    "expected_status": "UNRESOLVED",
+    "notes": "Malformed payout balance equation (gross - fee != net)"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0378",
+    "transaction_ids": [
+      "TXN_1484"
+    ],
+    "payout_ids": [
+      "PO_2376"
+    ],
+    "bank_entry_ids": [
+      "BNK_3395"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0379",
+    "transaction_ids": [
+      "TXN_1485"
+    ],
+    "payout_ids": [
+      "PO_2377"
+    ],
+    "bank_entry_ids": [
+      "BNK_3396"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0380",
+    "transaction_ids": [
+      "TXN_1486"
+    ],
+    "payout_ids": [
+      "PO_2378"
+    ],
+    "bank_entry_ids": [
+      "BNK_3397"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0381",
+    "transaction_ids": [
+      "TXN_1487"
+    ],
+    "payout_ids": [
+      "PO_2379"
+    ],
+    "bank_entry_ids": [
+      "BNK_3398"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0382",
+    "transaction_ids": [
+      "TXN_1488"
+    ],
+    "payout_ids": [
+      "PO_2380"
+    ],
+    "bank_entry_ids": [
+      "BNK_3399"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0383",
+    "transaction_ids": [
+      "TXN_1489"
+    ],
+    "payout_ids": [
+      "PO_2381"
+    ],
+    "bank_entry_ids": [
+      "BNK_3400"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0384",
+    "transaction_ids": [
+      "TXN_1490"
+    ],
+    "payout_ids": [
+      "PO_2382"
+    ],
+    "bank_entry_ids": [
+      "BNK_3401"
+    ],
+    "anomaly_category": "DELAYED_SETTLEMENT",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: DELAYED_SETTLEMENT"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0385",
+    "transaction_ids": [
+      "TXN_1491"
+    ],
+    "payout_ids": [
+      "PO_2383"
+    ],
+    "bank_entry_ids": [
+      "BNK_3402"
+    ],
+    "anomaly_category": "CROSS_CURRENCY",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Cross-currency USD transaction requiring review"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0386",
+    "transaction_ids": [
+      "TXN_1492"
+    ],
+    "payout_ids": [
+      "PO_2384"
+    ],
+    "bank_entry_ids": [
+      "BNK_3403"
+    ],
+    "anomaly_category": "NOISY_REFERENCE",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: NOISY_REFERENCE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0387",
+    "transaction_ids": [
+      "TXN_1493"
+    ],
+    "payout_ids": [
+      "PO_2385"
+    ],
+    "bank_entry_ids": [
+      "BNK_3404"
+    ],
+    "anomaly_category": "EXACT_MATCH_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: EXACT_MATCH_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0388",
+    "transaction_ids": [
+      "TXN_1494"
+    ],
+    "payout_ids": [
+      "PO_2386"
+    ],
+    "bank_entry_ids": [
+      "BNK_3405"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0389",
+    "transaction_ids": [
+      "TXN_1495",
+      "TXN_1496",
+      "TXN_1497",
+      "TXN_1498"
+    ],
+    "payout_ids": [
+      "PO_2387"
+    ],
+    "bank_entry_ids": [
+      "BNK_3406"
+    ],
+    "anomaly_category": "MANY_TO_ONE_BATCH",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: MANY_TO_ONE_BATCH"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0390",
+    "transaction_ids": [
+      "TXN_1499"
+    ],
+    "payout_ids": [
+      "PO_2388"
+    ],
+    "bank_entry_ids": [
+      "BNK_3407"
+    ],
+    "anomaly_category": "AMBIGUOUS_CANDIDATE",
+    "expected_status": "NEEDS_REVIEW",
+    "notes": "Category: AMBIGUOUS_CANDIDATE"
+  },
+  {
+    "canonical_settlement_group_id": "GRP_0391",
+    "transaction_ids": [
+      "TXN_1500"
+    ],
+    "payout_ids": [
+      "PO_2389"
+    ],
+    "bank_entry_ids": [
+      "BNK_3408"
+    ],
+    "anomaly_category": "FEE_ADJUSTED_1TO1",
+    "expected_status": "AUTO_APPROVED",
+    "notes": "Category: FEE_ADJUSTED_1TO1"
+  }
+]

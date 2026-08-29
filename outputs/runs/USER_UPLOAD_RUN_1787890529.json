@@ -1,0 +1,337 @@
+{
+  "run_id": "USER_UPLOAD_RUN_1787890529",
+  "pipeline_type": "USER_CUSTOM_DATA_EVIDENCE_BOUND",
+  "dataset_name": "Test Enterprise Verification Batch",
+  "created_at": "2026-08-28 09:45:29 UTC",
+  "total_source_records": 4,
+  "runtime_seconds": 0.0005423999973572791,
+  "records_per_second": 7374.631304367796,
+  "settlement_groups_per_second": 3687.315652183898,
+  "txns_count": 0,
+  "txns_gross_minor": 0,
+  "txns_gross_formatted": "₹0.00",
+  "payouts_count": 2,
+  "payouts_gross_minor": 125200,
+  "payouts_gross_formatted": "₹1,252.00",
+  "payouts_net_minor": 125200,
+  "payouts_net_formatted": "₹1,252.00",
+  "payouts_fee_minor": 2500,
+  "payouts_fee_formatted": "₹25.00",
+  "banks_count": 2,
+  "banks_credit_minor": 122700,
+  "banks_credit_formatted": "₹1,227.00",
+  "auto_approved_count": 0,
+  "needs_review_count": 0,
+  "unresolved_count": 2,
+  "auto_approval_rate": 0.0,
+  "exception_rate": 1.0,
+  "match_rate": 0.0,
+  "reconciled_value_minor": 0,
+  "reconciled_value_formatted": "₹0.00",
+  "unreconciled_value_minor": 125200,
+  "unreconciled_value_formatted": "₹1,252.00",
+  "max_balance_residual_minor": 0,
+  "invalid_committed_matches": 0,
+  "stage1_f1": 0.0,
+  "stage2_f1": 0.0,
+  "end_to_end_f1": 0.0,
+  "settlement_slices": [
+    {
+      "label": "1:1 Auto-Cleared",
+      "amount": "₹813.80",
+      "raw_minor": 81380,
+      "color": "#15BCDF",
+      "radius": 82,
+      "stroke": 10,
+      "dasharray": "210 50",
+      "count": 0
+    },
+    {
+      "label": "Many:1 Batches",
+      "amount": "₹313.00",
+      "raw_minor": 31300,
+      "color": "#818CF8",
+      "radius": 66,
+      "stroke": 9,
+      "dasharray": "170 50",
+      "count": 1
+    },
+    {
+      "label": "Fees & Deductions",
+      "amount": "₹25.00",
+      "raw_minor": 2500,
+      "color": "#EC4899",
+      "radius": 50,
+      "stroke": 8,
+      "dasharray": "130 50",
+      "count": 2
+    },
+    {
+      "label": "Escalations / FX",
+      "amount": "₹1,252.00",
+      "raw_minor": 125200,
+      "color": "#38BDF8",
+      "radius": 34,
+      "stroke": 7,
+      "dasharray": "90 50",
+      "count": 2
+    }
+  ],
+  "trend_chart_data": [
+    {
+      "day": "Sun",
+      "amount": 25040,
+      "value": "₹250.40"
+    },
+    {
+      "day": "Mon",
+      "amount": 47576,
+      "value": "₹475.76"
+    },
+    {
+      "day": "Tue",
+      "amount": 37560,
+      "value": "₹375.60"
+    },
+    {
+      "day": "Wed",
+      "amount": 72616,
+      "value": "₹726.16"
+    },
+    {
+      "day": "Thu",
+      "amount": 60096,
+      "value": "₹600.96"
+    },
+    {
+      "day": "Fri",
+      "amount": 97656,
+      "value": "₹976.56"
+    },
+    {
+      "day": "Sat",
+      "amount": 125200,
+      "value": "₹1,252.00"
+    }
+  ],
+  "volume_flow": {
+    "internal_transactions": {
+      "count": 0,
+      "gross_formatted": "₹0.00",
+      "raw_minor": 0,
+      "fees_formatted": null,
+      "net_formatted": null,
+      "credit_formatted": null
+    },
+    "gateway_payouts": {
+      "count": 2,
+      "gross_formatted": "₹1,252.00",
+      "raw_minor": 125200,
+      "fees_formatted": "₹25.00",
+      "net_formatted": "₹1,252.00",
+      "credit_formatted": null
+    },
+    "bank_credits": {
+      "count": 2,
+      "gross_formatted": null,
+      "raw_minor": 122700,
+      "fees_formatted": null,
+      "net_formatted": null,
+      "credit_formatted": "₹1,227.00"
+    },
+    "matched_reconciled": {
+      "count": 0,
+      "percentage": 0.0,
+      "reconciled_val": "₹0.00"
+    },
+    "flagged_exceptions": {
+      "count": 2,
+      "percentage": 100.0,
+      "unreconciled_val": "₹1,252.00"
+    }
+  },
+  "monthly_settlements": {
+    "Jan": "₹ 0.00",
+    "Feb": "₹ 0.00",
+    "Mar": "₹ 0.00",
+    "Apr": "₹ 0.00",
+    "May": "₹ 0.00",
+    "Jun": "₹ 0.00",
+    "Jul": "₹ 0.00",
+    "Aug": "₹0.00",
+    "Sep": "₹ 0.00",
+    "Oct": "₹ 0.00",
+    "Nov": "₹ 0.00",
+    "Dec": "₹ 0.00"
+  },
+  "primary_month": "Aug",
+  "date_range": "2026-08-21 → 2026-08-21",
+  "heatmap_density": [
+    [
+      0,
+      2,
+      3,
+      3,
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      3,
+      2,
+      3,
+      3,
+      2,
+      0
+    ],
+    [
+      2,
+      1,
+      3,
+      3,
+      2,
+      3,
+      1
+    ],
+    [
+      0,
+      2,
+      2,
+      1,
+      3,
+      2,
+      0
+    ],
+    [
+      3,
+      3,
+      1,
+      2,
+      3,
+      3,
+      2
+    ],
+    [
+      1,
+      0,
+      2,
+      3,
+      2,
+      1,
+      0
+    ]
+  ],
+  "feed_items": [
+    {
+      "id": "PO_001",
+      "gateway": "None (PO_001)",
+      "sourceIcon": "S",
+      "status": "UNRESOLVED",
+      "statusLabel": "Unresolved",
+      "time": "2026-08-28 09:45",
+      "amount": "₹500.00",
+      "isCredit": true
+    },
+    {
+      "id": "PO_002",
+      "gateway": "None (PO_002)",
+      "sourceIcon": "S",
+      "status": "UNRESOLVED",
+      "statusLabel": "Unresolved",
+      "time": "2026-08-28 09:45",
+      "amount": "₹752.00",
+      "isCredit": true
+    }
+  ],
+  "sample_results": [
+    {
+      "settlement_id": "PO_001",
+      "decision": "UNRESOLVED",
+      "stage1": null,
+      "stage2": {
+        "payout_id": "PO_001",
+        "bank_entry_ids": [
+          "BNK_001"
+        ],
+        "bank_credit_sum_minor": 49000,
+        "payout_net_minor": 49000,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.925,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "confidence_score": 0.0,
+      "score_margin": 0.0,
+      "validator_checks": {
+        "PAYOUT_INTERNAL_EQUATION": true,
+        "STAGE1_BALANCE": false,
+        "STAGE2_BALANCE": true,
+        "CURRENCY_CONSISTENCY": true,
+        "DATE_ORDER_VALIDITY": true
+      },
+      "failure_reasons": [
+        "STAGE1_NO_VALID_TRANSACTIONS_MATCHED"
+      ],
+      "reconciliation_timestamp": "",
+      "is_fully_reconciled": false
+    },
+    {
+      "settlement_id": "PO_002",
+      "decision": "UNRESOLVED",
+      "stage1": null,
+      "stage2": {
+        "payout_id": "PO_002",
+        "bank_entry_ids": [
+          "BNK_002"
+        ],
+        "bank_credit_sum_minor": 73700,
+        "payout_net_minor": 73700,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.925,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "confidence_score": 0.0,
+      "score_margin": 0.0,
+      "validator_checks": {
+        "PAYOUT_INTERNAL_EQUATION": true,
+        "STAGE1_BALANCE": false,
+        "STAGE2_BALANCE": true,
+        "CURRENCY_CONSISTENCY": true,
+        "DATE_ORDER_VALIDITY": true
+      },
+      "failure_reasons": [
+        "STAGE1_NO_VALID_TRANSACTIONS_MATCHED"
+      ],
+      "reconciliation_timestamp": "",
+      "is_fully_reconciled": false
+    }
+  ],
+  "exceptions": [
+    {
+      "exception_id": "EXC_PO_001",
+      "source_id": "PO_001",
+      "source_type": "PAYOUT",
+      "decision": "UNRESOLVED",
+      "category": "MISSING_INTERNAL_TRANSACTION",
+      "reason": "STAGE1_NO_VALID_TRANSACTIONS_MATCHED",
+      "candidate_ids": [],
+      "amount_minor": 50000,
+      "currency": "INR",
+      "recommended_action": "Trace customer order ID in core order service; check if payment was captured under alternate gateway account."
+    },
+    {
+      "exception_id": "EXC_PO_002",
+      "source_id": "PO_002",
+      "source_type": "PAYOUT",
+      "decision": "UNRESOLVED",
+      "category": "MISSING_INTERNAL_TRANSACTION",
+      "reason": "STAGE1_NO_VALID_TRANSACTIONS_MATCHED",
+      "candidate_ids": [],
+      "amount_minor": 75200,
+      "currency": "INR",
+      "recommended_action": "Trace customer order ID in core order service; check if payment was captured under alternate gateway account."
+    }
+  ]
+}

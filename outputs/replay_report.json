@@ -1,0 +1,75 @@
+{
+  "run_id": "REALM_RUN_S42_1787498421",
+  "pipeline_type": "REALM_VERIFY_EVIDENCE_BOUND",
+  "dataset_seed": 42,
+  "replay_timestamp": "2026-08-23T15:20:32Z",
+  "replay_runtime_seconds": 0.3777,
+  "hash_chain_integrity": {
+    "is_valid": true,
+    "message": "Hash chain verified successfully across 369 events",
+    "events_verified": 369
+  },
+  "source_hash_integrity": {
+    "matches_original": true,
+    "stored_hashes": {
+      "bank_statements": "47582da12ca06e1b4aed2945ee55774b8f122634ab6c654b13fe10e34b15b856",
+      "gateway_payouts": "07ecbe9446baf4cf08275b01e0895b95c97cec88ca78c3b1ad821725ac6266ea",
+      "internal_ledger": "a638b15be6b5096ade863c1a11e3d9af57f615a6414fb038861ab0b15666b483"
+    },
+    "current_hashes": {
+      "internal_ledger": "a638b15be6b5096ade863c1a11e3d9af57f615a6414fb038861ab0b15666b483",
+      "gateway_payouts": "07ecbe9446baf4cf08275b01e0895b95c97cec88ca78c3b1ad821725ac6266ea",
+      "bank_statements": "47582da12ca06e1b4aed2945ee55774b8f122634ab6c654b13fe10e34b15b856"
+    }
+  },
+  "decision_determinism": {
+    "total_decisions": 369,
+    "exact_decision_matches": 369,
+    "decision_mismatches": 0,
+    "match_percentage": 100.0,
+    "max_balance_residual_deviation_minor": 0,
+    "replay_status": "DETERMINISTIC_REPLAY_VERIFIED",
+    "reproducibility_disclaimer": "Replay was executed using the stored input hashes, seed, configuration, and pinned repository environment; it is not a claim of cross-machine bitwise reproducibility."
+  },
+  "metrics": {
+    "total_settlement_entities": 369,
+    "total_source_records": 1266,
+    "runtime_seconds": 0.3343,
+    "processing_latency_ms": 334.3,
+    "latency_ms_per_entity": 0.906,
+    "records_per_second": 3787.02,
+    "records_per_minute": 227221.3,
+    "settlement_groups_per_second": 1103.8,
+    "match_rate": 0.9756,
+    "auto_approval_rate": 0.7344,
+    "automation_coverage": 0.7344,
+    "review_with_candidate_rate": 0.2358,
+    "unresolved_rate": 0.0298,
+    "exception_rate": 0.2656,
+    "auto_approved_count": 271,
+    "needs_review_count": 87,
+    "unresolved_count": 11,
+    "stage1_precision": 1.0,
+    "stage1_recall": 1.0,
+    "stage1_f1": 1.0,
+    "stage2_precision": 1.0,
+    "stage2_recall": 0.9899,
+    "stage2_f1": 0.9949,
+    "end_to_end_precision": 1.0,
+    "end_to_end_recall": 0.5769,
+    "end_to_end_f1": 0.7316,
+    "invalid_committed_matches": 0,
+    "invalid_committed_match_rate": 0.0,
+    "false_match_rate": 0.0,
+    "max_balance_residual_minor": 0,
+    "max_committed_balance_residual_minor": 0,
+    "reconciled_value_paise": 34586020,
+    "unreconciled_value_paise": 19692640,
+    "reconciled_value_formatted": "\u20b93,45,860.20",
+    "unreconciled_value_formatted": "\u20b91,96,926.40",
+    "run_id": "REALM_RUN_S42_1787498431",
+    "pipeline_type": "REALM_VERIFY_EVIDENCE_BOUND",
+    "seed": 42,
+    "llm_reranker_enabled": false
+  }
+}

@@ -1,0 +1,4502 @@
+[
+  {
+    "transaction_id": "TXN_1499",
+    "customer_reference": "UBER-INV-622632",
+    "gross_amount_minor": 197880,
+    "net_amount_minor": 193211,
+    "currency": "INR",
+    "created_at": "2026-03-10T01:44:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1207",
+    "customer_reference": "NYKA-INV-348204",
+    "gross_amount_minor": 64760,
+    "net_amount_minor": 63232,
+    "currency": "INR",
+    "created_at": "2026-03-07T08:42:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1343",
+    "customer_reference": "AMBIG-164434",
+    "gross_amount_minor": 46140,
+    "net_amount_minor": 46140,
+    "currency": "INR",
+    "created_at": "2026-03-12T23:28:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1253",
+    "customer_reference": "TATA-INV-734302",
+    "gross_amount_minor": 244130,
+    "net_amount_minor": 244130,
+    "currency": "INR",
+    "created_at": "2026-03-09T08:55:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1304",
+    "customer_reference": "TATA-INV-267073",
+    "gross_amount_minor": 37860,
+    "net_amount_minor": 37103,
+    "currency": "INR",
+    "created_at": "2026-03-19T22:50:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1146",
+    "customer_reference": "ZOMA-INV-646000",
+    "gross_amount_minor": 217630,
+    "net_amount_minor": 217630,
+    "currency": "INR",
+    "created_at": "2026-03-07T10:17:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1080",
+    "customer_reference": "AMZN-BAT-108113-1",
+    "gross_amount_minor": 34430,
+    "net_amount_minor": 33742,
+    "currency": "INR",
+    "created_at": "2026-03-09T06:58:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1472",
+    "customer_reference": "ZOMA-INV-398218",
+    "gross_amount_minor": 15660,
+    "net_amount_minor": 15660,
+    "currency": "INR",
+    "created_at": "2026-03-04T16:18:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1425",
+    "customer_reference": "TATA-BAT-640824-3",
+    "gross_amount_minor": 43100,
+    "net_amount_minor": 42238,
+    "currency": "INR",
+    "created_at": "2026-03-15T04:49:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1336",
+    "customer_reference": "FLIP-INV-420049",
+    "gross_amount_minor": 144410,
+    "net_amount_minor": 144410,
+    "currency": "INR",
+    "created_at": "2026-03-04T05:16:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1195",
+    "customer_reference": "MYNT-BAT-400715-3",
+    "gross_amount_minor": 28520,
+    "net_amount_minor": 27950,
+    "currency": "INR",
+    "created_at": "2026-03-18T00:13:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1453",
+    "customer_reference": "NYKA-INV-754733",
+    "gross_amount_minor": 120550,
+    "net_amount_minor": 118139,
+    "currency": "INR",
+    "created_at": "2026-03-13T19:33:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1134",
+    "customer_reference": "RELI-INV-180988",
+    "gross_amount_minor": 179350,
+    "net_amount_minor": 179350,
+    "currency": "INR",
+    "created_at": "2026-03-16T07:42:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1334",
+    "customer_reference": "TATA-INV-334909",
+    "gross_amount_minor": 36400,
+    "net_amount_minor": 36400,
+    "currency": "INR",
+    "created_at": "2026-03-16T12:05:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1131",
+    "customer_reference": "UBER-BAT-874259-1",
+    "gross_amount_minor": 124260,
+    "net_amount_minor": 121775,
+    "currency": "INR",
+    "created_at": "2026-03-06T03:10:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1200",
+    "customer_reference": "AMZN-INV-858948",
+    "gross_amount_minor": 233380,
+    "net_amount_minor": 233380,
+    "currency": "INR",
+    "created_at": "2026-03-11T02:28:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1219",
+    "customer_reference": "NYKA-INV-411487",
+    "gross_amount_minor": 144610,
+    "net_amount_minor": 141198,
+    "currency": "INR",
+    "created_at": "2026-03-17T10:35:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1145",
+    "customer_reference": "UBER-INV-338297",
+    "gross_amount_minor": 43440,
+    "net_amount_minor": 42415,
+    "currency": "INR",
+    "created_at": "2026-03-02T03:34:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1262",
+    "customer_reference": "AMZN-BAT-103439-1",
+    "gross_amount_minor": 88360,
+    "net_amount_minor": 86593,
+    "currency": "INR",
+    "created_at": "2026-03-07T21:33:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1067",
+    "customer_reference": "UBER-BAT-596321-2",
+    "gross_amount_minor": 36770,
+    "net_amount_minor": 36035,
+    "currency": "INR",
+    "created_at": "2026-03-07T06:34:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1176",
+    "customer_reference": "UBER-BAT-406077-1",
+    "gross_amount_minor": 79310,
+    "net_amount_minor": 77724,
+    "currency": "INR",
+    "created_at": "2026-03-03T22:24:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1252",
+    "customer_reference": "BLNK-INV-266096",
+    "gross_amount_minor": 129730,
+    "net_amount_minor": 126669,
+    "currency": "INR",
+    "created_at": "2026-03-11T20:25:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1114",
+    "customer_reference": "TATA-BAT-448343-2",
+    "gross_amount_minor": 64660,
+    "net_amount_minor": 63367,
+    "currency": "INR",
+    "created_at": "2026-03-02T13:57:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1387",
+    "customer_reference": "FLIP-INV-552084",
+    "gross_amount_minor": 9710,
+    "net_amount_minor": 9516,
+    "currency": "INR",
+    "created_at": "2026-03-20T21:38:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1397",
+    "customer_reference": "BLNK-INV-766275",
+    "gross_amount_minor": 65420,
+    "net_amount_minor": 64112,
+    "currency": "INR",
+    "created_at": "2026-03-13T03:56:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1053",
+    "customer_reference": "FLIP-BAT-772354-1",
+    "gross_amount_minor": 82060,
+    "net_amount_minor": 80419,
+    "currency": "INR",
+    "created_at": "2026-03-14T20:59:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1395",
+    "customer_reference": "UBER-BAT-480020-3",
+    "gross_amount_minor": 100080,
+    "net_amount_minor": 98079,
+    "currency": "INR",
+    "created_at": "2026-03-06T17:54:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1285",
+    "customer_reference": "ZOMA-INV-898754",
+    "gross_amount_minor": 171880,
+    "net_amount_minor": 171880,
+    "currency": "INR",
+    "created_at": "2026-03-17T04:56:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1052",
+    "customer_reference": "SWIG-BAT-582832-2",
+    "gross_amount_minor": 128240,
+    "net_amount_minor": 125676,
+    "currency": "INR",
+    "created_at": "2026-03-07T08:58:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1055",
+    "customer_reference": "FLIP-INV-506709",
+    "gross_amount_minor": 42010,
+    "net_amount_minor": 32769,
+    "currency": "INR",
+    "created_at": "2026-03-18T03:25:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1243",
+    "customer_reference": "ZOMA-INV-646015",
+    "gross_amount_minor": 68710,
+    "net_amount_minor": 68710,
+    "currency": "INR",
+    "created_at": "2026-03-07T20:14:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1003",
+    "customer_reference": "NYKA-INV-921777",
+    "gross_amount_minor": 79290,
+    "net_amount_minor": 79290,
+    "currency": "INR",
+    "created_at": "2026-03-09T21:56:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1121",
+    "customer_reference": "SWIG-INV-644237",
+    "gross_amount_minor": 80080,
+    "net_amount_minor": 78191,
+    "currency": "INR",
+    "created_at": "2026-03-09T22:56:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1021",
+    "customer_reference": "MYNT-INV-151241",
+    "gross_amount_minor": 226610,
+    "net_amount_minor": 221263,
+    "currency": "INR",
+    "created_at": "2026-03-11T14:53:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1013",
+    "customer_reference": "FLIP-INV-248949",
+    "gross_amount_minor": 147280,
+    "net_amount_minor": 147280,
+    "currency": "INR",
+    "created_at": "2026-03-19T00:20:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1127",
+    "customer_reference": "MYNT-INV-959964",
+    "gross_amount_minor": 13530,
+    "net_amount_minor": 10555,
+    "currency": "INR",
+    "created_at": "2026-03-17T15:55:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1250",
+    "customer_reference": "AMZN-INV-383969",
+    "gross_amount_minor": 227230,
+    "net_amount_minor": 221868,
+    "currency": "INR",
+    "created_at": "2026-03-05T11:58:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1477",
+    "customer_reference": "MYNT-BAT-197614-2",
+    "gross_amount_minor": 121910,
+    "net_amount_minor": 119472,
+    "currency": "INR",
+    "created_at": "2026-03-19T05:15:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1227",
+    "customer_reference": "TATA-BAT-930772-2",
+    "gross_amount_minor": 147280,
+    "net_amount_minor": 144335,
+    "currency": "INR",
+    "created_at": "2026-03-10T13:38:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1406",
+    "customer_reference": "ZOMA-INV-629820",
+    "gross_amount_minor": 177050,
+    "net_amount_minor": 173509,
+    "currency": "INR",
+    "created_at": "2026-03-04T03:35:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1226",
+    "customer_reference": "TATA-BAT-930772-1",
+    "gross_amount_minor": 121760,
+    "net_amount_minor": 119325,
+    "currency": "INR",
+    "created_at": "2026-03-10T11:42:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1376",
+    "customer_reference": "BLNK-INV-924141",
+    "gross_amount_minor": 179480,
+    "net_amount_minor": 175891,
+    "currency": "INR",
+    "created_at": "2026-03-12T19:37:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1246",
+    "customer_reference": "TATA-INV-522017",
+    "gross_amount_minor": 238260,
+    "net_amount_minor": 185843,
+    "currency": "INR",
+    "created_at": "2026-03-08T13:02:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1233",
+    "customer_reference": "BLNK-BAT-224429-2",
+    "gross_amount_minor": 30660,
+    "net_amount_minor": 30047,
+    "currency": "INR",
+    "created_at": "2026-03-17T12:44:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1183",
+    "customer_reference": "BLNK-BAT-636155-1",
+    "gross_amount_minor": 26990,
+    "net_amount_minor": 26451,
+    "currency": "INR",
+    "created_at": "2026-03-08T17:12:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1448",
+    "customer_reference": "ZOMA-INV-806421",
+    "gross_amount_minor": 145330,
+    "net_amount_minor": 145330,
+    "currency": "INR",
+    "created_at": "2026-03-03T02:57:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1008",
+    "customer_reference": "NYKA-INV-207035",
+    "gross_amount_minor": 24860,
+    "net_amount_minor": 24274,
+    "currency": "INR",
+    "created_at": "2026-03-06T15:14:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1398",
+    "customer_reference": "TATA-BAT-684756-1",
+    "gross_amount_minor": 143090,
+    "net_amount_minor": 140229,
+    "currency": "INR",
+    "created_at": "2026-03-05T13:24:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1486",
+    "customer_reference": "NYKA-BAT-714537-3",
+    "gross_amount_minor": 37520,
+    "net_amount_minor": 36770,
+    "currency": "INR",
+    "created_at": "2026-03-14T06:30:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1019",
+    "customer_reference": "RELI-INV-917967",
+    "gross_amount_minor": 166460,
+    "net_amount_minor": 166460,
+    "currency": "INR",
+    "created_at": "2026-03-13T08:51:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1438",
+    "customer_reference": "TATA-INV-511834",
+    "gross_amount_minor": 217080,
+    "net_amount_minor": 212739,
+    "currency": "INR",
+    "created_at": "2026-03-10T15:18:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1162",
+    "customer_reference": "MYNT-INV-736765",
+    "gross_amount_minor": 109210,
+    "net_amount_minor": 107026,
+    "currency": "INR",
+    "created_at": "2026-03-18T03:35:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1147",
+    "customer_reference": "UBER-BAT-627874-1",
+    "gross_amount_minor": 51920,
+    "net_amount_minor": 50882,
+    "currency": "INR",
+    "created_at": "2026-03-17T06:33:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1279",
+    "customer_reference": "TATA-INV-527281",
+    "gross_amount_minor": 162920,
+    "net_amount_minor": 162920,
+    "currency": "INR",
+    "created_at": "2026-03-11T14:14:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1418",
+    "customer_reference": "UBER-INV-552827",
+    "gross_amount_minor": 90340,
+    "net_amount_minor": 88534,
+    "currency": "INR",
+    "created_at": "2026-03-03T12:13:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1496",
+    "customer_reference": "SWIG-DUP-634617",
+    "gross_amount_minor": 201330,
+    "net_amount_minor": 201330,
+    "currency": "INR",
+    "created_at": "2026-03-18T16:07:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1248",
+    "customer_reference": "BLNK-INV-945878",
+    "gross_amount_minor": 108900,
+    "net_amount_minor": 106330,
+    "currency": "INR",
+    "created_at": "2026-03-11T12:07:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1280",
+    "customer_reference": "UBER-INV-429399",
+    "gross_amount_minor": 74240,
+    "net_amount_minor": 74240,
+    "currency": "INR",
+    "created_at": "2026-03-14T23:44:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1487",
+    "customer_reference": "NYKA-BAT-714537-4",
+    "gross_amount_minor": 148740,
+    "net_amount_minor": 145766,
+    "currency": "INR",
+    "created_at": "2026-03-14T09:02:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1429",
+    "customer_reference": "AMBIG-951897",
+    "gross_amount_minor": 196680,
+    "net_amount_minor": 196680,
+    "currency": "INR",
+    "created_at": "2026-03-12T12:34:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1078",
+    "customer_reference": "TATA-BAT-901581-2",
+    "gross_amount_minor": 50450,
+    "net_amount_minor": 49441,
+    "currency": "INR",
+    "created_at": "2026-03-05T08:11:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1182",
+    "customer_reference": "ZOMA-INV-478093",
+    "gross_amount_minor": 139540,
+    "net_amount_minor": 136247,
+    "currency": "INR",
+    "created_at": "2026-03-02T05:56:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1123",
+    "customer_reference": "NYKA-INV-633792",
+    "gross_amount_minor": 227690,
+    "net_amount_minor": 227690,
+    "currency": "INR",
+    "created_at": "2026-03-13T16:01:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1062",
+    "customer_reference": "ZOMA-BAT-969948-3",
+    "gross_amount_minor": 112840,
+    "net_amount_minor": 110584,
+    "currency": "INR",
+    "created_at": "2026-03-13T05:00:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1203",
+    "customer_reference": "RELI-INV-101694",
+    "gross_amount_minor": 27590,
+    "net_amount_minor": 26939,
+    "currency": "INR",
+    "created_at": "2026-03-15T04:58:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1201",
+    "customer_reference": "AMZN-INV-191713",
+    "gross_amount_minor": 170720,
+    "net_amount_minor": 170720,
+    "currency": "INR",
+    "created_at": "2026-03-06T19:05:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1214",
+    "customer_reference": "UBER-INV-954009",
+    "gross_amount_minor": 183970,
+    "net_amount_minor": 180291,
+    "currency": "INR",
+    "created_at": "2026-03-21T02:25:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1155",
+    "customer_reference": "BLNK-INV-957847",
+    "gross_amount_minor": 123080,
+    "net_amount_minor": 123080,
+    "currency": "INR",
+    "created_at": "2026-03-02T05:55:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1403",
+    "customer_reference": "BLNK-DUP-960326",
+    "gross_amount_minor": 173810,
+    "net_amount_minor": 173810,
+    "currency": "INR",
+    "created_at": "2026-03-13T08:13:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1046",
+    "customer_reference": "TATA-INV-195179",
+    "gross_amount_minor": 79340,
+    "net_amount_minor": 77754,
+    "currency": "INR",
+    "created_at": "2026-03-10T19:13:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1144",
+    "customer_reference": "ZOMA-INV-956581",
+    "gross_amount_minor": 102180,
+    "net_amount_minor": 99769,
+    "currency": "INR",
+    "created_at": "2026-03-16T07:40:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1385",
+    "customer_reference": "TATA-ORPHAN-436071",
+    "gross_amount_minor": 108020,
+    "net_amount_minor": 108020,
+    "currency": "INR",
+    "created_at": "2026-03-03T08:06:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1295",
+    "customer_reference": "BLNK-INV-573961",
+    "gross_amount_minor": 130500,
+    "net_amount_minor": 127890,
+    "currency": "INR",
+    "created_at": "2026-03-15T12:34:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1335",
+    "customer_reference": "ZOMA-INV-180931",
+    "gross_amount_minor": 11850,
+    "net_amount_minor": 11850,
+    "currency": "INR",
+    "created_at": "2026-03-22T07:42:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1218",
+    "customer_reference": "UBER-INV-395600",
+    "gross_amount_minor": 72040,
+    "net_amount_minor": 72040,
+    "currency": "INR",
+    "created_at": "2026-03-04T05:40:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1004",
+    "customer_reference": "AMZN-INV-295352",
+    "gross_amount_minor": 226190,
+    "net_amount_minor": 226190,
+    "currency": "INR",
+    "created_at": "2026-03-22T01:13:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1225",
+    "customer_reference": "TATA-INV-664201",
+    "gross_amount_minor": 238490,
+    "net_amount_minor": 238490,
+    "currency": "INR",
+    "created_at": "2026-03-01T15:51:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1476",
+    "customer_reference": "MYNT-BAT-197614-1",
+    "gross_amount_minor": 34750,
+    "net_amount_minor": 34055,
+    "currency": "INR",
+    "created_at": "2026-03-19T03:27:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1245",
+    "customer_reference": "FLIP-INV-216740",
+    "gross_amount_minor": 88280,
+    "net_amount_minor": 88280,
+    "currency": "INR",
+    "created_at": "2026-03-01T09:03:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1383",
+    "customer_reference": "UBER-INV-312156",
+    "gross_amount_minor": 192030,
+    "net_amount_minor": 187499,
+    "currency": "INR",
+    "created_at": "2026-03-08T23:38:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1063",
+    "customer_reference": "AMZN-INV-844883",
+    "gross_amount_minor": 24160,
+    "net_amount_minor": 24160,
+    "currency": "INR",
+    "created_at": "2026-03-03T03:07:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1293",
+    "customer_reference": "FLIP-INV-625753",
+    "gross_amount_minor": 107990,
+    "net_amount_minor": 107990,
+    "currency": "INR",
+    "created_at": "2026-03-17T21:06:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1452",
+    "customer_reference": "SWIG-INV-936639",
+    "gross_amount_minor": 121140,
+    "net_amount_minor": 118282,
+    "currency": "INR",
+    "created_at": "2026-03-06T02:12:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1375",
+    "customer_reference": "NYKA-INV-737265",
+    "gross_amount_minor": 125780,
+    "net_amount_minor": 125780,
+    "currency": "INR",
+    "created_at": "2026-03-16T08:15:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1269",
+    "customer_reference": "SWIG-DUP-593359",
+    "gross_amount_minor": 61120,
+    "net_amount_minor": 61120,
+    "currency": "INR",
+    "created_at": "2026-03-20T01:23:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1088",
+    "customer_reference": "FLIP-BAT-343564-4",
+    "gross_amount_minor": 148670,
+    "net_amount_minor": 145697,
+    "currency": "INR",
+    "created_at": "2026-03-10T12:04:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1310",
+    "customer_reference": "NYKA-BAT-793488-1",
+    "gross_amount_minor": 138440,
+    "net_amount_minor": 135672,
+    "currency": "INR",
+    "created_at": "2026-03-21T17:47:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1270",
+    "customer_reference": "BLNK-INV-156097",
+    "gross_amount_minor": 96730,
+    "net_amount_minor": 96730,
+    "currency": "INR",
+    "created_at": "2026-03-21T00:57:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1082",
+    "customer_reference": "RELI-INV-697300",
+    "gross_amount_minor": 113290,
+    "net_amount_minor": 113290,
+    "currency": "INR",
+    "created_at": "2026-03-02T14:41:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1097",
+    "customer_reference": "RELI-INV-430689",
+    "gross_amount_minor": 147230,
+    "net_amount_minor": 143756,
+    "currency": "INR",
+    "created_at": "2026-03-16T00:59:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1210",
+    "customer_reference": "AMZN-INV-479260",
+    "gross_amount_minor": 87210,
+    "net_amount_minor": 85466,
+    "currency": "INR",
+    "created_at": "2026-03-17T12:03:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1115",
+    "customer_reference": "TATA-BAT-448343-3",
+    "gross_amount_minor": 133390,
+    "net_amount_minor": 130723,
+    "currency": "INR",
+    "created_at": "2026-03-02T15:56:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1463",
+    "customer_reference": "FLIP-BAT-556524-3",
+    "gross_amount_minor": 76920,
+    "net_amount_minor": 75382,
+    "currency": "INR",
+    "created_at": "2026-03-21T17:05:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1119",
+    "customer_reference": "SWIG-BAT-396814-4",
+    "gross_amount_minor": 69170,
+    "net_amount_minor": 67787,
+    "currency": "INR",
+    "created_at": "2026-03-04T05:35:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1348",
+    "customer_reference": "SWIG-BAT-717773-2",
+    "gross_amount_minor": 27500,
+    "net_amount_minor": 26950,
+    "currency": "INR",
+    "created_at": "2026-03-05T08:06:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1400",
+    "customer_reference": "NYKA-INV-600129",
+    "gross_amount_minor": 18530,
+    "net_amount_minor": 18530,
+    "currency": "INR",
+    "created_at": "2026-03-12T20:19:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1230",
+    "customer_reference": "AMZN-DUP-683587",
+    "gross_amount_minor": 12590,
+    "net_amount_minor": 12590,
+    "currency": "INR",
+    "created_at": "2026-03-02T17:34:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1109",
+    "customer_reference": "NYKA-INV-460948",
+    "gross_amount_minor": 10040,
+    "net_amount_minor": 9840,
+    "currency": "INR",
+    "created_at": "2026-03-06T19:56:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1194",
+    "customer_reference": "MYNT-BAT-400715-2",
+    "gross_amount_minor": 4970,
+    "net_amount_minor": 4871,
+    "currency": "INR",
+    "created_at": "2026-03-17T22:01:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1041",
+    "customer_reference": "BLNK-BAT-180027-1",
+    "gross_amount_minor": 147960,
+    "net_amount_minor": 145001,
+    "currency": "INR",
+    "created_at": "2026-03-20T21:43:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1417",
+    "customer_reference": "AMZN-INV-325441",
+    "gross_amount_minor": 122550,
+    "net_amount_minor": 120099,
+    "currency": "INR",
+    "created_at": "2026-03-20T16:35:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1087",
+    "customer_reference": "FLIP-BAT-343564-3",
+    "gross_amount_minor": 33050,
+    "net_amount_minor": 32389,
+    "currency": "INR",
+    "created_at": "2026-03-10T09:52:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1341",
+    "customer_reference": "NYKA-INV-359003",
+    "gross_amount_minor": 171220,
+    "net_amount_minor": 171220,
+    "currency": "INR",
+    "created_at": "2026-03-07T18:47:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1278",
+    "customer_reference": "TATA-BAT-928619-2",
+    "gross_amount_minor": 8170,
+    "net_amount_minor": 8007,
+    "currency": "INR",
+    "created_at": "2026-03-06T08:32:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1497",
+    "customer_reference": "BLNK-INV-656027",
+    "gross_amount_minor": 28680,
+    "net_amount_minor": 28680,
+    "currency": "INR",
+    "created_at": "2026-03-18T18:41:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1382",
+    "customer_reference": "AMZN-INV-137126",
+    "gross_amount_minor": 182990,
+    "net_amount_minor": 182990,
+    "currency": "INR",
+    "created_at": "2026-03-17T08:59:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1378",
+    "customer_reference": "ZOMA-INV-105097",
+    "gross_amount_minor": 126430,
+    "net_amount_minor": 123902,
+    "currency": "INR",
+    "created_at": "2026-03-11T03:35:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1455",
+    "customer_reference": "UBER-BAT-595032-2",
+    "gross_amount_minor": 62890,
+    "net_amount_minor": 61633,
+    "currency": "INR",
+    "created_at": "2026-03-12T20:01:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1367",
+    "customer_reference": "BLNK-INV-512035",
+    "gross_amount_minor": 199020,
+    "net_amount_minor": 194324,
+    "currency": "INR",
+    "created_at": "2026-03-05T06:30:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1322",
+    "customer_reference": "UBER-BAT-575028-1",
+    "gross_amount_minor": 93710,
+    "net_amount_minor": 91836,
+    "currency": "INR",
+    "created_at": "2026-03-09T12:17:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1255",
+    "customer_reference": "FLIP-BAT-621736-2",
+    "gross_amount_minor": 147140,
+    "net_amount_minor": 144198,
+    "currency": "INR",
+    "created_at": "2026-03-11T19:44:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1386",
+    "customer_reference": "BLNK-INV-573500",
+    "gross_amount_minor": 96610,
+    "net_amount_minor": 96610,
+    "currency": "INR",
+    "created_at": "2026-03-15T08:45:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1365",
+    "customer_reference": "TATA-INV-223572",
+    "gross_amount_minor": 23310,
+    "net_amount_minor": 22760,
+    "currency": "INR",
+    "created_at": "2026-03-01T17:07:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1017",
+    "customer_reference": "NYKA-INV-534622",
+    "gross_amount_minor": 153340,
+    "net_amount_minor": 149722,
+    "currency": "INR",
+    "created_at": "2026-03-17T09:24:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1283",
+    "customer_reference": "UBER-INV-157872",
+    "gross_amount_minor": 190060,
+    "net_amount_minor": 190060,
+    "currency": "INR",
+    "created_at": "2026-03-01T13:00:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1379",
+    "customer_reference": "UBER-DUP-580057",
+    "gross_amount_minor": 213730,
+    "net_amount_minor": 213730,
+    "currency": "INR",
+    "created_at": "2026-03-11T18:00:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1480",
+    "customer_reference": "FLIP-INV-256955",
+    "gross_amount_minor": 66740,
+    "net_amount_minor": 66740,
+    "currency": "INR",
+    "created_at": "2026-03-16T01:58:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1076",
+    "customer_reference": "AMZN-BAT-237909-2",
+    "gross_amount_minor": 53800,
+    "net_amount_minor": 52724,
+    "currency": "INR",
+    "created_at": "2026-03-02T22:24:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1222",
+    "customer_reference": "FLIP-BAT-575351-2",
+    "gross_amount_minor": 8890,
+    "net_amount_minor": 8713,
+    "currency": "INR",
+    "created_at": "2026-03-03T12:09:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1449",
+    "customer_reference": "ZOMA-INV-913526",
+    "gross_amount_minor": 84480,
+    "net_amount_minor": 82487,
+    "currency": "INR",
+    "created_at": "2026-03-18T13:22:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1281",
+    "customer_reference": "AMBIG-845118",
+    "gross_amount_minor": 64850,
+    "net_amount_minor": 64850,
+    "currency": "INR",
+    "created_at": "2026-03-10T11:12:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1039",
+    "customer_reference": "NYKA-INV-920683",
+    "gross_amount_minor": 173770,
+    "net_amount_minor": 169670,
+    "currency": "INR",
+    "created_at": "2026-03-20T20:38:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1086",
+    "customer_reference": "FLIP-BAT-343564-2",
+    "gross_amount_minor": 63530,
+    "net_amount_minor": 62260,
+    "currency": "INR",
+    "created_at": "2026-03-10T08:16:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1435",
+    "customer_reference": "SWIG-BAT-517195-1",
+    "gross_amount_minor": 78800,
+    "net_amount_minor": 77224,
+    "currency": "INR",
+    "created_at": "2026-03-07T15:09:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1206",
+    "customer_reference": "SWIG-INV-182228",
+    "gross_amount_minor": 36340,
+    "net_amount_minor": 35483,
+    "currency": "INR",
+    "created_at": "2026-03-06T18:52:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1360",
+    "customer_reference": "RELI-INV-765400",
+    "gross_amount_minor": 132660,
+    "net_amount_minor": 132660,
+    "currency": "INR",
+    "created_at": "2026-03-13T11:24:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1126",
+    "customer_reference": "FLIP-INV-305546",
+    "gross_amount_minor": 173160,
+    "net_amount_minor": 169074,
+    "currency": "INR",
+    "created_at": "2026-03-06T15:11:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1024",
+    "customer_reference": "UBER-INV-935684",
+    "gross_amount_minor": 208540,
+    "net_amount_minor": 208540,
+    "currency": "INR",
+    "created_at": "2026-03-11T09:24:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1266",
+    "customer_reference": "ZOMA-BAT-854214-2",
+    "gross_amount_minor": 33370,
+    "net_amount_minor": 32703,
+    "currency": "INR",
+    "created_at": "2026-03-19T15:04:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1186",
+    "customer_reference": "BLNK-BAT-636155-4",
+    "gross_amount_minor": 71580,
+    "net_amount_minor": 70149,
+    "currency": "INR",
+    "created_at": "2026-03-08T23:17:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1254",
+    "customer_reference": "FLIP-BAT-621736-1",
+    "gross_amount_minor": 6660,
+    "net_amount_minor": 6527,
+    "currency": "INR",
+    "created_at": "2026-03-11T17:55:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1215",
+    "customer_reference": "ZOMA-INV-807031",
+    "gross_amount_minor": 60170,
+    "net_amount_minor": 58967,
+    "currency": "INR",
+    "created_at": "2026-03-02T04:43:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1133",
+    "customer_reference": "AMBIG-599470",
+    "gross_amount_minor": 48900,
+    "net_amount_minor": 48900,
+    "currency": "INR",
+    "created_at": "2026-03-14T09:14:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1488",
+    "customer_reference": "SWIG-INV-220145",
+    "gross_amount_minor": 65630,
+    "net_amount_minor": 64082,
+    "currency": "INR",
+    "created_at": "2026-03-14T09:24:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1289",
+    "customer_reference": "MYNT-INV-925272",
+    "gross_amount_minor": 211810,
+    "net_amount_minor": 211810,
+    "currency": "INR",
+    "created_at": "2026-03-15T17:14:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1056",
+    "customer_reference": "BLNK-INV-532160",
+    "gross_amount_minor": 178040,
+    "net_amount_minor": 173839,
+    "currency": "INR",
+    "created_at": "2026-03-10T14:03:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1273",
+    "customer_reference": "ZOMA-BAT-131989-3",
+    "gross_amount_minor": 130700,
+    "net_amount_minor": 128086,
+    "currency": "INR",
+    "created_at": "2026-03-12T15:44:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1478",
+    "customer_reference": "MYNT-BAT-197614-3",
+    "gross_amount_minor": 57290,
+    "net_amount_minor": 56145,
+    "currency": "INR",
+    "created_at": "2026-03-19T07:14:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1104",
+    "customer_reference": "MYNT-DUP-494130",
+    "gross_amount_minor": 143410,
+    "net_amount_minor": 143410,
+    "currency": "INR",
+    "created_at": "2026-03-18T12:41:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1458",
+    "customer_reference": "BLNK-INV-841399",
+    "gross_amount_minor": 169790,
+    "net_amount_minor": 165783,
+    "currency": "INR",
+    "created_at": "2026-03-17T19:32:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1339",
+    "customer_reference": "MYNT-INV-246725",
+    "gross_amount_minor": 230840,
+    "net_amount_minor": 230840,
+    "currency": "INR",
+    "created_at": "2026-03-17T19:32:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1101",
+    "customer_reference": "SWIG-BAT-371696-3",
+    "gross_amount_minor": 50010,
+    "net_amount_minor": 49010,
+    "currency": "INR",
+    "created_at": "2026-03-13T11:38:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1094",
+    "customer_reference": "UBER-INV-161318",
+    "gross_amount_minor": 102560,
+    "net_amount_minor": 102560,
+    "currency": "INR",
+    "created_at": "2026-03-02T09:19:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1093",
+    "customer_reference": "RELI-INV-767360",
+    "gross_amount_minor": 113740,
+    "net_amount_minor": 111466,
+    "currency": "INR",
+    "created_at": "2026-03-12T08:59:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1312",
+    "customer_reference": "BLNK-INV-639705",
+    "gross_amount_minor": 58000,
+    "net_amount_minor": 56840,
+    "currency": "INR",
+    "created_at": "2026-03-18T04:58:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1444",
+    "customer_reference": "AMZN-ORPHAN-557650",
+    "gross_amount_minor": 31740,
+    "net_amount_minor": 31740,
+    "currency": "INR",
+    "created_at": "2026-03-18T00:02:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1441",
+    "customer_reference": "AMBIG-878763",
+    "gross_amount_minor": 87280,
+    "net_amount_minor": 87280,
+    "currency": "INR",
+    "created_at": "2026-03-15T23:12:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1309",
+    "customer_reference": "UBER-INV-634156",
+    "gross_amount_minor": 130930,
+    "net_amount_minor": 127841,
+    "currency": "INR",
+    "created_at": "2026-03-18T02:13:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1125",
+    "customer_reference": "BLNK-INV-571058",
+    "gross_amount_minor": 67860,
+    "net_amount_minor": 66259,
+    "currency": "INR",
+    "created_at": "2026-03-11T02:17:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1267",
+    "customer_reference": "BLNK-INV-285161",
+    "gross_amount_minor": 62320,
+    "net_amount_minor": 61074,
+    "currency": "INR",
+    "created_at": "2026-03-04T11:12:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1307",
+    "customer_reference": "FLIP-INV-323535",
+    "gross_amount_minor": 154110,
+    "net_amount_minor": 154110,
+    "currency": "INR",
+    "created_at": "2026-03-08T00:34:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1249",
+    "customer_reference": "TATA-INV-385700",
+    "gross_amount_minor": 162080,
+    "net_amount_minor": 162080,
+    "currency": "INR",
+    "created_at": "2026-03-11T23:25:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1493",
+    "customer_reference": "UBER-BAT-978935-1",
+    "gross_amount_minor": 143900,
+    "net_amount_minor": 141022,
+    "currency": "INR",
+    "created_at": "2026-03-17T21:53:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1191",
+    "customer_reference": "AMZN-INV-214955",
+    "gross_amount_minor": 176390,
+    "net_amount_minor": 176390,
+    "currency": "INR",
+    "created_at": "2026-03-07T14:03:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1442",
+    "customer_reference": "MYNT-INV-129628",
+    "gross_amount_minor": 122760,
+    "net_amount_minor": 122760,
+    "currency": "INR",
+    "created_at": "2026-03-12T13:58:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1256",
+    "customer_reference": "FLIP-BAT-621736-3",
+    "gross_amount_minor": 100080,
+    "net_amount_minor": 98079,
+    "currency": "INR",
+    "created_at": "2026-03-11T21:41:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1363",
+    "customer_reference": "NYKA-INV-830551",
+    "gross_amount_minor": 121200,
+    "net_amount_minor": 121200,
+    "currency": "INR",
+    "created_at": "2026-03-20T12:47:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1069",
+    "customer_reference": "UBER-BAT-596321-4",
+    "gross_amount_minor": 136770,
+    "net_amount_minor": 134035,
+    "currency": "INR",
+    "created_at": "2026-03-07T10:28:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1234",
+    "customer_reference": "SWIG-INV-121559",
+    "gross_amount_minor": 13000,
+    "net_amount_minor": 13000,
+    "currency": "INR",
+    "created_at": "2026-03-04T21:52:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1178",
+    "customer_reference": "UBER-BAT-406077-3",
+    "gross_amount_minor": 133980,
+    "net_amount_minor": 131301,
+    "currency": "INR",
+    "created_at": "2026-03-04T02:38:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1111",
+    "customer_reference": "ZOMA-BAT-117992-2",
+    "gross_amount_minor": 142090,
+    "net_amount_minor": 139249,
+    "currency": "INR",
+    "created_at": "2026-03-22T01:45:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1135",
+    "customer_reference": "ZOMA-INV-968289",
+    "gross_amount_minor": 212020,
+    "net_amount_minor": 207017,
+    "currency": "INR",
+    "created_at": "2026-03-16T01:55:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1494",
+    "customer_reference": "UBER-BAT-978935-2",
+    "gross_amount_minor": 140360,
+    "net_amount_minor": 137553,
+    "currency": "INR",
+    "created_at": "2026-03-17T23:29:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1468",
+    "customer_reference": "AMZN-BAT-838722-2",
+    "gross_amount_minor": 129820,
+    "net_amount_minor": 127224,
+    "currency": "INR",
+    "created_at": "2026-03-19T14:20:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1321",
+    "customer_reference": "AMBIG-870158",
+    "gross_amount_minor": 123480,
+    "net_amount_minor": 123480,
+    "currency": "INR",
+    "created_at": "2026-03-04T17:35:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1459",
+    "customer_reference": "BLNK-INV-594859",
+    "gross_amount_minor": 151030,
+    "net_amount_minor": 151030,
+    "currency": "INR",
+    "created_at": "2026-03-16T22:24:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1011",
+    "customer_reference": "AMZN-DUP-907137",
+    "gross_amount_minor": 166600,
+    "net_amount_minor": 166600,
+    "currency": "INR",
+    "created_at": "2026-03-14T01:19:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1211",
+    "customer_reference": "TATA-INV-142443",
+    "gross_amount_minor": 55760,
+    "net_amount_minor": 55760,
+    "currency": "INR",
+    "created_at": "2026-03-20T09:39:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1451",
+    "customer_reference": "MYNT-INV-930346",
+    "gross_amount_minor": 212980,
+    "net_amount_minor": 212980,
+    "currency": "INR",
+    "created_at": "2026-03-18T06:11:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1325",
+    "customer_reference": "UBER-BAT-575028-4",
+    "gross_amount_minor": 92890,
+    "net_amount_minor": 91033,
+    "currency": "INR",
+    "created_at": "2026-03-09T18:53:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1257",
+    "customer_reference": "AMBIG-362788",
+    "gross_amount_minor": 37590,
+    "net_amount_minor": 37590,
+    "currency": "INR",
+    "created_at": "2026-03-01T10:01:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1328",
+    "customer_reference": "TATA-BAT-917341-1",
+    "gross_amount_minor": 21810,
+    "net_amount_minor": 21374,
+    "currency": "INR",
+    "created_at": "2026-03-20T08:27:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1181",
+    "customer_reference": "AMZN-INV-837887",
+    "gross_amount_minor": 81340,
+    "net_amount_minor": 79421,
+    "currency": "INR",
+    "created_at": "2026-03-07T15:59:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1170",
+    "customer_reference": "MYNT-BAT-502655-1",
+    "gross_amount_minor": 144490,
+    "net_amount_minor": 141601,
+    "currency": "INR",
+    "created_at": "2026-03-09T17:37:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1479",
+    "customer_reference": "MYNT-ORPHAN-623321",
+    "gross_amount_minor": 172980,
+    "net_amount_minor": 172980,
+    "currency": "INR",
+    "created_at": "2026-03-17T20:45:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1251",
+    "customer_reference": "FLIP-INV-699311",
+    "gross_amount_minor": 96040,
+    "net_amount_minor": 96040,
+    "currency": "INR",
+    "created_at": "2026-03-15T08:44:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1036",
+    "customer_reference": "ZOMA-INV-429212",
+    "gross_amount_minor": 208130,
+    "net_amount_minor": 208130,
+    "currency": "INR",
+    "created_at": "2026-03-07T03:11:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1120",
+    "customer_reference": "NYKA-INV-990958",
+    "gross_amount_minor": 230330,
+    "net_amount_minor": 230330,
+    "currency": "INR",
+    "created_at": "2026-03-13T19:14:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1432",
+    "customer_reference": "ZOMA-BAT-870987-2",
+    "gross_amount_minor": 37480,
+    "net_amount_minor": 36731,
+    "currency": "INR",
+    "created_at": "2026-03-18T04:29:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1158",
+    "customer_reference": "RELI-BAT-187520-2",
+    "gross_amount_minor": 132540,
+    "net_amount_minor": 129890,
+    "currency": "INR",
+    "created_at": "2026-03-21T07:50:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1355",
+    "customer_reference": "AMZN-INV-323939",
+    "gross_amount_minor": 203060,
+    "net_amount_minor": 203060,
+    "currency": "INR",
+    "created_at": "2026-03-10T22:31:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1184",
+    "customer_reference": "BLNK-BAT-636155-2",
+    "gross_amount_minor": 28610,
+    "net_amount_minor": 28038,
+    "currency": "INR",
+    "created_at": "2026-03-08T18:52:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1085",
+    "customer_reference": "FLIP-BAT-343564-1",
+    "gross_amount_minor": 65670,
+    "net_amount_minor": 64357,
+    "currency": "INR",
+    "created_at": "2026-03-10T06:21:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1189",
+    "customer_reference": "TATA-INV-643600",
+    "gross_amount_minor": 80680,
+    "net_amount_minor": 80680,
+    "currency": "INR",
+    "created_at": "2026-03-13T21:47:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1190",
+    "customer_reference": "ZOMA-INV-992584",
+    "gross_amount_minor": 20210,
+    "net_amount_minor": 19734,
+    "currency": "INR",
+    "created_at": "2026-03-13T21:42:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1236",
+    "customer_reference": "MYNT-INV-693310",
+    "gross_amount_minor": 150290,
+    "net_amount_minor": 147285,
+    "currency": "INR",
+    "created_at": "2026-03-06T15:15:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1070",
+    "customer_reference": "TATA-INV-191244",
+    "gross_amount_minor": 16630,
+    "net_amount_minor": 16238,
+    "currency": "INR",
+    "created_at": "2026-03-20T12:49:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1038",
+    "customer_reference": "ZOMA-INV-398587",
+    "gross_amount_minor": 147210,
+    "net_amount_minor": 144266,
+    "currency": "INR",
+    "created_at": "2026-03-10T16:06:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1337",
+    "customer_reference": "MYNT-INV-595117",
+    "gross_amount_minor": 37350,
+    "net_amount_minor": 36603,
+    "currency": "INR",
+    "created_at": "2026-03-17T21:53:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1292",
+    "customer_reference": "SWIG-INV-301541",
+    "gross_amount_minor": 26650,
+    "net_amount_minor": 26650,
+    "currency": "INR",
+    "created_at": "2026-03-07T23:08:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1009",
+    "customer_reference": "UBER-BAT-455188-1",
+    "gross_amount_minor": 70130,
+    "net_amount_minor": 68728,
+    "currency": "INR",
+    "created_at": "2026-03-09T01:10:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1465",
+    "customer_reference": "SWIG-BAT-363504-1",
+    "gross_amount_minor": 59310,
+    "net_amount_minor": 58124,
+    "currency": "INR",
+    "created_at": "2026-03-05T04:07:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1362",
+    "customer_reference": "AMZN-DUP-403567",
+    "gross_amount_minor": 31250,
+    "net_amount_minor": 31250,
+    "currency": "INR",
+    "created_at": "2026-03-20T20:21:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1366",
+    "customer_reference": "MYNT-INV-383808",
+    "gross_amount_minor": 199470,
+    "net_amount_minor": 195481,
+    "currency": "INR",
+    "created_at": "2026-03-06T10:11:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1136",
+    "customer_reference": "AMZN-INV-270057",
+    "gross_amount_minor": 67610,
+    "net_amount_minor": 66015,
+    "currency": "INR",
+    "created_at": "2026-03-13T21:26:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1228",
+    "customer_reference": "TATA-BAT-930772-3",
+    "gross_amount_minor": 18620,
+    "net_amount_minor": 18248,
+    "currency": "INR",
+    "created_at": "2026-03-10T15:20:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1414",
+    "customer_reference": "FLIP-BAT-759094-3",
+    "gross_amount_minor": 30800,
+    "net_amount_minor": 30184,
+    "currency": "INR",
+    "created_at": "2026-03-15T09:42:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1130",
+    "customer_reference": "BLNK-INV-315615",
+    "gross_amount_minor": 62090,
+    "net_amount_minor": 62090,
+    "currency": "INR",
+    "created_at": "2026-03-04T14:50:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1358",
+    "customer_reference": "TATA-INV-603377",
+    "gross_amount_minor": 55890,
+    "net_amount_minor": 54773,
+    "currency": "INR",
+    "created_at": "2026-03-09T02:02:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1197",
+    "customer_reference": "SWIG-INV-969247",
+    "gross_amount_minor": 127780,
+    "net_amount_minor": 127780,
+    "currency": "INR",
+    "created_at": "2026-03-11T01:29:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1282",
+    "customer_reference": "BLNK-INV-307623",
+    "gross_amount_minor": 122560,
+    "net_amount_minor": 122560,
+    "currency": "INR",
+    "created_at": "2026-03-09T16:11:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1168",
+    "customer_reference": "FLIP-BAT-478081-1",
+    "gross_amount_minor": 100640,
+    "net_amount_minor": 98628,
+    "currency": "INR",
+    "created_at": "2026-03-09T05:08:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1296",
+    "customer_reference": "TATA-INV-761683",
+    "gross_amount_minor": 226890,
+    "net_amount_minor": 222353,
+    "currency": "INR",
+    "created_at": "2026-03-02T03:39:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1500",
+    "customer_reference": "ZOMA-INV-458945",
+    "gross_amount_minor": 11020,
+    "net_amount_minor": 11020,
+    "currency": "INR",
+    "created_at": "2026-03-11T18:48:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1240",
+    "customer_reference": "FLIP-BAT-455913-1",
+    "gross_amount_minor": 103480,
+    "net_amount_minor": 101411,
+    "currency": "INR",
+    "created_at": "2026-03-18T06:01:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1420",
+    "customer_reference": "AMZN-BAT-325883-2",
+    "gross_amount_minor": 123060,
+    "net_amount_minor": 120599,
+    "currency": "INR",
+    "created_at": "2026-03-10T12:44:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1141",
+    "customer_reference": "UBER-INV-285532",
+    "gross_amount_minor": 89900,
+    "net_amount_minor": 89900,
+    "currency": "INR",
+    "created_at": "2026-03-15T06:43:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1023",
+    "customer_reference": "BLNK-INV-334364",
+    "gross_amount_minor": 204340,
+    "net_amount_minor": 204340,
+    "currency": "INR",
+    "created_at": "2026-03-19T19:55:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1084",
+    "customer_reference": "AMZN-INV-791485",
+    "gross_amount_minor": 72360,
+    "net_amount_minor": 72360,
+    "currency": "INR",
+    "created_at": "2026-03-15T21:41:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1423",
+    "customer_reference": "TATA-BAT-640824-1",
+    "gross_amount_minor": 142420,
+    "net_amount_minor": 139572,
+    "currency": "INR",
+    "created_at": "2026-03-15T01:07:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1315",
+    "customer_reference": "BLNK-BAT-784533-3",
+    "gross_amount_minor": 106760,
+    "net_amount_minor": 104625,
+    "currency": "INR",
+    "created_at": "2026-03-22T01:47:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1349",
+    "customer_reference": "RELI-INV-590589",
+    "gross_amount_minor": 159300,
+    "net_amount_minor": 159300,
+    "currency": "INR",
+    "created_at": "2026-03-11T11:53:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1060",
+    "customer_reference": "ZOMA-BAT-969948-1",
+    "gross_amount_minor": 68110,
+    "net_amount_minor": 66748,
+    "currency": "INR",
+    "created_at": "2026-03-13T00:57:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1484",
+    "customer_reference": "NYKA-BAT-714537-1",
+    "gross_amount_minor": 140610,
+    "net_amount_minor": 137798,
+    "currency": "INR",
+    "created_at": "2026-03-14T02:36:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1466",
+    "customer_reference": "SWIG-BAT-363504-2",
+    "gross_amount_minor": 72220,
+    "net_amount_minor": 70776,
+    "currency": "INR",
+    "created_at": "2026-03-05T06:19:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1356",
+    "customer_reference": "FLIP-INV-446355",
+    "gross_amount_minor": 54310,
+    "net_amount_minor": 54310,
+    "currency": "INR",
+    "created_at": "2026-03-01T10:06:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1103",
+    "customer_reference": "UBER-INV-140476",
+    "gross_amount_minor": 47170,
+    "net_amount_minor": 46057,
+    "currency": "INR",
+    "created_at": "2026-03-17T21:46:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1430",
+    "customer_reference": "RELI-INV-901798",
+    "gross_amount_minor": 109470,
+    "net_amount_minor": 85388,
+    "currency": "INR",
+    "created_at": "2026-03-05T05:32:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1223",
+    "customer_reference": "FLIP-BAT-575351-3",
+    "gross_amount_minor": 88060,
+    "net_amount_minor": 86299,
+    "currency": "INR",
+    "created_at": "2026-03-03T13:57:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1029",
+    "customer_reference": "SWIG-INV-223475",
+    "gross_amount_minor": 24160,
+    "net_amount_minor": 24160,
+    "currency": "INR",
+    "created_at": "2026-03-17T09:41:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1396",
+    "customer_reference": "UBER-BAT-480020-4",
+    "gross_amount_minor": 31910,
+    "net_amount_minor": 31272,
+    "currency": "INR",
+    "created_at": "2026-03-06T19:42:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1099",
+    "customer_reference": "SWIG-BAT-371696-1",
+    "gross_amount_minor": 88070,
+    "net_amount_minor": 86309,
+    "currency": "INR",
+    "created_at": "2026-03-13T07:41:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1327",
+    "customer_reference": "NYKA-INV-693911",
+    "gross_amount_minor": 6000,
+    "net_amount_minor": 6000,
+    "currency": "INR",
+    "created_at": "2026-03-01T19:25:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1421",
+    "customer_reference": "AMZN-BAT-325883-3",
+    "gross_amount_minor": 108970,
+    "net_amount_minor": 106791,
+    "currency": "INR",
+    "created_at": "2026-03-10T14:48:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1460",
+    "customer_reference": "AMZN-DUP-337159",
+    "gross_amount_minor": 205470,
+    "net_amount_minor": 205470,
+    "currency": "INR",
+    "created_at": "2026-03-03T10:28:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1149",
+    "customer_reference": "UBER-BAT-627874-3",
+    "gross_amount_minor": 54270,
+    "net_amount_minor": 53185,
+    "currency": "INR",
+    "created_at": "2026-03-17T10:55:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1364",
+    "customer_reference": "ZOMA-DUP-828466",
+    "gross_amount_minor": 182680,
+    "net_amount_minor": 182680,
+    "currency": "INR",
+    "created_at": "2026-03-08T15:17:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1427",
+    "customer_reference": "MYNT-INV-271634",
+    "gross_amount_minor": 166570,
+    "net_amount_minor": 162639,
+    "currency": "INR",
+    "created_at": "2026-03-01T10:52:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1342",
+    "customer_reference": "TATA-ORPHAN-298375",
+    "gross_amount_minor": 162420,
+    "net_amount_minor": 162420,
+    "currency": "INR",
+    "created_at": "2026-03-20T14:23:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1347",
+    "customer_reference": "SWIG-BAT-717773-1",
+    "gross_amount_minor": 43170,
+    "net_amount_minor": 42307,
+    "currency": "INR",
+    "created_at": "2026-03-05T05:40:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1066",
+    "customer_reference": "UBER-BAT-596321-1",
+    "gross_amount_minor": 5470,
+    "net_amount_minor": 5361,
+    "currency": "INR",
+    "created_at": "2026-03-07T04:31:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1213",
+    "customer_reference": "AMBIG-243745",
+    "gross_amount_minor": 155840,
+    "net_amount_minor": 155840,
+    "currency": "INR",
+    "created_at": "2026-03-18T09:24:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1142",
+    "customer_reference": "UBER-INV-910229",
+    "gross_amount_minor": 120060,
+    "net_amount_minor": 117659,
+    "currency": "INR",
+    "created_at": "2026-03-04T21:04:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1107",
+    "customer_reference": "UBER-INV-662833",
+    "gross_amount_minor": 141850,
+    "net_amount_minor": 110644,
+    "currency": "INR",
+    "created_at": "2026-03-21T01:22:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1260",
+    "customer_reference": "NYKA-INV-324539",
+    "gross_amount_minor": 211950,
+    "net_amount_minor": 211950,
+    "currency": "INR",
+    "created_at": "2026-03-18T14:22:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1059",
+    "customer_reference": "RELI-INV-114163",
+    "gross_amount_minor": 56840,
+    "net_amount_minor": 55704,
+    "currency": "INR",
+    "created_at": "2026-03-06T19:51:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1443",
+    "customer_reference": "AMBIG-774066",
+    "gross_amount_minor": 244380,
+    "net_amount_minor": 244380,
+    "currency": "INR",
+    "created_at": "2026-03-08T21:21:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1492",
+    "customer_reference": "UBER-INV-562265",
+    "gross_amount_minor": 166070,
+    "net_amount_minor": 166070,
+    "currency": "INR",
+    "created_at": "2026-03-22T00:58:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1354",
+    "customer_reference": "RELI-INV-751676",
+    "gross_amount_minor": 177030,
+    "net_amount_minor": 172853,
+    "currency": "INR",
+    "created_at": "2026-03-09T03:20:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1241",
+    "customer_reference": "FLIP-BAT-455913-2",
+    "gross_amount_minor": 131280,
+    "net_amount_minor": 128655,
+    "currency": "INR",
+    "created_at": "2026-03-18T07:59:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1199",
+    "customer_reference": "MYNT-INV-613681",
+    "gross_amount_minor": 207510,
+    "net_amount_minor": 207510,
+    "currency": "INR",
+    "created_at": "2026-03-18T22:44:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1357",
+    "customer_reference": "UBER-INV-633032",
+    "gross_amount_minor": 8680,
+    "net_amount_minor": 8680,
+    "currency": "INR",
+    "created_at": "2026-03-04T09:27:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1324",
+    "customer_reference": "UBER-BAT-575028-3",
+    "gross_amount_minor": 71040,
+    "net_amount_minor": 69620,
+    "currency": "INR",
+    "created_at": "2026-03-09T16:30:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1471",
+    "customer_reference": "AMZN-ORPHAN-188838",
+    "gross_amount_minor": 205970,
+    "net_amount_minor": 205970,
+    "currency": "INR",
+    "created_at": "2026-03-18T21:27:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1384",
+    "customer_reference": "MYNT-ORPHAN-440035",
+    "gross_amount_minor": 75200,
+    "net_amount_minor": 75200,
+    "currency": "INR",
+    "created_at": "2026-03-13T21:26:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1469",
+    "customer_reference": "FLIP-ORPHAN-274787",
+    "gross_amount_minor": 180300,
+    "net_amount_minor": 180300,
+    "currency": "INR",
+    "created_at": "2026-03-14T00:24:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1209",
+    "customer_reference": "ZOMA-INV-522474",
+    "gross_amount_minor": 146030,
+    "net_amount_minor": 142584,
+    "currency": "INR",
+    "created_at": "2026-03-21T00:21:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1050",
+    "customer_reference": "BLNK-BAT-252152-4",
+    "gross_amount_minor": 14720,
+    "net_amount_minor": 14426,
+    "currency": "INR",
+    "created_at": "2026-03-10T08:48:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1431",
+    "customer_reference": "ZOMA-BAT-870987-1",
+    "gross_amount_minor": 115060,
+    "net_amount_minor": 112759,
+    "currency": "INR",
+    "created_at": "2026-03-18T01:57:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1216",
+    "customer_reference": "NYKA-INV-967837",
+    "gross_amount_minor": 246550,
+    "net_amount_minor": 241619,
+    "currency": "INR",
+    "created_at": "2026-03-09T18:50:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1150",
+    "customer_reference": "NYKA-INV-167234",
+    "gross_amount_minor": 78610,
+    "net_amount_minor": 76755,
+    "currency": "INR",
+    "created_at": "2026-03-12T08:46:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1415",
+    "customer_reference": "FLIP-BAT-759094-4",
+    "gross_amount_minor": 44800,
+    "net_amount_minor": 43904,
+    "currency": "INR",
+    "created_at": "2026-03-15T11:54:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1426",
+    "customer_reference": "TATA-BAT-640824-4",
+    "gross_amount_minor": 55960,
+    "net_amount_minor": 54841,
+    "currency": "INR",
+    "created_at": "2026-03-15T06:48:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1272",
+    "customer_reference": "ZOMA-BAT-131989-2",
+    "gross_amount_minor": 8830,
+    "net_amount_minor": 8654,
+    "currency": "INR",
+    "created_at": "2026-03-12T13:58:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1483",
+    "customer_reference": "NYKA-INV-870597",
+    "gross_amount_minor": 47690,
+    "net_amount_minor": 47690,
+    "currency": "INR",
+    "created_at": "2026-03-02T01:33:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1291",
+    "customer_reference": "NYKA-INV-108637",
+    "gross_amount_minor": 141010,
+    "net_amount_minor": 137683,
+    "currency": "INR",
+    "created_at": "2026-03-16T04:39:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1117",
+    "customer_reference": "SWIG-BAT-396814-2",
+    "gross_amount_minor": 26230,
+    "net_amount_minor": 25706,
+    "currency": "INR",
+    "created_at": "2026-03-04T01:26:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1259",
+    "customer_reference": "AMZN-INV-497237",
+    "gross_amount_minor": 165460,
+    "net_amount_minor": 162151,
+    "currency": "INR",
+    "created_at": "2026-03-19T06:29:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1014",
+    "customer_reference": "AMZN-BAT-211690-1",
+    "gross_amount_minor": 26010,
+    "net_amount_minor": 25490,
+    "currency": "INR",
+    "created_at": "2026-03-11T05:04:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1405",
+    "customer_reference": "SWIG-INV-654397",
+    "gross_amount_minor": 142020,
+    "net_amount_minor": 138669,
+    "currency": "INR",
+    "created_at": "2026-03-17T07:24:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1007",
+    "customer_reference": "UBER-INV-910618",
+    "gross_amount_minor": 58840,
+    "net_amount_minor": 57452,
+    "currency": "INR",
+    "created_at": "2026-03-12T10:58:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1100",
+    "customer_reference": "SWIG-BAT-371696-2",
+    "gross_amount_minor": 149090,
+    "net_amount_minor": 146109,
+    "currency": "INR",
+    "created_at": "2026-03-13T09:54:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1092",
+    "customer_reference": "TATA-INV-643542",
+    "gross_amount_minor": 209770,
+    "net_amount_minor": 204820,
+    "currency": "INR",
+    "created_at": "2026-03-08T14:57:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1317",
+    "customer_reference": "USD-REF-272243",
+    "gross_amount_minor": 2500,
+    "net_amount_minor": 2500,
+    "currency": "USD",
+    "created_at": "2026-03-11T20:46:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1032",
+    "customer_reference": "FLIP-INV-117032",
+    "gross_amount_minor": 175360,
+    "net_amount_minor": 175360,
+    "currency": "INR",
+    "created_at": "2026-03-15T06:33:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1221",
+    "customer_reference": "FLIP-BAT-575351-1",
+    "gross_amount_minor": 44780,
+    "net_amount_minor": 43885,
+    "currency": "INR",
+    "created_at": "2026-03-03T10:07:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1344",
+    "customer_reference": "NYKA-INV-443194",
+    "gross_amount_minor": 110740,
+    "net_amount_minor": 110740,
+    "currency": "INR",
+    "created_at": "2026-03-18T21:11:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1401",
+    "customer_reference": "UBER-INV-175618",
+    "gross_amount_minor": 166080,
+    "net_amount_minor": 166080,
+    "currency": "INR",
+    "created_at": "2026-03-05T21:47:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1180",
+    "customer_reference": "USD-REF-174309",
+    "gross_amount_minor": 2500,
+    "net_amount_minor": 2500,
+    "currency": "USD",
+    "created_at": "2026-03-07T13:21:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1372",
+    "customer_reference": "RELI-BAT-620687-2",
+    "gross_amount_minor": 140870,
+    "net_amount_minor": 138053,
+    "currency": "INR",
+    "created_at": "2026-03-18T08:32:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1318",
+    "customer_reference": "AMBIG-130780",
+    "gross_amount_minor": 71740,
+    "net_amount_minor": 71740,
+    "currency": "INR",
+    "created_at": "2026-03-04T23:26:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1286",
+    "customer_reference": "RELI-INV-585793",
+    "gross_amount_minor": 225260,
+    "net_amount_minor": 219944,
+    "currency": "INR",
+    "created_at": "2026-03-08T17:26:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1106",
+    "customer_reference": "SWIG-INV-761015",
+    "gross_amount_minor": 239210,
+    "net_amount_minor": 239210,
+    "currency": "INR",
+    "created_at": "2026-03-08T16:50:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1345",
+    "customer_reference": "FLIP-BAT-618265-1",
+    "gross_amount_minor": 9650,
+    "net_amount_minor": 9457,
+    "currency": "INR",
+    "created_at": "2026-03-09T11:19:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1089",
+    "customer_reference": "MYNT-INV-293690",
+    "gross_amount_minor": 30290,
+    "net_amount_minor": 30290,
+    "currency": "INR",
+    "created_at": "2026-03-07T19:05:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1428",
+    "customer_reference": "RELI-INV-353717",
+    "gross_amount_minor": 46010,
+    "net_amount_minor": 46010,
+    "currency": "INR",
+    "created_at": "2026-03-12T23:22:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1065",
+    "customer_reference": "SWIG-INV-881368",
+    "gross_amount_minor": 6830,
+    "net_amount_minor": 6830,
+    "currency": "INR",
+    "created_at": "2026-03-10T18:43:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1196",
+    "customer_reference": "MYNT-BAT-400715-4",
+    "gross_amount_minor": 99610,
+    "net_amount_minor": 97618,
+    "currency": "INR",
+    "created_at": "2026-03-18T02:16:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1274",
+    "customer_reference": "UBER-INV-844484",
+    "gross_amount_minor": 136480,
+    "net_amount_minor": 133260,
+    "currency": "INR",
+    "created_at": "2026-03-04T11:25:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1028",
+    "customer_reference": "AMZN-INV-512774",
+    "gross_amount_minor": 58630,
+    "net_amount_minor": 57458,
+    "currency": "INR",
+    "created_at": "2026-03-15T13:52:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1202",
+    "customer_reference": "UBER-INV-260511",
+    "gross_amount_minor": 87700,
+    "net_amount_minor": 68406,
+    "currency": "INR",
+    "created_at": "2026-03-04T12:17:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1005",
+    "customer_reference": "FLIP-INV-830125",
+    "gross_amount_minor": 248940,
+    "net_amount_minor": 248940,
+    "currency": "INR",
+    "created_at": "2026-03-20T23:57:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1288",
+    "customer_reference": "SWIG-INV-478252",
+    "gross_amount_minor": 112970,
+    "net_amount_minor": 110304,
+    "currency": "INR",
+    "created_at": "2026-03-02T18:05:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1034",
+    "customer_reference": "TATA-BAT-908984-2",
+    "gross_amount_minor": 3660,
+    "net_amount_minor": 3587,
+    "currency": "INR",
+    "created_at": "2026-03-11T04:20:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1175",
+    "customer_reference": "MYNT-DUP-167909",
+    "gross_amount_minor": 100290,
+    "net_amount_minor": 100290,
+    "currency": "INR",
+    "created_at": "2026-03-18T11:59:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1470",
+    "customer_reference": "ZOMA-INV-604338",
+    "gross_amount_minor": 71400,
+    "net_amount_minor": 71400,
+    "currency": "INR",
+    "created_at": "2026-03-06T06:33:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1436",
+    "customer_reference": "SWIG-BAT-517195-2",
+    "gross_amount_minor": 122250,
+    "net_amount_minor": 119805,
+    "currency": "INR",
+    "created_at": "2026-03-07T16:59:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1154",
+    "customer_reference": "BLNK-BAT-706105-4",
+    "gross_amount_minor": 59850,
+    "net_amount_minor": 58653,
+    "currency": "INR",
+    "created_at": "2026-03-17T14:39:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1268",
+    "customer_reference": "FLIP-INV-135798",
+    "gross_amount_minor": 5850,
+    "net_amount_minor": 5850,
+    "currency": "INR",
+    "created_at": "2026-03-12T14:25:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1409",
+    "customer_reference": "SWIG-INV-411768",
+    "gross_amount_minor": 165060,
+    "net_amount_minor": 165060,
+    "currency": "INR",
+    "created_at": "2026-03-21T08:37:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1464",
+    "customer_reference": "FLIP-BAT-556524-4",
+    "gross_amount_minor": 88500,
+    "net_amount_minor": 86730,
+    "currency": "INR",
+    "created_at": "2026-03-21T19:16:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1163",
+    "customer_reference": "SWIG-BAT-977929-1",
+    "gross_amount_minor": 141050,
+    "net_amount_minor": 138229,
+    "currency": "INR",
+    "created_at": "2026-03-09T17:30:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1137",
+    "customer_reference": "AMBIG-127569",
+    "gross_amount_minor": 217730,
+    "net_amount_minor": 217730,
+    "currency": "INR",
+    "created_at": "2026-03-19T04:35:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1489",
+    "customer_reference": "NYKA-INV-225309",
+    "gross_amount_minor": 125060,
+    "net_amount_minor": 122559,
+    "currency": "INR",
+    "created_at": "2026-03-16T03:30:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1457",
+    "customer_reference": "AMBIG-444379",
+    "gross_amount_minor": 152240,
+    "net_amount_minor": 152240,
+    "currency": "INR",
+    "created_at": "2026-03-10T06:56:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1485",
+    "customer_reference": "NYKA-BAT-714537-2",
+    "gross_amount_minor": 110920,
+    "net_amount_minor": 108702,
+    "currency": "INR",
+    "created_at": "2026-03-14T05:01:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1247",
+    "customer_reference": "BLNK-INV-824742",
+    "gross_amount_minor": 187330,
+    "net_amount_minor": 187330,
+    "currency": "INR",
+    "created_at": "2026-03-21T10:27:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1179",
+    "customer_reference": "UBER-BAT-406077-4",
+    "gross_amount_minor": 140060,
+    "net_amount_minor": 137259,
+    "currency": "INR",
+    "created_at": "2026-03-04T04:29:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1424",
+    "customer_reference": "TATA-BAT-640824-2",
+    "gross_amount_minor": 80880,
+    "net_amount_minor": 79263,
+    "currency": "INR",
+    "created_at": "2026-03-15T02:54:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1411",
+    "customer_reference": "NYKA-INV-937077",
+    "gross_amount_minor": 52960,
+    "net_amount_minor": 41309,
+    "currency": "INR",
+    "created_at": "2026-03-12T19:26:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1166",
+    "customer_reference": "RELI-INV-791149",
+    "gross_amount_minor": 185980,
+    "net_amount_minor": 181591,
+    "currency": "INR",
+    "created_at": "2026-03-05T18:11:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1359",
+    "customer_reference": "UBER-INV-768017",
+    "gross_amount_minor": 84050,
+    "net_amount_minor": 84050,
+    "currency": "INR",
+    "created_at": "2026-03-08T06:03:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1224",
+    "customer_reference": "FLIP-BAT-575351-4",
+    "gross_amount_minor": 138540,
+    "net_amount_minor": 135770,
+    "currency": "INR",
+    "created_at": "2026-03-03T15:53:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1445",
+    "customer_reference": "BLNK-BAT-529271-1",
+    "gross_amount_minor": 23510,
+    "net_amount_minor": 23040,
+    "currency": "INR",
+    "created_at": "2026-03-01T20:31:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1373",
+    "customer_reference": "AMZN-INV-846774",
+    "gross_amount_minor": 32170,
+    "net_amount_minor": 32170,
+    "currency": "INR",
+    "created_at": "2026-03-08T19:40:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1284",
+    "customer_reference": "BLNK-INV-152759",
+    "gross_amount_minor": 210530,
+    "net_amount_minor": 206320,
+    "currency": "INR",
+    "created_at": "2026-03-10T01:08:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1047",
+    "customer_reference": "BLNK-BAT-252152-1",
+    "gross_amount_minor": 8090,
+    "net_amount_minor": 7929,
+    "currency": "INR",
+    "created_at": "2026-03-10T03:11:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1346",
+    "customer_reference": "FLIP-BAT-618265-2",
+    "gross_amount_minor": 20460,
+    "net_amount_minor": 20051,
+    "currency": "INR",
+    "created_at": "2026-03-09T12:56:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1022",
+    "customer_reference": "NYKA-INV-634836",
+    "gross_amount_minor": 248250,
+    "net_amount_minor": 243285,
+    "currency": "INR",
+    "created_at": "2026-03-19T21:18:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1261",
+    "customer_reference": "TATA-DUP-668054",
+    "gross_amount_minor": 51140,
+    "net_amount_minor": 51140,
+    "currency": "INR",
+    "created_at": "2026-03-22T02:57:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1096",
+    "customer_reference": "AMZN-INV-623868",
+    "gross_amount_minor": 32820,
+    "net_amount_minor": 32164,
+    "currency": "INR",
+    "created_at": "2026-03-10T12:54:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1368",
+    "customer_reference": "UBER-INV-110492",
+    "gross_amount_minor": 46130,
+    "net_amount_minor": 46130,
+    "currency": "INR",
+    "created_at": "2026-03-14T19:46:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1075",
+    "customer_reference": "AMZN-BAT-237909-1",
+    "gross_amount_minor": 103420,
+    "net_amount_minor": 101352,
+    "currency": "INR",
+    "created_at": "2026-03-02T20:34:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1491",
+    "customer_reference": "MYNT-INV-652416",
+    "gross_amount_minor": 20040,
+    "net_amount_minor": 19568,
+    "currency": "INR",
+    "created_at": "2026-03-04T03:42:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1217",
+    "customer_reference": "FLIP-INV-779984",
+    "gross_amount_minor": 41860,
+    "net_amount_minor": 41023,
+    "currency": "INR",
+    "created_at": "2026-03-22T08:59:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1040",
+    "customer_reference": "UBER-INV-459980",
+    "gross_amount_minor": 249360,
+    "net_amount_minor": 249360,
+    "currency": "INR",
+    "created_at": "2026-03-12T18:57:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1319",
+    "customer_reference": "UBER-INV-460743",
+    "gross_amount_minor": 107910,
+    "net_amount_minor": 105364,
+    "currency": "INR",
+    "created_at": "2026-03-11T09:26:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1313",
+    "customer_reference": "BLNK-BAT-784533-1",
+    "gross_amount_minor": 103450,
+    "net_amount_minor": 101381,
+    "currency": "INR",
+    "created_at": "2026-03-21T22:02:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1305",
+    "customer_reference": "TATA-INV-255763",
+    "gross_amount_minor": 63300,
+    "net_amount_minor": 63300,
+    "currency": "INR",
+    "created_at": "2026-03-02T02:28:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1098",
+    "customer_reference": "FLIP-INV-663195",
+    "gross_amount_minor": 100100,
+    "net_amount_minor": 100100,
+    "currency": "INR",
+    "created_at": "2026-03-10T18:38:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1299",
+    "customer_reference": "ZOMA-INV-827880",
+    "gross_amount_minor": 221920,
+    "net_amount_minor": 216683,
+    "currency": "INR",
+    "created_at": "2026-03-07T11:05:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1300",
+    "customer_reference": "NYKA-INV-731044",
+    "gross_amount_minor": 174910,
+    "net_amount_minor": 174910,
+    "currency": "INR",
+    "created_at": "2026-03-19T06:29:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1074",
+    "customer_reference": "MYNT-INV-963367",
+    "gross_amount_minor": 49520,
+    "net_amount_minor": 49520,
+    "currency": "INR",
+    "created_at": "2026-03-01T09:57:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1276",
+    "customer_reference": "TATA-DUP-926185",
+    "gross_amount_minor": 50640,
+    "net_amount_minor": 50640,
+    "currency": "INR",
+    "created_at": "2026-03-18T20:40:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1447",
+    "customer_reference": "BLNK-BAT-529271-3",
+    "gross_amount_minor": 90160,
+    "net_amount_minor": 88357,
+    "currency": "INR",
+    "created_at": "2026-03-02T00:46:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1095",
+    "customer_reference": "UBER-INV-238598",
+    "gross_amount_minor": 20360,
+    "net_amount_minor": 19953,
+    "currency": "INR",
+    "created_at": "2026-03-02T17:42:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1160",
+    "customer_reference": "RELI-INV-923774",
+    "gross_amount_minor": 210090,
+    "net_amount_minor": 210090,
+    "currency": "INR",
+    "created_at": "2026-03-08T04:10:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1352",
+    "customer_reference": "AMZN-INV-277454",
+    "gross_amount_minor": 129270,
+    "net_amount_minor": 126220,
+    "currency": "INR",
+    "created_at": "2026-03-16T11:53:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1264",
+    "customer_reference": "BLNK-INV-577571",
+    "gross_amount_minor": 25110,
+    "net_amount_minor": 25110,
+    "currency": "INR",
+    "created_at": "2026-03-08T20:28:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1303",
+    "customer_reference": "AMZN-INV-231031",
+    "gross_amount_minor": 19100,
+    "net_amount_minor": 18650,
+    "currency": "INR",
+    "created_at": "2026-03-14T22:03:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1353",
+    "customer_reference": "NYKA-INV-368732",
+    "gross_amount_minor": 143210,
+    "net_amount_minor": 143210,
+    "currency": "INR",
+    "created_at": "2026-03-12T07:29:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1110",
+    "customer_reference": "ZOMA-BAT-117992-1",
+    "gross_amount_minor": 143700,
+    "net_amount_minor": 140826,
+    "currency": "INR",
+    "created_at": "2026-03-21T23:51:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1461",
+    "customer_reference": "FLIP-BAT-556524-1",
+    "gross_amount_minor": 80230,
+    "net_amount_minor": 78626,
+    "currency": "INR",
+    "created_at": "2026-03-21T13:07:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1083",
+    "customer_reference": "FLIP-INV-925728",
+    "gross_amount_minor": 162510,
+    "net_amount_minor": 162510,
+    "currency": "INR",
+    "created_at": "2026-03-19T18:20:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1490",
+    "customer_reference": "NYKA-INV-218675",
+    "gross_amount_minor": 13540,
+    "net_amount_minor": 13540,
+    "currency": "INR",
+    "created_at": "2026-03-18T16:17:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1193",
+    "customer_reference": "MYNT-BAT-400715-1",
+    "gross_amount_minor": 30710,
+    "net_amount_minor": 30096,
+    "currency": "INR",
+    "created_at": "2026-03-17T20:13:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1113",
+    "customer_reference": "TATA-BAT-448343-1",
+    "gross_amount_minor": 126390,
+    "net_amount_minor": 123863,
+    "currency": "INR",
+    "created_at": "2026-03-02T12:29:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1232",
+    "customer_reference": "BLNK-BAT-224429-1",
+    "gross_amount_minor": 141730,
+    "net_amount_minor": 138896,
+    "currency": "INR",
+    "created_at": "2026-03-17T11:13:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1419",
+    "customer_reference": "AMZN-BAT-325883-1",
+    "gross_amount_minor": 40380,
+    "net_amount_minor": 39573,
+    "currency": "INR",
+    "created_at": "2026-03-10T10:09:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1371",
+    "customer_reference": "RELI-BAT-620687-1",
+    "gross_amount_minor": 86780,
+    "net_amount_minor": 85045,
+    "currency": "INR",
+    "created_at": "2026-03-18T06:19:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1244",
+    "customer_reference": "RELI-INV-955058",
+    "gross_amount_minor": 87600,
+    "net_amount_minor": 87600,
+    "currency": "INR",
+    "created_at": "2026-03-16T18:41:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1290",
+    "customer_reference": "AMZN-INV-953955",
+    "gross_amount_minor": 212420,
+    "net_amount_minor": 212420,
+    "currency": "INR",
+    "created_at": "2026-03-22T07:08:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1474",
+    "customer_reference": "FLIP-INV-368672",
+    "gross_amount_minor": 196030,
+    "net_amount_minor": 192110,
+    "currency": "INR",
+    "created_at": "2026-03-03T12:34:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1331",
+    "customer_reference": "MYNT-INV-217515",
+    "gross_amount_minor": 245630,
+    "net_amount_minor": 239834,
+    "currency": "INR",
+    "created_at": "2026-03-06T09:48:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1434",
+    "customer_reference": "BLNK-INV-237119",
+    "gross_amount_minor": 84820,
+    "net_amount_minor": 84820,
+    "currency": "INR",
+    "created_at": "2026-03-03T16:45:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1258",
+    "customer_reference": "UBER-INV-154179",
+    "gross_amount_minor": 141590,
+    "net_amount_minor": 138759,
+    "currency": "INR",
+    "created_at": "2026-03-09T12:00:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1454",
+    "customer_reference": "UBER-BAT-595032-1",
+    "gross_amount_minor": 149240,
+    "net_amount_minor": 146256,
+    "currency": "INR",
+    "created_at": "2026-03-12T17:51:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1473",
+    "customer_reference": "MYNT-INV-753342",
+    "gross_amount_minor": 103450,
+    "net_amount_minor": 80692,
+    "currency": "INR",
+    "created_at": "2026-03-18T11:22:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1002",
+    "customer_reference": "BLNK-DUP-978252",
+    "gross_amount_minor": 66600,
+    "net_amount_minor": 66600,
+    "currency": "INR",
+    "created_at": "2026-03-21T12:41:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1153",
+    "customer_reference": "BLNK-BAT-706105-3",
+    "gross_amount_minor": 139290,
+    "net_amount_minor": 136505,
+    "currency": "INR",
+    "created_at": "2026-03-17T12:22:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1159",
+    "customer_reference": "RELI-BAT-187520-3",
+    "gross_amount_minor": 75580,
+    "net_amount_minor": 74069,
+    "currency": "INR",
+    "created_at": "2026-03-21T10:04:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1122",
+    "customer_reference": "BLNK-INV-490438",
+    "gross_amount_minor": 125250,
+    "net_amount_minor": 125250,
+    "currency": "INR",
+    "created_at": "2026-03-04T18:44:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1112",
+    "customer_reference": "TATA-INV-499943",
+    "gross_amount_minor": 59600,
+    "net_amount_minor": 59600,
+    "currency": "INR",
+    "created_at": "2026-03-01T17:05:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1035",
+    "customer_reference": "NYKA-INV-309850",
+    "gross_amount_minor": 216800,
+    "net_amount_minor": 211684,
+    "currency": "INR",
+    "created_at": "2026-03-11T18:30:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1124",
+    "customer_reference": "NYKA-INV-149849",
+    "gross_amount_minor": 69970,
+    "net_amount_minor": 69970,
+    "currency": "INR",
+    "created_at": "2026-03-16T07:08:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1389",
+    "customer_reference": "RELI-BAT-247177-1",
+    "gross_amount_minor": 57050,
+    "net_amount_minor": 55909,
+    "currency": "INR",
+    "created_at": "2026-03-03T02:33:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1391",
+    "customer_reference": "RELI-BAT-247177-3",
+    "gross_amount_minor": 5830,
+    "net_amount_minor": 5714,
+    "currency": "INR",
+    "created_at": "2026-03-03T06:45:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1388",
+    "customer_reference": "ZOMA-INV-367239",
+    "gross_amount_minor": 95280,
+    "net_amount_minor": 95280,
+    "currency": "INR",
+    "created_at": "2026-03-11T16:51:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1263",
+    "customer_reference": "AMZN-BAT-103439-2",
+    "gross_amount_minor": 145500,
+    "net_amount_minor": 142590,
+    "currency": "INR",
+    "created_at": "2026-03-07T23:12:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1242",
+    "customer_reference": "RELI-ORPHAN-391911",
+    "gross_amount_minor": 245930,
+    "net_amount_minor": 245930,
+    "currency": "INR",
+    "created_at": "2026-03-05T19:25:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1001",
+    "customer_reference": "FLIP-INV-606866",
+    "gross_amount_minor": 48270,
+    "net_amount_minor": 48270,
+    "currency": "INR",
+    "created_at": "2026-03-20T02:31:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1440",
+    "customer_reference": "BLNK-INV-718190",
+    "gross_amount_minor": 247950,
+    "net_amount_minor": 242991,
+    "currency": "INR",
+    "created_at": "2026-03-06T11:06:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1475",
+    "customer_reference": "AMZN-INV-294193",
+    "gross_amount_minor": 109970,
+    "net_amount_minor": 107375,
+    "currency": "INR",
+    "created_at": "2026-03-04T11:27:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1350",
+    "customer_reference": "SWIG-INV-127026",
+    "gross_amount_minor": 223750,
+    "net_amount_minor": 223750,
+    "currency": "INR",
+    "created_at": "2026-03-13T12:35:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1462",
+    "customer_reference": "FLIP-BAT-556524-2",
+    "gross_amount_minor": 85330,
+    "net_amount_minor": 83624,
+    "currency": "INR",
+    "created_at": "2026-03-21T15:15:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1302",
+    "customer_reference": "BLNK-DUP-744275",
+    "gross_amount_minor": 47180,
+    "net_amount_minor": 47180,
+    "currency": "INR",
+    "created_at": "2026-03-15T04:37:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1198",
+    "customer_reference": "RELI-INV-800675",
+    "gross_amount_minor": 142410,
+    "net_amount_minor": 142410,
+    "currency": "INR",
+    "created_at": "2026-03-08T01:06:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1361",
+    "customer_reference": "RELI-INV-705309",
+    "gross_amount_minor": 130120,
+    "net_amount_minor": 127518,
+    "currency": "INR",
+    "created_at": "2026-03-01T11:46:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1416",
+    "customer_reference": "FLIP-INV-440571",
+    "gross_amount_minor": 85720,
+    "net_amount_minor": 84006,
+    "currency": "INR",
+    "created_at": "2026-03-07T15:02:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1408",
+    "customer_reference": "SWIG-INV-321107",
+    "gross_amount_minor": 62660,
+    "net_amount_minor": 62660,
+    "currency": "INR",
+    "created_at": "2026-03-19T11:38:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1140",
+    "customer_reference": "RELI-INV-181092",
+    "gross_amount_minor": 152400,
+    "net_amount_minor": 152400,
+    "currency": "INR",
+    "created_at": "2026-03-04T03:05:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1058",
+    "customer_reference": "TATA-INV-596086",
+    "gross_amount_minor": 104470,
+    "net_amount_minor": 104470,
+    "currency": "INR",
+    "created_at": "2026-03-09T14:36:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1043",
+    "customer_reference": "BLNK-BAT-180027-3",
+    "gross_amount_minor": 53500,
+    "net_amount_minor": 52430,
+    "currency": "INR",
+    "created_at": "2026-03-21T01:42:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1156",
+    "customer_reference": "TATA-INV-388808",
+    "gross_amount_minor": 173390,
+    "net_amount_minor": 173390,
+    "currency": "INR",
+    "created_at": "2026-03-20T15:29:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1332",
+    "customer_reference": "TATA-INV-826793",
+    "gross_amount_minor": 200720,
+    "net_amount_minor": 195984,
+    "currency": "INR",
+    "created_at": "2026-03-09T22:04:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1275",
+    "customer_reference": "AMBIG-996834",
+    "gross_amount_minor": 210330,
+    "net_amount_minor": 210330,
+    "currency": "INR",
+    "created_at": "2026-03-13T02:34:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1061",
+    "customer_reference": "ZOMA-BAT-969948-2",
+    "gross_amount_minor": 127410,
+    "net_amount_minor": 124862,
+    "currency": "INR",
+    "created_at": "2026-03-13T02:38:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1374",
+    "customer_reference": "TATA-INV-454158",
+    "gross_amount_minor": 96050,
+    "net_amount_minor": 94129,
+    "currency": "INR",
+    "created_at": "2026-03-16T00:39:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1077",
+    "customer_reference": "TATA-BAT-901581-1",
+    "gross_amount_minor": 20770,
+    "net_amount_minor": 20355,
+    "currency": "INR",
+    "created_at": "2026-03-05T05:46:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1311",
+    "customer_reference": "NYKA-BAT-793488-2",
+    "gross_amount_minor": 141780,
+    "net_amount_minor": 138945,
+    "currency": "INR",
+    "created_at": "2026-03-21T19:57:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1220",
+    "customer_reference": "MYNT-INV-329526",
+    "gross_amount_minor": 112890,
+    "net_amount_minor": 112890,
+    "currency": "INR",
+    "created_at": "2026-03-08T03:49:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1051",
+    "customer_reference": "SWIG-BAT-582832-1",
+    "gross_amount_minor": 45030,
+    "net_amount_minor": 44130,
+    "currency": "INR",
+    "created_at": "2026-03-07T07:21:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1037",
+    "customer_reference": "TATA-ORPHAN-193451",
+    "gross_amount_minor": 20690,
+    "net_amount_minor": 20690,
+    "currency": "INR",
+    "created_at": "2026-03-03T21:15:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1330",
+    "customer_reference": "TATA-BAT-917341-3",
+    "gross_amount_minor": 31060,
+    "net_amount_minor": 30439,
+    "currency": "INR",
+    "created_at": "2026-03-20T12:34:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1006",
+    "customer_reference": "TATA-INV-354743",
+    "gross_amount_minor": 41490,
+    "net_amount_minor": 40511,
+    "currency": "INR",
+    "created_at": "2026-03-02T08:03:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1118",
+    "customer_reference": "SWIG-BAT-396814-3",
+    "gross_amount_minor": 53910,
+    "net_amount_minor": 52832,
+    "currency": "INR",
+    "created_at": "2026-03-04T03:32:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1015",
+    "customer_reference": "AMZN-BAT-211690-2",
+    "gross_amount_minor": 98110,
+    "net_amount_minor": 96148,
+    "currency": "INR",
+    "created_at": "2026-03-11T06:50:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1402",
+    "customer_reference": "MYNT-INV-694532",
+    "gross_amount_minor": 141460,
+    "net_amount_minor": 138122,
+    "currency": "INR",
+    "created_at": "2026-03-19T20:54:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1422",
+    "customer_reference": "NYKA-INV-727574",
+    "gross_amount_minor": 167870,
+    "net_amount_minor": 163909,
+    "currency": "INR",
+    "created_at": "2026-03-17T19:58:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1238",
+    "customer_reference": "RELI-BAT-341063-2",
+    "gross_amount_minor": 66320,
+    "net_amount_minor": 64994,
+    "currency": "INR",
+    "created_at": "2026-03-08T01:22:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1152",
+    "customer_reference": "BLNK-BAT-706105-2",
+    "gross_amount_minor": 112890,
+    "net_amount_minor": 110633,
+    "currency": "INR",
+    "created_at": "2026-03-17T10:17:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1081",
+    "customer_reference": "AMZN-BAT-108113-2",
+    "gross_amount_minor": 113320,
+    "net_amount_minor": 111054,
+    "currency": "INR",
+    "created_at": "2026-03-09T09:07:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1205",
+    "customer_reference": "NYKA-INV-175347",
+    "gross_amount_minor": 89600,
+    "net_amount_minor": 89600,
+    "currency": "INR",
+    "created_at": "2026-03-03T21:13:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1413",
+    "customer_reference": "FLIP-BAT-759094-2",
+    "gross_amount_minor": 108410,
+    "net_amount_minor": 106242,
+    "currency": "INR",
+    "created_at": "2026-03-15T07:30:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1148",
+    "customer_reference": "UBER-BAT-627874-2",
+    "gross_amount_minor": 90600,
+    "net_amount_minor": 88788,
+    "currency": "INR",
+    "created_at": "2026-03-17T08:47:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1399",
+    "customer_reference": "TATA-BAT-684756-2",
+    "gross_amount_minor": 118650,
+    "net_amount_minor": 116277,
+    "currency": "INR",
+    "created_at": "2026-03-05T14:53:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1048",
+    "customer_reference": "BLNK-BAT-252152-2",
+    "gross_amount_minor": 143200,
+    "net_amount_minor": 140336,
+    "currency": "INR",
+    "created_at": "2026-03-10T04:37:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1404",
+    "customer_reference": "NYKA-INV-278925",
+    "gross_amount_minor": 57490,
+    "net_amount_minor": 44844,
+    "currency": "INR",
+    "created_at": "2026-03-02T16:39:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1116",
+    "customer_reference": "SWIG-BAT-396814-1",
+    "gross_amount_minor": 71880,
+    "net_amount_minor": 70443,
+    "currency": "INR",
+    "created_at": "2026-03-04T00:03:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1185",
+    "customer_reference": "BLNK-BAT-636155-3",
+    "gross_amount_minor": 74260,
+    "net_amount_minor": 72775,
+    "currency": "INR",
+    "created_at": "2026-03-08T21:20:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1294",
+    "customer_reference": "ZOMA-INV-236800",
+    "gross_amount_minor": 155980,
+    "net_amount_minor": 155980,
+    "currency": "INR",
+    "created_at": "2026-03-03T16:22:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1298",
+    "customer_reference": "UBER-INV-617807",
+    "gross_amount_minor": 136690,
+    "net_amount_minor": 136690,
+    "currency": "INR",
+    "created_at": "2026-03-04T03:55:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1271",
+    "customer_reference": "ZOMA-BAT-131989-1",
+    "gross_amount_minor": 105070,
+    "net_amount_minor": 102969,
+    "currency": "INR",
+    "created_at": "2026-03-12T11:47:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1172",
+    "customer_reference": "TATA-INV-127562",
+    "gross_amount_minor": 106310,
+    "net_amount_minor": 106310,
+    "currency": "INR",
+    "created_at": "2026-03-09T19:51:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1308",
+    "customer_reference": "UBER-INV-485835",
+    "gross_amount_minor": 225180,
+    "net_amount_minor": 225180,
+    "currency": "INR",
+    "created_at": "2026-03-09T15:34:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1204",
+    "customer_reference": "AMBIG-342059",
+    "gross_amount_minor": 210320,
+    "net_amount_minor": 210320,
+    "currency": "INR",
+    "created_at": "2026-03-14T10:37:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1012",
+    "customer_reference": "NYKA-INV-982022",
+    "gross_amount_minor": 38070,
+    "net_amount_minor": 38070,
+    "currency": "INR",
+    "created_at": "2026-03-02T10:29:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1031",
+    "customer_reference": "UBER-INV-243772",
+    "gross_amount_minor": 222150,
+    "net_amount_minor": 216908,
+    "currency": "INR",
+    "created_at": "2026-03-16T00:58:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1329",
+    "customer_reference": "TATA-BAT-917341-2",
+    "gross_amount_minor": 42980,
+    "net_amount_minor": 42121,
+    "currency": "INR",
+    "created_at": "2026-03-20T10:26:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1026",
+    "customer_reference": "FLIP-INV-813046",
+    "gross_amount_minor": 130470,
+    "net_amount_minor": 101768,
+    "currency": "INR",
+    "created_at": "2026-03-06T08:39:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1393",
+    "customer_reference": "UBER-BAT-480020-1",
+    "gross_amount_minor": 3900,
+    "net_amount_minor": 3822,
+    "currency": "INR",
+    "created_at": "2026-03-06T13:26:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1316",
+    "customer_reference": "FLIP-INV-742526",
+    "gross_amount_minor": 233410,
+    "net_amount_minor": 233410,
+    "currency": "INR",
+    "created_at": "2026-03-01T20:58:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1132",
+    "customer_reference": "UBER-BAT-874259-2",
+    "gross_amount_minor": 29080,
+    "net_amount_minor": 28499,
+    "currency": "INR",
+    "created_at": "2026-03-06T04:48:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1323",
+    "customer_reference": "UBER-BAT-575028-2",
+    "gross_amount_minor": 90200,
+    "net_amount_minor": 88396,
+    "currency": "INR",
+    "created_at": "2026-03-09T14:14:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1482",
+    "customer_reference": "MYNT-INV-222932",
+    "gross_amount_minor": 238310,
+    "net_amount_minor": 238310,
+    "currency": "INR",
+    "created_at": "2026-03-05T04:04:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1446",
+    "customer_reference": "BLNK-BAT-529271-2",
+    "gross_amount_minor": 127610,
+    "net_amount_minor": 125058,
+    "currency": "INR",
+    "created_at": "2026-03-01T22:22:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1394",
+    "customer_reference": "UBER-BAT-480020-2",
+    "gross_amount_minor": 5120,
+    "net_amount_minor": 5018,
+    "currency": "INR",
+    "created_at": "2026-03-06T15:40:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1333",
+    "customer_reference": "UBER-INV-632092",
+    "gross_amount_minor": 200380,
+    "net_amount_minor": 200380,
+    "currency": "INR",
+    "created_at": "2026-03-20T11:17:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1439",
+    "customer_reference": "RELI-INV-128022",
+    "gross_amount_minor": 148620,
+    "net_amount_minor": 115924,
+    "currency": "INR",
+    "created_at": "2026-03-13T12:03:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1297",
+    "customer_reference": "MYNT-INV-813259",
+    "gross_amount_minor": 98150,
+    "net_amount_minor": 98150,
+    "currency": "INR",
+    "created_at": "2026-03-16T21:04:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1433",
+    "customer_reference": "ZOMA-BAT-870987-3",
+    "gross_amount_minor": 40950,
+    "net_amount_minor": 40131,
+    "currency": "INR",
+    "created_at": "2026-03-18T06:14:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1033",
+    "customer_reference": "TATA-BAT-908984-1",
+    "gross_amount_minor": 93850,
+    "net_amount_minor": 91973,
+    "currency": "INR",
+    "created_at": "2026-03-11T02:05:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1016",
+    "customer_reference": "AMZN-BAT-211690-3",
+    "gross_amount_minor": 130720,
+    "net_amount_minor": 128106,
+    "currency": "INR",
+    "created_at": "2026-03-11T09:11:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1450",
+    "customer_reference": "TATA-INV-206817",
+    "gross_amount_minor": 124590,
+    "net_amount_minor": 124590,
+    "currency": "INR",
+    "created_at": "2026-03-10T12:10:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1044",
+    "customer_reference": "ZOMA-INV-734616",
+    "gross_amount_minor": 204030,
+    "net_amount_minor": 199950,
+    "currency": "INR",
+    "created_at": "2026-03-04T01:47:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1177",
+    "customer_reference": "UBER-BAT-406077-2",
+    "gross_amount_minor": 26800,
+    "net_amount_minor": 26264,
+    "currency": "INR",
+    "created_at": "2026-03-04T00:33:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1212",
+    "customer_reference": "MYNT-INV-152384",
+    "gross_amount_minor": 152020,
+    "net_amount_minor": 152020,
+    "currency": "INR",
+    "created_at": "2026-03-15T04:43:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1481",
+    "customer_reference": "TATA-INV-598967",
+    "gross_amount_minor": 208040,
+    "net_amount_minor": 203880,
+    "currency": "INR",
+    "created_at": "2026-03-09T02:40:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1370",
+    "customer_reference": "TATA-INV-120935",
+    "gross_amount_minor": 9500,
+    "net_amount_minor": 9500,
+    "currency": "INR",
+    "created_at": "2026-03-16T11:19:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1437",
+    "customer_reference": "TATA-INV-625820",
+    "gross_amount_minor": 31770,
+    "net_amount_minor": 31021,
+    "currency": "INR",
+    "created_at": "2026-03-11T21:49:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1456",
+    "customer_reference": "NYKA-INV-748762",
+    "gross_amount_minor": 15980,
+    "net_amount_minor": 15980,
+    "currency": "INR",
+    "created_at": "2026-03-03T08:19:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1025",
+    "customer_reference": "AMZN-INV-515109",
+    "gross_amount_minor": 196800,
+    "net_amount_minor": 192156,
+    "currency": "INR",
+    "created_at": "2026-03-14T14:03:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1326",
+    "customer_reference": "SWIG-INV-912308",
+    "gross_amount_minor": 64230,
+    "net_amount_minor": 62946,
+    "currency": "INR",
+    "created_at": "2026-03-12T14:22:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1054",
+    "customer_reference": "FLIP-BAT-772354-2",
+    "gross_amount_minor": 26560,
+    "net_amount_minor": 26029,
+    "currency": "INR",
+    "created_at": "2026-03-14T22:55:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1169",
+    "customer_reference": "FLIP-BAT-478081-2",
+    "gross_amount_minor": 29410,
+    "net_amount_minor": 28822,
+    "currency": "INR",
+    "created_at": "2026-03-09T07:01:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1020",
+    "customer_reference": "UBER-INV-452665",
+    "gross_amount_minor": 140100,
+    "net_amount_minor": 136794,
+    "currency": "INR",
+    "created_at": "2026-03-20T08:06:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1381",
+    "customer_reference": "ZOMA-INV-643846",
+    "gross_amount_minor": 95880,
+    "net_amount_minor": 95880,
+    "currency": "INR",
+    "created_at": "2026-03-12T14:02:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1235",
+    "customer_reference": "BLNK-INV-228087",
+    "gross_amount_minor": 171640,
+    "net_amount_minor": 171640,
+    "currency": "INR",
+    "created_at": "2026-03-08T03:35:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1392",
+    "customer_reference": "RELI-BAT-247177-4",
+    "gross_amount_minor": 87570,
+    "net_amount_minor": 85819,
+    "currency": "INR",
+    "created_at": "2026-03-03T08:59:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1174",
+    "customer_reference": "MYNT-INV-959704",
+    "gross_amount_minor": 62990,
+    "net_amount_minor": 61731,
+    "currency": "INR",
+    "created_at": "2026-03-22T06:25:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1138",
+    "customer_reference": "MYNT-INV-991810",
+    "gross_amount_minor": 6320,
+    "net_amount_minor": 6320,
+    "currency": "INR",
+    "created_at": "2026-03-16T20:01:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1049",
+    "customer_reference": "BLNK-BAT-252152-3",
+    "gross_amount_minor": 118970,
+    "net_amount_minor": 116591,
+    "currency": "INR",
+    "created_at": "2026-03-10T07:09:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1338",
+    "customer_reference": "ZOMA-INV-748305",
+    "gross_amount_minor": 80800,
+    "net_amount_minor": 80800,
+    "currency": "INR",
+    "created_at": "2026-03-11T05:00:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1208",
+    "customer_reference": "UBER-INV-281266",
+    "gross_amount_minor": 21080,
+    "net_amount_minor": 21080,
+    "currency": "INR",
+    "created_at": "2026-03-16T01:42:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1167",
+    "customer_reference": "NYKA-INV-837322",
+    "gross_amount_minor": 19700,
+    "net_amount_minor": 19700,
+    "currency": "INR",
+    "created_at": "2026-03-12T04:26:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1412",
+    "customer_reference": "FLIP-BAT-759094-1",
+    "gross_amount_minor": 19520,
+    "net_amount_minor": 19130,
+    "currency": "INR",
+    "created_at": "2026-03-15T05:48:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1320",
+    "customer_reference": "RELI-INV-794394",
+    "gross_amount_minor": 81620,
+    "net_amount_minor": 81620,
+    "currency": "INR",
+    "created_at": "2026-03-12T18:42:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1143",
+    "customer_reference": "SWIG-INV-594787",
+    "gross_amount_minor": 243220,
+    "net_amount_minor": 189712,
+    "currency": "INR",
+    "created_at": "2026-03-14T11:51:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1018",
+    "customer_reference": "SWIG-INV-395667",
+    "gross_amount_minor": 120980,
+    "net_amount_minor": 120980,
+    "currency": "INR",
+    "created_at": "2026-03-02T15:28:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1171",
+    "customer_reference": "MYNT-BAT-502655-2",
+    "gross_amount_minor": 29710,
+    "net_amount_minor": 29116,
+    "currency": "INR",
+    "created_at": "2026-03-09T19:06:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1027",
+    "customer_reference": "NYKA-DUP-873476",
+    "gross_amount_minor": 45540,
+    "net_amount_minor": 45540,
+    "currency": "INR",
+    "created_at": "2026-03-09T10:13:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1151",
+    "customer_reference": "BLNK-BAT-706105-1",
+    "gross_amount_minor": 9120,
+    "net_amount_minor": 8938,
+    "currency": "INR",
+    "created_at": "2026-03-17T08:27:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1072",
+    "customer_reference": "TATA-INV-524593",
+    "gross_amount_minor": 71670,
+    "net_amount_minor": 71670,
+    "currency": "INR",
+    "created_at": "2026-03-17T18:17:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1042",
+    "customer_reference": "BLNK-BAT-180027-2",
+    "gross_amount_minor": 118760,
+    "net_amount_minor": 116385,
+    "currency": "INR",
+    "created_at": "2026-03-20T23:50:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1090",
+    "customer_reference": "AMBIG-441654",
+    "gross_amount_minor": 237690,
+    "net_amount_minor": 237690,
+    "currency": "INR",
+    "created_at": "2026-03-05T13:44:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1064",
+    "customer_reference": "FLIP-INV-694469",
+    "gross_amount_minor": 210490,
+    "net_amount_minor": 206281,
+    "currency": "INR",
+    "created_at": "2026-03-06T12:01:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1369",
+    "customer_reference": "AMZN-INV-400252",
+    "gross_amount_minor": 120630,
+    "net_amount_minor": 120630,
+    "currency": "INR",
+    "created_at": "2026-03-01T23:26:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1229",
+    "customer_reference": "TATA-BAT-930772-4",
+    "gross_amount_minor": 65550,
+    "net_amount_minor": 64239,
+    "currency": "INR",
+    "created_at": "2026-03-10T17:26:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1467",
+    "customer_reference": "AMZN-BAT-838722-1",
+    "gross_amount_minor": 67970,
+    "net_amount_minor": 66611,
+    "currency": "INR",
+    "created_at": "2026-03-19T12:27:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1306",
+    "customer_reference": "BLNK-INV-713623",
+    "gross_amount_minor": 152830,
+    "net_amount_minor": 149224,
+    "currency": "INR",
+    "created_at": "2026-03-03T10:55:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1410",
+    "customer_reference": "UBER-INV-977252",
+    "gross_amount_minor": 212740,
+    "net_amount_minor": 208486,
+    "currency": "INR",
+    "created_at": "2026-03-10T08:36:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1030",
+    "customer_reference": "RELI-INV-186322",
+    "gross_amount_minor": 82210,
+    "net_amount_minor": 82210,
+    "currency": "INR",
+    "created_at": "2026-03-15T00:50:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1390",
+    "customer_reference": "RELI-BAT-247177-2",
+    "gross_amount_minor": 9500,
+    "net_amount_minor": 9310,
+    "currency": "INR",
+    "created_at": "2026-03-03T04:50:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1231",
+    "customer_reference": "AMZN-INV-949889",
+    "gross_amount_minor": 118050,
+    "net_amount_minor": 115265,
+    "currency": "INR",
+    "created_at": "2026-03-11T20:06:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1277",
+    "customer_reference": "TATA-BAT-928619-1",
+    "gross_amount_minor": 65080,
+    "net_amount_minor": 63779,
+    "currency": "INR",
+    "created_at": "2026-03-06T06:39:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1495",
+    "customer_reference": "SWIG-ORPHAN-641825",
+    "gross_amount_minor": 59050,
+    "net_amount_minor": 59050,
+    "currency": "INR",
+    "created_at": "2026-03-21T08:13:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1045",
+    "customer_reference": "NYKA-INV-209420",
+    "gross_amount_minor": 111130,
+    "net_amount_minor": 111130,
+    "currency": "INR",
+    "created_at": "2026-03-16T15:32:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1173",
+    "customer_reference": "AMZN-INV-589900",
+    "gross_amount_minor": 146030,
+    "net_amount_minor": 143110,
+    "currency": "INR",
+    "created_at": "2026-03-12T05:41:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1102",
+    "customer_reference": "SWIG-BAT-371696-4",
+    "gross_amount_minor": 15010,
+    "net_amount_minor": 14710,
+    "currency": "INR",
+    "created_at": "2026-03-13T13:33:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1073",
+    "customer_reference": "SWIG-INV-517420",
+    "gross_amount_minor": 197580,
+    "net_amount_minor": 197580,
+    "currency": "INR",
+    "created_at": "2026-03-14T03:22:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1192",
+    "customer_reference": "RELI-INV-309764",
+    "gross_amount_minor": 142040,
+    "net_amount_minor": 142040,
+    "currency": "INR",
+    "created_at": "2026-03-03T00:01:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1301",
+    "customer_reference": "TATA-INV-669919",
+    "gross_amount_minor": 7190,
+    "net_amount_minor": 7190,
+    "currency": "INR",
+    "created_at": "2026-03-16T06:32:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1265",
+    "customer_reference": "ZOMA-BAT-854214-1",
+    "gross_amount_minor": 70900,
+    "net_amount_minor": 69482,
+    "currency": "INR",
+    "created_at": "2026-03-19T12:58:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1239",
+    "customer_reference": "BLNK-INV-561419",
+    "gross_amount_minor": 117480,
+    "net_amount_minor": 117480,
+    "currency": "INR",
+    "created_at": "2026-03-05T15:16:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1165",
+    "customer_reference": "SWIG-BAT-977929-3",
+    "gross_amount_minor": 101540,
+    "net_amount_minor": 99510,
+    "currency": "INR",
+    "created_at": "2026-03-09T21:13:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1057",
+    "customer_reference": "RELI-INV-802851",
+    "gross_amount_minor": 96070,
+    "net_amount_minor": 96070,
+    "currency": "INR",
+    "created_at": "2026-03-05T10:02:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1237",
+    "customer_reference": "RELI-BAT-341063-1",
+    "gross_amount_minor": 108720,
+    "net_amount_minor": 106546,
+    "currency": "INR",
+    "created_at": "2026-03-07T23:06:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1079",
+    "customer_reference": "TATA-BAT-901581-3",
+    "gross_amount_minor": 14590,
+    "net_amount_minor": 14299,
+    "currency": "INR",
+    "created_at": "2026-03-05T09:50:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1287",
+    "customer_reference": "TATA-INV-675133",
+    "gross_amount_minor": 18740,
+    "net_amount_minor": 14618,
+    "currency": "INR",
+    "created_at": "2026-03-03T21:14:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1157",
+    "customer_reference": "RELI-BAT-187520-1",
+    "gross_amount_minor": 144830,
+    "net_amount_minor": 141934,
+    "currency": "INR",
+    "created_at": "2026-03-21T06:22:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1105",
+    "customer_reference": "MYNT-INV-681606",
+    "gross_amount_minor": 176260,
+    "net_amount_minor": 176260,
+    "currency": "INR",
+    "created_at": "2026-03-06T01:00:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1380",
+    "customer_reference": "RELI-INV-469131",
+    "gross_amount_minor": 53210,
+    "net_amount_minor": 51955,
+    "currency": "INR",
+    "created_at": "2026-03-05T23:15:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1091",
+    "customer_reference": "RELI-INV-738613",
+    "gross_amount_minor": 41080,
+    "net_amount_minor": 40111,
+    "currency": "INR",
+    "created_at": "2026-03-02T02:29:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1128",
+    "customer_reference": "RELI-INV-559143",
+    "gross_amount_minor": 55500,
+    "net_amount_minor": 54390,
+    "currency": "INR",
+    "created_at": "2026-03-13T07:00:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1139",
+    "customer_reference": "MYNT-INV-841970",
+    "gross_amount_minor": 183500,
+    "net_amount_minor": 183500,
+    "currency": "INR",
+    "created_at": "2026-03-07T02:57:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1129",
+    "customer_reference": "TATA-INV-167138",
+    "gross_amount_minor": 210620,
+    "net_amount_minor": 210620,
+    "currency": "INR",
+    "created_at": "2026-03-10T05:51:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1187",
+    "customer_reference": "UBER-INV-884827",
+    "gross_amount_minor": 39140,
+    "net_amount_minor": 39140,
+    "currency": "INR",
+    "created_at": "2026-03-12T05:16:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1188",
+    "customer_reference": "ZOMA-INV-873912",
+    "gross_amount_minor": 152630,
+    "net_amount_minor": 149028,
+    "currency": "INR",
+    "created_at": "2026-03-22T05:39:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1164",
+    "customer_reference": "SWIG-BAT-977929-2",
+    "gross_amount_minor": 120830,
+    "net_amount_minor": 118414,
+    "currency": "INR",
+    "created_at": "2026-03-09T19:13:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1314",
+    "customer_reference": "BLNK-BAT-784533-2",
+    "gross_amount_minor": 31070,
+    "net_amount_minor": 30449,
+    "currency": "INR",
+    "created_at": "2026-03-22T00:05:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1071",
+    "customer_reference": "SWIG-INV-359744",
+    "gross_amount_minor": 113450,
+    "net_amount_minor": 110773,
+    "currency": "INR",
+    "created_at": "2026-03-05T11:25:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1407",
+    "customer_reference": "FLIP-INV-379463",
+    "gross_amount_minor": 91190,
+    "net_amount_minor": 71130,
+    "currency": "INR",
+    "created_at": "2026-03-11T15:01:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1068",
+    "customer_reference": "UBER-BAT-596321-3",
+    "gross_amount_minor": 22600,
+    "net_amount_minor": 22148,
+    "currency": "INR",
+    "created_at": "2026-03-07T08:07:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1377",
+    "customer_reference": "BLNK-INV-901145",
+    "gross_amount_minor": 134920,
+    "net_amount_minor": 134920,
+    "currency": "INR",
+    "created_at": "2026-03-12T07:40:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1351",
+    "customer_reference": "FLIP-INV-935727",
+    "gross_amount_minor": 72030,
+    "net_amount_minor": 72030,
+    "currency": "INR",
+    "created_at": "2026-03-06T10:29:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1161",
+    "customer_reference": "ZOMA-INV-190252",
+    "gross_amount_minor": 199460,
+    "net_amount_minor": 199460,
+    "currency": "INR",
+    "created_at": "2026-03-09T21:21:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1340",
+    "customer_reference": "SWIG-INV-388250",
+    "gross_amount_minor": 83520,
+    "net_amount_minor": 81549,
+    "currency": "INR",
+    "created_at": "2026-03-04T01:57:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1498",
+    "customer_reference": "FLIP-INV-502330",
+    "gross_amount_minor": 220400,
+    "net_amount_minor": 220400,
+    "currency": "INR",
+    "created_at": "2026-03-06T05:33:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1010",
+    "customer_reference": "UBER-BAT-455188-2",
+    "gross_amount_minor": 16690,
+    "net_amount_minor": 16357,
+    "currency": "INR",
+    "created_at": "2026-03-09T03:01:00+00:00",
+    "payment_status": "captured"
+  },
+  {
+    "transaction_id": "TXN_1108",
+    "customer_reference": "SWIG-INV-651936",
+    "gross_amount_minor": 177780,
+    "net_amount_minor": 138669,
+    "currency": "INR",
+    "created_at": "2026-03-21T12:28:00+00:00",
+    "payment_status": "captured"
+  }
+]

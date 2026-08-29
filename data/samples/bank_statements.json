@@ -1,0 +1,50 @@
+[
+  {
+    "entry_id": "BANK_CR_001",
+    "bank_narration": "CMS/CR/RAZORPAY/BATCH-8821/AMZN-INV-882194/NET",
+    "credit_amount_minor": 122500,
+    "value_date": "2026-08-21T06:00:00Z"
+  },
+  {
+    "entry_id": "BANK_CR_002",
+    "bank_narration": "CMS/CR/RAZORPAY/BATCH-FOOD-99/SETTL",
+    "credit_amount_minor": 147000,
+    "value_date": "2026-08-21T06:30:00Z"
+  },
+  {
+    "entry_id": "BANK_CR_003",
+    "bank_narration": "CMS/CR/RAZORPAY/FLPK-INV-992341/BATCH-9923",
+    "credit_amount_minor": 205800,
+    "value_date": "2026-08-21T07:00:00Z"
+  },
+  {
+    "entry_id": "BANK_CR_004",
+    "bank_narration": "CMS/CR/RAZORPAY/BLNK-ORD-112450/NET",
+    "credit_amount_minor": 44100,
+    "value_date": "2026-08-21T07:30:00Z"
+  },
+  {
+    "entry_id": "BANK_CR_005",
+    "bank_narration": "CMS/CR/RAZORPAY/MYNT-INV-773412/BATCH-7734",
+    "credit_amount_minor": 176400,
+    "value_date": "2026-08-21T08:00:00Z"
+  },
+  {
+    "entry_id": "BANK_CR_006",
+    "bank_narration": "CMS/CR/RAZORPAY/TATA-INV-552109/BATCH-5521",
+    "credit_amount_minor": 313600,
+    "value_date": "2026-08-21T08:30:00Z"
+  },
+  {
+    "entry_id": "BANK_CR_007",
+    "bank_narration": "CMS/CR/RAZORPAY/BATCH-MOB-88/NODAL-POOL",
+    "credit_amount_minor": 100940,
+    "value_date": "2026-08-21T09:00:00Z"
+  },
+  {
+    "entry_id": "BANK_CR_008",
+    "bank_narration": "CMS/CR/RAZORPAY/JIOO-SUB-661902/BATCH-6619",
+    "credit_amount_minor": 116620,
+    "value_date": "2026-08-21T09:30:00Z"
+  }
+]
