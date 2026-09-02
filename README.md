@@ -1,6 +1,6 @@
 # 🌌 Realm Verify — Evidence-Bound Multi-Ledger Reconciliation
 
-**Submission for Razorpay AI Buildathon 2026 — AI Finance Controller Track**  
+**Enterprise Reconciliation Engine for FinTech Partners, Payment Gateways & Banking Providers (e.g. Razorpay, Stripe, PayU & Global Financial Institutions)**  
 *A production-tested, evidence-bound, two-stage financial reconciliation engine combining combinatorial candidate discovery with deterministic zero-tolerance accounting gatekeeping.*
 
 ---
@@ -408,7 +408,7 @@ python -m src.replay --run-id REALM_RUN_S42_1788085026
 
 <div align="center">
 
-**Realm Verify — Built with mathematical rigor for the Razorpay AI Buildathon 2026**  
+**Realm Verify — Built with mathematical rigor for FinTech partners, payment gateways, and banking providers worldwide.**  
 *Authored by Mugesh B ([@BMugesh](https://github.com/BMugesh))*
 
 </div>
