@@ -3,6 +3,9 @@
 **Submission for Razorpay AI Buildathon 2026 — AI Finance Controller Track**  
 *A tested, end-to-end prototype for evidence-bound, two-stage reconciliation over synthetic data.*
 
+🌐 **Live Web Application:** [realmverify.netlify.app](https://realmverify.netlify.app/)  
+📖 **Deployment Guide:** [`DEPLOYMENT.md`](DEPLOYMENT.md)
+
 ---
 
 ## 1. Executive Summary & Core Thesis
@@ -199,7 +202,12 @@ Below are real exceptions pulled directly from an executed run (`outputs/excepti
 
 ## 7. How to Run & Replicate
 
-### 7.1 Installation & Setup
+### 7.0 Live Cloud Deployment
+- **Frontend (Netlify):** [realmverify.netlify.app](https://realmverify.netlify.app/)
+- **Backend (Render):** FastAPI REST API service
+- **Full Setup Guide:** See [`DEPLOYMENT.md`](DEPLOYMENT.md) for detailed cloud configuration.
+
+### 7.1 Installation & Setup (Local Development)
 ```bash
 # 1. Install Python dependencies
 pip install -r requirements.txt
