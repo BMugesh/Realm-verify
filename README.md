@@ -223,7 +223,7 @@ Allows finance teams to upload custom enterprise CSV/JSON files or load pre-buil
 </div>
 
 - **Mathematical Proof Box:** Formally demonstrates:
-  $$\text{Gross } (₹1,250.00) - \text{Fees } (₹25.00) - \text{Refunds } (₹0.00) = \text{Net } (₹1,225.00) \quad [\text{Residual: } 0\text{ Paise}]$$
+  $$\operatorname{Gross}(1250.00) - \operatorname{Fees}(25.00) - \operatorname{Refunds}(0.00) = \operatorname{Net}(1225.00) \quad [\text{Residual } \Delta = 0\text{ Paise}]$$
 - **5-Agent Consensus Matrix:** Shows timestamps and pass certificates from each individual pipeline agent.
 - **Cryptographic Event Citation:** Direct link to the SHA-256 block hash in the evidence ledger.
 - **Interactive XAI Chat Assistant:** Ask natural language follow-up questions backed by reinforcement learning policy feedback.
@@ -255,7 +255,7 @@ An immutable, append-only SQLite ledger that computes rolling SHA-256 block hash
   <p><em>Figure 9: Immutable Evidence Ledger with SHA-256 cryptographic hash chain verification.</em></p>
 </div>
 
-$$\text{BlockHash}_k = \text{SHA-256}\Big(\text{EventID}_k \,||\, \text{PayloadHash}_k \,||\, \text{Timestamp}_k \,||\, \text{BlockHash}_{k-1}\Big)$$
+$$\operatorname{BlockHash}_k = \operatorname{SHA256}\Big(\operatorname{EventID}_k \parallel \operatorname{PayloadHash}_k \parallel \operatorname{Timestamp}_k \parallel \operatorname{BlockHash}_{k-1}\Big)$$
 
 ---
 
@@ -283,21 +283,21 @@ Let B = {b_1, b_2, ..., b_k}  be Bank Statement Credits
 
 ### Invariant 1: Payout Internal Balance Invariant
 For every payout $p \in P$, the settlement balance equation must hold exactly:
-$$\text{gross\_minor}(p) - \text{fee\_minor}(p) - \text{refund\_minor}(p) - \text{chargeback\_minor}(p) = \text{net\_minor}(p)$$
-$$\Delta_{\text{payout}} = 0 \text{ paise}$$
+$$\operatorname{Gross}(p) - \operatorname{Fees}(p) - \operatorname{Refunds}(p) - \operatorname{Chargebacks}(p) = \operatorname{Net}(p)$$
+$$\Delta_{\mathrm{payout}} = 0\text{ paise}$$
 
 ### Invariant 2: Stage 1 Batch Gross Invariant
 For a candidate set of transactions $T_p \subseteq T$ assigned to payout $p$:
-$$\sum_{t \in T_p} \text{gross\_minor}(t) = \text{gross\_minor}(p)$$
-$$\Delta_{\text{stage1}} = 0 \text{ paise}$$
+$$\sum_{t \in T_p} \operatorname{Gross}(t) = \operatorname{Gross}(p)$$
+$$\Delta_{\mathrm{stage1}} = 0\text{ paise}$$
 
 ### Invariant 3: Stage 2 Bank Credit Invariant
 For a candidate set of bank statement credits $B_p \subseteq B$ assigned to payout $p$:
-$$\sum_{b \in B_p} \text{credit\_minor}(b) = \text{net\_minor}(p)$$
-$$\Delta_{\text{stage2}} = 0 \text{ paise}$$
+$$\sum_{b \in B_p} \operatorname{Credit}(b) = \operatorname{Net}(p)$$
+$$\Delta_{\mathrm{stage2}} = 0\text{ paise}$$
 
 ### Invariant 4: Temporal Ordering & Settlement Window Policy
-$$\text{created\_at}(t) \le \text{settled\_at}(p) \le \text{value\_date}(b) + \tau_{\text{tolerance\_days}}$$
+$$\operatorname{CreatedAt}(t) \le \operatorname{SettledAt}(p) \le \operatorname{ValueDate}(b) + \tau_{\mathrm{tolerance}}$$
 
 ### Invariant 5: Single-Allocation Uniqueness (Anti-Double Counting)
 $$\forall t \in T, \; \sum_{p \in P} \mathbb{I}[t \in T_p] \le 1 \quad \text{and} \quad \forall b \in B, \; \sum_{p \in P} \mathbb{I}[b \in B_p] \le 1$$
