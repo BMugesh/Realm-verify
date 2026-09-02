@@ -74,12 +74,12 @@ export const DarkComparisonCards: React.FC<DarkComparisonCardsProps> = ({
   // 2. Precise real monetary values from user data
   const reconciledVal = hasActiveRun ? (runSummary?.reconciled_value_formatted ?? metrics?.reconciled_value_formatted ?? '₹0.00') : '₹0.00';
   const unreconciledVal = hasActiveRun ? (runSummary?.unreconciled_value_formatted ?? metrics?.unreconciled_value_formatted ?? '₹0.00') : '₹0.00';
-  const openInternalVal = hasActiveRun && needsReviewCount > 0 ? unreconciledVal : '₹0.00';
-  const openExternalVal = hasActiveRun && unresolvedCount > 0 ? unreconciledVal : '₹0.00';
+  const openInternalVal = hasActiveRun ? (runSummary?.needs_review_value_formatted ?? metrics?.needs_review_value_formatted ?? (needsReviewCount > 0 ? unreconciledVal : '₹0.00')) : '₹0.00';
+  const openExternalVal = hasActiveRun ? (runSummary?.unresolved_value_formatted ?? metrics?.unresolved_value_formatted ?? (unresolvedCount > 0 ? unreconciledVal : '₹0.00')) : '₹0.00';
 
   // Real backlog amounts calculated directly from user's data
-  const backlogIntVal = hasActiveRun && needsReviewCount > 0 ? openInternalVal : '₹0.00';
-  const backlogExtVal = hasActiveRun && unresolvedCount > 0 ? openExternalVal : '₹0.00';
+  const backlogIntVal = openInternalVal;
+  const backlogExtVal = openExternalVal;
 
   // 3. Dynamic bar heights (clamped 0 to 100%)
   const todayBarInternal = hasActiveRun ? Math.max(3, exceptionRate) : 0;
@@ -219,7 +219,7 @@ export const DarkComparisonCards: React.FC<DarkComparisonCardsProps> = ({
       </div>
 
       {/* ============================================================ */}
-      {/* CARD 2: BACKLOG / EXCEPTION POOL                             */}
+      {/* CARD 2: UNSETTLED VARIANCE / EXCEPTION POOL                  */}
       {/* ============================================================ */}
       <div className="glass-card rounded-3xl p-6 sm:p-7 border border-white/10 shadow-glass-card flex flex-col justify-between relative overflow-hidden">
         <div className="absolute top-0 right-0 w-48 h-48 bg-[#6366F1]/05 blur-3xl pointer-events-none" />
@@ -228,7 +228,7 @@ export const DarkComparisonCards: React.FC<DarkComparisonCardsProps> = ({
           {/* Header */}
           <div className="flex items-center justify-between mb-5">
             <h3 className="text-base font-bold font-mono text-white tracking-tight">
-              Backlog
+              Exception Variance Pool
             </h3>
             <span
               className={`text-xs font-mono px-2.5 py-0.5 rounded-full border ${
@@ -237,33 +237,33 @@ export const DarkComparisonCards: React.FC<DarkComparisonCardsProps> = ({
                   : 'text-status-review bg-status-review/10 border-status-review/20'
               }`}
             >
-              {exceptionRate === 0 ? '0 Exceptions · Fully Balanced' : `${exceptionRate}% Exception Queue`}
+              {exceptionRate === 0 ? '0 Exceptions · Fully Balanced' : `${exceptionRate}% Exception Queue (${(needsReviewCount + unresolvedCount).toLocaleString()} items)`}
             </span>
           </div>
 
           {/* 6 Metrics Grid (3 cols x 2 rows) - 100% computed from User Data */}
           <div className="grid grid-cols-3 gap-y-5 gap-x-4 mb-8">
-            <MetricItem label="Reconciled" value={unreconciledVal} hasBadge badgeType="review" />
-            <MetricItem label="Open Int Amount" value={backlogIntVal} hasBadge badgeType="review" />
-            <MetricItem label="Open Ext Amount" value={backlogExtVal} hasBadge badgeType="review" />
+            <MetricItem label="Total Unsettled" value={unreconciledVal} hasBadge={needsReviewCount + unresolvedCount > 0} badgeType="review" />
+            <MetricItem label="Internal Review" value={backlogIntVal} hasBadge={needsReviewCount > 0} badgeType="review" />
+            <MetricItem label="External Gateway" value={backlogExtVal} hasBadge={unresolvedCount > 0} badgeType="unresolved" />
 
             <MetricItem
-              label="Reconciled"
+              label="Total Flagged"
               value={(needsReviewCount + unresolvedCount).toLocaleString()}
-              hasBadge
+              hasBadge={needsReviewCount + unresolvedCount > 0}
               badgeType="review"
             />
             <MetricItem
-              label="Open Int Count"
+              label="Review Count"
               value={needsReviewCount.toLocaleString()}
-              hasBadge
+              hasBadge={needsReviewCount > 0}
               badgeType="review"
             />
             <MetricItem
-              label="Open Ext Count"
+              label="Gateway Count"
               value={unresolvedCount.toLocaleString()}
-              hasBadge
-              badgeType="review"
+              hasBadge={unresolvedCount > 0}
+              badgeType="unresolved"
             />
           </div>
         </div>

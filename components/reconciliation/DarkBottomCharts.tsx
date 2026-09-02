@@ -33,19 +33,33 @@ export const DarkBottomCharts: React.FC<DarkBottomChartsProps> = ({
     }
   }, [runSummary?.primary_month, sourceSummary?.primaryMonth]);
 
-  // Real calculations directly from user data
-  const matchRatePct = runSummary ? Math.round(runSummary.match_rate * 100) : (metrics ? Math.round((metrics.match_rate ?? 1.0) * 100) : 100);
-  const clearedRatePct = runSummary ? Math.round(runSummary.auto_approval_rate * 100) : (metrics ? Math.round(metrics.auto_approval_rate * 100) : 100);
-  const diffRatePct = runSummary ? Math.round(runSummary.exception_rate * 100) : (metrics ? Math.round(metrics.exception_rate * 100) : 0);
+  const hasActiveRun = !!(runSummary || metrics) && totalRecords > 0;
 
-  const totalMatchedEntities = runSummary?.payouts_count ?? (metrics
-    ? (metrics.auto_approved_count + metrics.needs_review_count)
-    : (sourceSummary?.payoutsCount || totalRecords));
+  // Real calculations directly from user data (0 when in zero state)
+  const matchRatePct = hasActiveRun
+    ? (runSummary ? Math.round(runSummary.match_rate * 100) : (metrics ? Math.round((metrics.match_rate ?? 0) * 100) : 0))
+    : 0;
+  const clearedRatePct = hasActiveRun
+    ? (runSummary ? Math.round(runSummary.auto_approval_rate * 100) : (metrics ? Math.round(metrics.auto_approval_rate * 100) : 0))
+    : 0;
+  const diffRatePct = hasActiveRun
+    ? (runSummary ? Math.round(runSummary.exception_rate * 100) : (metrics ? Math.round(metrics.exception_rate * 100) : 0))
+    : 0;
 
-  const clearedCount = runSummary?.auto_approved_count ?? metrics?.auto_approved_count ?? 0;
-  const diffCount = runSummary ? (runSummary.needs_review_count + runSummary.unresolved_count) : ((metrics?.needs_review_count ?? 0) + (metrics?.unresolved_count ?? 0));
+  const totalMatchedEntities = hasActiveRun
+    ? (runSummary?.payouts_count ?? (metrics ? (metrics.auto_approved_count + metrics.needs_review_count) : (sourceSummary?.payoutsCount || totalRecords)))
+    : 0;
 
-  const primarySettled = activeSettledValue || runSummary?.reconciled_value_formatted || metrics?.reconciled_value_formatted || '₹0.00';
+  const clearedCount = hasActiveRun
+    ? (runSummary?.auto_approved_count ?? metrics?.auto_approved_count ?? 0)
+    : 0;
+  const diffCount = hasActiveRun
+    ? (runSummary ? (runSummary.needs_review_count + runSummary.unresolved_count) : ((metrics?.needs_review_count ?? 0) + (metrics?.unresolved_count ?? 0)))
+    : 0;
+
+  const primarySettled = hasActiveRun
+    ? (activeSettledValue || runSummary?.reconciled_value_formatted || metrics?.reconciled_value_formatted || '₹0.00')
+    : '₹0.00';
 
   // Build monthly values strictly from user dataset or active metrics
   const monthValues: Record<string, string> = {
@@ -63,40 +77,77 @@ export const DarkBottomCharts: React.FC<DarkBottomChartsProps> = ({
     Dec: '₹ 0.00',
   };
 
-  if (runSummary?.monthly_settlements) {
-    Object.assign(monthValues, runSummary.monthly_settlements);
-  } else if (sourceSummary?.monthlySettlements) {
-    Object.assign(monthValues, sourceSummary.monthlySettlements);
-  } else {
-    // If no custom month distribution exists, assign the active reconciled value to the active month
-    monthValues[selectedMonth] = primarySettled;
+  if (hasActiveRun) {
+    if (runSummary?.monthly_settlements) {
+      Object.assign(monthValues, runSummary.monthly_settlements);
+    } else if (sourceSummary?.monthlySettlements) {
+      Object.assign(monthValues, sourceSummary.monthlySettlements);
+    } else {
+      // If no custom month distribution exists, assign the active reconciled value to the active month
+      monthValues[selectedMonth] = primarySettled;
+    }
   }
 
-  const wavePoints = [
-    { x: 30, y: 100, month: 'Jan' },
-    { x: 75, y: 120, month: 'Feb' },
-    { x: 120, y: 80, month: 'Mar' },
-    { x: 170, y: 125, month: 'Apr' },
-    { x: 220, y: 75, month: 'May' },
-    { x: 270, y: 135, month: 'Jun' },
-    { x: 320, y: 90, month: 'Jul' },
-    { x: 370, y: 110, month: 'Aug' },
-    { x: 420, y: 95, month: 'Sep' },
-    { x: 470, y: 65, month: 'Oct' },
-    { x: 520, y: 115, month: 'Nov' },
-    { x: 570, y: 95, month: 'Dec' },
-  ];
+  // Parse numerical amounts for dynamic spline plotting
+  const parseAmount = (valStr: string | undefined): number => {
+    if (!valStr) return 0;
+    const cleaned = valStr.replace(/[^0-9.-]/g, '');
+    const num = parseFloat(cleaned);
+    return isNaN(num) ? 0 : num;
+  };
 
-  const activePoint = wavePoints.find((p) => p.month === selectedMonth) || wavePoints[4];
+  const monthNumerics = months.map((m) => parseAmount(monthValues[m]));
+  const maxVal = Math.max(...monthNumerics, 0);
+
+  // Compute dynamic wave points (baseline is y=140 for 0%, top is y=30 for maxVal)
+  const wavePoints = months.map((month, idx) => {
+    const x = 30 + idx * ((570 - 30) / (months.length - 1));
+    const val = monthNumerics[idx];
+    const y = maxVal > 0 ? 140 - (val / maxVal) * 110 : 140;
+    return { x, y, month, val };
+  });
+
+  // Helper to build smooth cubic spline path
+  const buildSplinePath = (pts: Array<{ x: number; y: number }>) => {
+    if (pts.length === 0) return '';
+    if (maxVal <= 0) {
+      // Clean flat line at 0% baseline
+      return `M ${pts[0].x} 140 L ${pts[pts.length - 1].x} 140`;
+    }
+
+    let d = `M ${pts[0].x.toFixed(1)} ${pts[0].y.toFixed(1)}`;
+    for (let i = 0; i < pts.length - 1; i++) {
+      const p0 = pts[i === 0 ? i : i - 1];
+      const p1 = pts[i];
+      const p2 = pts[i + 1];
+      const p3 = pts[i + 2 < pts.length ? i + 2 : i + 1];
+
+      const dx = (p2.x - p1.x) * 0.45;
+      const cp1x = p1.x + dx;
+      const cp1y = Math.min(145, Math.max(25, p1.y + (p2.y - p0.y) * 0.15));
+      const cp2x = p2.x - dx;
+      const cp2y = Math.min(145, Math.max(25, p2.y - (p3.y - p1.y) * 0.15));
+
+      d += ` C ${cp1x.toFixed(1)} ${cp1y.toFixed(1)}, ${cp2x.toFixed(1)} ${cp2y.toFixed(1)}, ${p2.x.toFixed(1)} ${p2.y.toFixed(1)}`;
+    }
+    return d;
+  };
+
+  const linePathD = buildSplinePath(wavePoints);
+  const areaPathD = maxVal > 0
+    ? `${linePathD} L 570 160 L 30 160 Z`
+    : `M 30 140 L 570 140 L 570 160 L 30 160 Z`;
+
+  const activePoint = wavePoints.find((p) => p.month === selectedMonth) || wavePoints[7];
 
   // SVG Arc calculation for concentric rings
   const outerCircumference = 2 * Math.PI * 40; // 251.3
   const middleCircumference = 2 * Math.PI * 28; // 175.9
   const innerCircumference = 2 * Math.PI * 16; // 100.5
 
-  const outerDash = Math.max(0.1, (matchRatePct / 100) * outerCircumference);
-  const middleDash = Math.max(0.1, (diffRatePct / 100) * middleCircumference);
-  const innerDash = Math.max(0.1, (clearedRatePct / 100) * innerCircumference);
+  const outerDash = (matchRatePct / 100) * outerCircumference;
+  const middleDash = (diffRatePct / 100) * middleCircumference;
+  const innerDash = (clearedRatePct / 100) * innerCircumference;
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 mt-6">
@@ -138,18 +189,20 @@ export const DarkBottomCharts: React.FC<DarkBottomChartsProps> = ({
 
               {/* Gradient Area Fill under the Wave */}
               <path
-                d="M 30 100 C 50 115, 60 120, 75 120 C 95 120, 105 80, 120 80 C 145 80, 150 125, 170 125 C 195 125, 200 75, 220 75 C 245 75, 250 135, 270 135 C 295 135, 305 90, 320 90 C 345 90, 355 110, 370 110 C 395 110, 405 95, 420 95 C 445 95, 455 65, 470 65 C 495 65, 505 115, 520 115 C 545 115, 555 95, 570 95 L 570 160 L 30 160 Z"
+                d={areaPathD}
                 fill="url(#darkWaveGradient)"
+                className="transition-all duration-500"
               />
 
               {/* Main Smooth Curved Spline Line */}
               <path
-                d="M 30 100 C 50 115, 60 120, 75 120 C 95 120, 105 80, 120 80 C 145 80, 150 125, 170 125 C 195 125, 200 75, 220 75 C 245 75, 250 135, 270 135 C 295 135, 305 90, 320 90 C 345 90, 355 110, 370 110 C 395 110, 405 95, 420 95 C 445 95, 455 65, 470 65 C 495 65, 505 115, 520 115 C 545 115, 555 95, 570 95"
+                d={linePathD}
                 fill="none"
                 stroke="#15BCDF"
                 strokeWidth="3.5"
                 strokeLinecap="round"
                 filter="url(#darkGlow)"
+                className="transition-all duration-500"
               />
 
               {/* Vertical Pointer Line to Active Tooltip */}
@@ -161,7 +214,8 @@ export const DarkBottomCharts: React.FC<DarkBottomChartsProps> = ({
                 stroke="#15BCDF"
                 strokeWidth="1.5"
                 strokeDasharray="2 2"
-                opacity="0.7"
+                opacity={0.7}
+                className="transition-all duration-300"
               />
 
               {/* Active Dot on Curve */}
@@ -181,10 +235,10 @@ export const DarkBottomCharts: React.FC<DarkBottomChartsProps> = ({
               className="absolute pointer-events-none transition-all duration-300 transform -translate-x-1/2"
               style={{
                 left: `${(activePoint.x / 600) * 100}%`,
-                top: '5px',
+                top: `${Math.max(5, Math.min(100, activePoint.y - 65))}px`,
               }}
             >
-              <div className="glass-panel rounded-2xl px-4 py-2 shadow-glass-pill border border-accent/40 text-center min-w-[130px] animate-fade-in">
+              <div className="glass-panel rounded-2xl px-4 py-2 shadow-glass-pill border border-accent/40 text-center min-w-[130px] animate-fade-in bg-[#0B111D]/90 backdrop-blur-md">
                 <div className="text-[10px] font-mono uppercase text-white/50">Settled Amount</div>
                 <div className="text-xs sm:text-sm font-bold font-mono text-accent tracking-tight">
                   {monthValues[selectedMonth]}
@@ -236,6 +290,7 @@ export const DarkBottomCharts: React.FC<DarkBottomChartsProps> = ({
               strokeWidth="5"
               strokeDasharray={`${outerDash} ${outerCircumference}`}
               strokeLinecap="round"
+              opacity={outerDash > 0 ? 1 : 0}
               className="transition-all duration-700"
             />
 
@@ -249,6 +304,7 @@ export const DarkBottomCharts: React.FC<DarkBottomChartsProps> = ({
               strokeWidth="5"
               strokeDasharray={`${middleDash} ${middleCircumference}`}
               strokeLinecap="round"
+              opacity={middleDash > 0 ? 1 : 0}
               className="transition-all duration-700"
             />
 
@@ -262,6 +318,7 @@ export const DarkBottomCharts: React.FC<DarkBottomChartsProps> = ({
               strokeWidth="5"
               strokeDasharray={`${innerDash} ${innerCircumference}`}
               strokeLinecap="round"
+              opacity={innerDash > 0 ? 1 : 0}
               className="transition-all duration-700"
             />
           </svg>

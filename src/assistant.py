@@ -10,6 +10,7 @@ Enforces:
 6. Deterministic instant fallback cache for high demo reliability.
 """
 
+import os
 import re
 import json
 import sqlite3

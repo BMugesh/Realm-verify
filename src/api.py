@@ -7,16 +7,24 @@ import io
 import csv
 import json
 import os
+import sys
 import time
+import asyncio
 import sqlite3
 from pathlib import Path
 from typing import List, Dict, Any, Optional
+
+if sys.platform == "win32":
+    try:
+        asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+    except Exception:
+        pass
 from pydantic import BaseModel, Field
 from fastapi import FastAPI, HTTPException, Query, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 
 from src.config import PipelineConfig, DEFAULT_CONFIG
-from src.main import run_realm_verify_pipeline, run_baseline_pipeline
+from src.main import run_realm_verify_pipeline, run_baseline_pipeline, load_or_generate_dataset
 from src.replay import verify_and_replay_run
 from src.evidence_store import EvidenceStore
 from src.evaluator import run_multiseed_benchmark, BenchmarkEvaluator
@@ -57,6 +65,8 @@ app.add_middleware(
 
 DATA_DIR = Path("data/generated")
 OUTPUT_DIR = Path("outputs")
+DATA_DIR.mkdir(parents=True, exist_ok=True)
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 EVIDENCE_DB = OUTPUT_DIR / "evidence.sqlite"
 
 
@@ -160,6 +170,10 @@ class RunSummary(BaseModel):
     reconciled_value_formatted: str
     unreconciled_value_minor: int
     unreconciled_value_formatted: str
+    needs_review_value_minor: int = 0
+    needs_review_value_formatted: str = "₹0.00"
+    unresolved_value_minor: int = 0
+    unresolved_value_formatted: str = "₹0.00"
     max_balance_residual_minor: int
     invalid_committed_matches: int
     
@@ -263,6 +277,8 @@ def build_canonical_run_summary(
     unresolved = 0
     reconciled_paise = 0
     unreconciled_paise = 0
+    needs_review_paise = 0
+    unresolved_paise = 0
 
     one_to_one_val = 0
     batch_val = 0
@@ -286,10 +302,12 @@ def build_canonical_run_summary(
                 one_to_one_val += gross
         elif r.decision == DecisionStatus.NEEDS_REVIEW:
             needs_review += 1
+            needs_review_paise += gross
             unreconciled_paise += gross
             escalation_val += gross
         else:
             unresolved += 1
+            unresolved_paise += gross
             unreconciled_paise += gross
             escalation_val += gross
 
@@ -449,6 +467,10 @@ def build_canonical_run_summary(
         reconciled_value_formatted=format_inr(reconciled_paise),
         unreconciled_value_minor=unreconciled_paise,
         unreconciled_value_formatted=format_inr(unreconciled_paise),
+        needs_review_value_minor=needs_review_paise,
+        needs_review_value_formatted=format_inr(needs_review_paise),
+        unresolved_value_minor=unresolved_paise,
+        unresolved_value_formatted=format_inr(unresolved_paise),
         max_balance_residual_minor=0,
         invalid_committed_matches=0,
         stage1_f1=1.0 if auto_approved > 0 else 0.0,
@@ -486,6 +508,25 @@ def build_canonical_run_summary(
 # -------------------------------------------------------------------------
 # Health & Status
 # -------------------------------------------------------------------------
+@app.get("/")
+def root():
+    """Root endpoint for cloud platform health verification and API discovery."""
+    return {
+        "service": "Realm Verify API",
+        "status": "ONLINE",
+        "version": "1.0.0",
+        "engine": "Evidence-Bound Multi-Ledger Reconciliation Engine",
+        "docs": "/docs",
+        "health": "/api/health",
+    }
+
+
+@app.get("/health", response_model=HealthResponse)
+def health_check_alias():
+    """Alias for cloud platform health checks (Render / AWS / GCP)."""
+    return health_check()
+
+
 @app.get("/api/health", response_model=HealthResponse)
 def health_check():
     """Health and engine status check."""
@@ -1375,3 +1416,9 @@ def get_benchmark():
         return data
 
     raise HTTPException(status_code=500, detail="Unable to load or generate benchmark.")
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("src.api:app", host="127.0.0.1", port=8000, reload=False, loop="asyncio")
+

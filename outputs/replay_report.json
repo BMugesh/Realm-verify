@@ -1,11 +1,13 @@
 {
-  "run_id": "REALM_RUN_S42_1787498421",
+  "run_id": "REALM_RUN_S42_1788193254",
   "pipeline_type": "REALM_VERIFY_EVIDENCE_BOUND",
   "dataset_seed": 42,
-  "replay_timestamp": "2026-08-23T15:20:32Z",
-  "replay_runtime_seconds": 0.3777,
+  "replay_timestamp": "2026-08-31T16:21:52Z",
+  "replay_runtime_seconds": 2.5482,
+  "source_data_hashes_match": true,
   "hash_chain_integrity": {
     "is_valid": true,
+    "verified": true,
     "message": "Hash chain verified successfully across 369 events",
     "events_verified": 369
   },
@@ -34,12 +36,12 @@
   "metrics": {
     "total_settlement_entities": 369,
     "total_source_records": 1266,
-    "runtime_seconds": 0.3343,
-    "processing_latency_ms": 334.3,
-    "latency_ms_per_entity": 0.906,
-    "records_per_second": 3787.02,
-    "records_per_minute": 227221.3,
-    "settlement_groups_per_second": 1103.8,
+    "runtime_seconds": 0.0813,
+    "processing_latency_ms": 81.26,
+    "latency_ms_per_entity": 0.22,
+    "records_per_second": 15579.49,
+    "records_per_minute": 934769.2,
+    "settlement_groups_per_second": 4540.94,
     "match_rate": 0.9756,
     "auto_approval_rate": 0.7344,
     "automation_coverage": 0.7344,
@@ -67,9 +69,9 @@
     "unreconciled_value_paise": 19692640,
     "reconciled_value_formatted": "\u20b93,45,860.20",
     "unreconciled_value_formatted": "\u20b91,96,926.40",
-    "run_id": "REALM_RUN_S42_1787498431",
+    "run_id": "REALM_RUN_S42_1788193309",
     "pipeline_type": "REALM_VERIFY_EVIDENCE_BOUND",
     "seed": 42,
-    "llm_reranker_enabled": false
+    "llm_reranker_enabled": true
   }
 }

@@ -9,6 +9,12 @@ fastapi>=0.100.0
 uvicorn>=0.22.0
 httpx>=0.24.0
 requests>=2.30.0
+python-multipart>=0.0.9
+
+# Cloud Storage & Database (MongoDB Atlas)
+pymongo[srv]>=4.6.0
+certifi>=2024.2.2
+dnspython>=2.6.0
 
 # CLI & Environment
 rich>=13.0.0

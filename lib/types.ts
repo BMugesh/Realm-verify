@@ -100,6 +100,10 @@ export interface ReconciliationMetrics {
   unreconciled_value_minor: number;
   reconciled_value_formatted: string;
   unreconciled_value_formatted: string;
+  needs_review_value_minor?: number;
+  needs_review_value_formatted?: string;
+  unresolved_value_minor?: number;
+  unresolved_value_formatted?: string;
 }
 
 export interface SettlementSlice {
@@ -187,6 +191,10 @@ export interface RunSummary {
   reconciled_value_formatted: string;
   unreconciled_value_minor: number;
   unreconciled_value_formatted: string;
+  needs_review_value_minor?: number;
+  needs_review_value_formatted?: string;
+  unresolved_value_minor?: number;
+  unresolved_value_formatted?: string;
   max_balance_residual_minor: number;
   invalid_committed_matches: number;
   

@@ -104,8 +104,10 @@ def verify_and_replay_run(
         "dataset_seed": seed,
         "replay_timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "replay_runtime_seconds": round(t1 - t0, 4),
+        "source_data_hashes_match": source_hashes_match,
         "hash_chain_integrity": {
             "is_valid": chain_valid,
+            "verified": chain_valid,
             "message": chain_msg,
             "events_verified": verified_count,
         },

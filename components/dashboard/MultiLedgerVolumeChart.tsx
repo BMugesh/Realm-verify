@@ -42,17 +42,17 @@ export const MultiLedgerVolumeChart: React.FC<MultiLedgerVolumeChartProps> = ({
     const factor = factors[i];
     return {
       day,
-      txns: Math.max(1, Math.round(txnCount * factor)),
-      payouts: Math.max(1, Math.round(poCount * factor)),
-      bank: Math.max(1, Math.round(bankCount * factor)),
-      cleared: Math.max(1, Math.round(clearedCount * factor)),
+      txns: txnCount === 0 ? 0 : Math.max(1, Math.round(txnCount * factor)),
+      payouts: poCount === 0 ? 0 : Math.max(1, Math.round(poCount * factor)),
+      bank: bankCount === 0 ? 0 : Math.max(1, Math.round(bankCount * factor)),
+      cleared: clearedCount === 0 ? 0 : Math.max(1, Math.round(clearedCount * factor)),
     };
   });
 
   const dynamicSparklineData = days.map((day, i) => ({
     x: i + 1,
-    val: Math.max(5, Math.round(txnCount * factors[i])),
-    pass: Math.max(5, Math.round(clearedCount * factors[i])),
+    val: txnCount === 0 ? 0 : Math.max(1, Math.round(txnCount * factors[i])),
+    pass: clearedCount === 0 ? 0 : Math.max(1, Math.round(clearedCount * factors[i])),
   }));
 
   return (

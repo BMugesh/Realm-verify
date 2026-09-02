@@ -130,11 +130,12 @@ export const DarkBankBar: React.FC<DarkBankBarProps> = ({
             />
             <path
               className="text-accent transition-all duration-700"
-              strokeDasharray={`${Math.min(100, Math.max(10, internalMatchProgress))}, 100`}
+              strokeDasharray={`${Math.min(100, Math.max(0, internalMatchProgress))}, 100`}
               strokeWidth="3.5"
               strokeLinecap="round"
               stroke="currentColor"
               fill="none"
+              opacity={internalMatchProgress > 0 ? 1 : 0}
               d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
             />
           </svg>
@@ -162,11 +163,12 @@ export const DarkBankBar: React.FC<DarkBankBarProps> = ({
             />
             <path
               className="text-status-approved transition-all duration-700"
-              strokeDasharray={`${Math.min(100, Math.max(10, externalMatchProgress))}, 100`}
+              strokeDasharray={`${Math.min(100, Math.max(0, externalMatchProgress))}, 100`}
               strokeWidth="3.5"
               strokeLinecap="round"
               stroke="currentColor"
               fill="none"
+              opacity={externalMatchProgress > 0 ? 1 : 0}
               d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
             />
           </svg>

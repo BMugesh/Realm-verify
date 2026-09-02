@@ -1,0 +1,427 @@
+{
+  "run_id": "USER_UPLOAD_RUN_1788091007",
+  "pipeline_type": "USER_CUSTOM_DATA_EVIDENCE_BOUND",
+  "dataset_name": "Internal Anomaly & External Gap Verification",
+  "created_at": "2026-08-30 17:26:47 UTC",
+  "total_source_records": 7,
+  "runtime_seconds": 0.000989399995887652,
+  "records_per_second": 7074.994975838732,
+  "settlement_groups_per_second": 3032.140703930885,
+  "txns_count": 2,
+  "txns_gross_minor": 800000,
+  "txns_gross_formatted": "₹8,000.00",
+  "payouts_count": 3,
+  "payouts_gross_minor": 950000,
+  "payouts_gross_formatted": "₹9,500.00",
+  "payouts_net_minor": 927580,
+  "payouts_net_formatted": "₹9,275.80",
+  "payouts_fee_minor": 19000,
+  "payouts_fee_formatted": "₹190.00",
+  "banks_count": 2,
+  "banks_credit_minor": 781120,
+  "banks_credit_formatted": "₹7,811.20",
+  "primary_bank_name": "Multi-Gateway Nodal Pool",
+  "detected_banks": [],
+  "auto_approved_count": 0,
+  "needs_review_count": 0,
+  "unresolved_count": 3,
+  "auto_approval_rate": 0.0,
+  "exception_rate": 1.0,
+  "match_rate": 0.0,
+  "reconciled_value_minor": 0,
+  "reconciled_value_formatted": "₹0.00",
+  "unreconciled_value_minor": 950000,
+  "unreconciled_value_formatted": "₹9,500.00",
+  "max_balance_residual_minor": 0,
+  "invalid_committed_matches": 0,
+  "stage1_f1": 0.0,
+  "stage2_f1": 0.0,
+  "end_to_end_f1": 0.0,
+  "settlement_slices": [
+    {
+      "label": "1:1 Auto-Cleared",
+      "amount": "₹6,175.00",
+      "raw_minor": 617500,
+      "color": "#15BCDF",
+      "radius": 82,
+      "stroke": 10,
+      "dasharray": "210 50",
+      "count": 0
+    },
+    {
+      "label": "Many:1 Batches",
+      "amount": "₹2,375.00",
+      "raw_minor": 237500,
+      "color": "#818CF8",
+      "radius": 66,
+      "stroke": 9,
+      "dasharray": "170 50",
+      "count": 1
+    },
+    {
+      "label": "Fees & Deductions",
+      "amount": "₹190.00",
+      "raw_minor": 19000,
+      "color": "#EC4899",
+      "radius": 50,
+      "stroke": 8,
+      "dasharray": "130 50",
+      "count": 3
+    },
+    {
+      "label": "Escalations / FX",
+      "amount": "₹9,500.00",
+      "raw_minor": 950000,
+      "color": "#38BDF8",
+      "radius": 34,
+      "stroke": 7,
+      "dasharray": "90 50",
+      "count": 3
+    }
+  ],
+  "trend_chart_data": [
+    {
+      "day": "Sun",
+      "amount": 190000,
+      "value": "₹1,900.00"
+    },
+    {
+      "day": "Mon",
+      "amount": 361000,
+      "value": "₹3,610.00"
+    },
+    {
+      "day": "Tue",
+      "amount": 285000,
+      "value": "₹2,850.00"
+    },
+    {
+      "day": "Wed",
+      "amount": 551000,
+      "value": "₹5,510.00"
+    },
+    {
+      "day": "Thu",
+      "amount": 456000,
+      "value": "₹4,560.00"
+    },
+    {
+      "day": "Fri",
+      "amount": 741000,
+      "value": "₹7,410.00"
+    },
+    {
+      "day": "Sat",
+      "amount": 950000,
+      "value": "₹9,500.00"
+    }
+  ],
+  "volume_flow": {
+    "internal_transactions": {
+      "count": 2,
+      "gross_formatted": "₹8,000.00",
+      "raw_minor": 800000,
+      "fees_formatted": null,
+      "net_formatted": null,
+      "credit_formatted": null
+    },
+    "gateway_payouts": {
+      "count": 3,
+      "gross_formatted": "₹9,500.00",
+      "raw_minor": 950000,
+      "fees_formatted": "₹190.00",
+      "net_formatted": "₹9,275.80",
+      "credit_formatted": null
+    },
+    "bank_credits": {
+      "count": 2,
+      "gross_formatted": null,
+      "raw_minor": 781120,
+      "fees_formatted": null,
+      "net_formatted": null,
+      "credit_formatted": "₹7,811.20"
+    },
+    "matched_reconciled": {
+      "count": 0,
+      "percentage": 0.0,
+      "reconciled_val": "₹0.00"
+    },
+    "flagged_exceptions": {
+      "count": 3,
+      "percentage": 100.0,
+      "unreconciled_val": "₹9,500.00"
+    }
+  },
+  "monthly_settlements": {
+    "Jan": "₹ 0.00",
+    "Feb": "₹ 0.00",
+    "Mar": "₹ 0.00",
+    "Apr": "₹ 0.00",
+    "May": "₹ 0.00",
+    "Jun": "₹ 0.00",
+    "Jul": "₹ 0.00",
+    "Aug": "₹8,000.00",
+    "Sep": "₹ 0.00",
+    "Oct": "₹ 0.00",
+    "Nov": "₹ 0.00",
+    "Dec": "₹ 0.00"
+  },
+  "primary_month": "Aug",
+  "date_range": "2026-08-01 → 2026-08-01",
+  "heatmap_density": [
+    [
+      0,
+      2,
+      3,
+      3,
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      3,
+      2,
+      3,
+      3,
+      2,
+      0
+    ],
+    [
+      2,
+      1,
+      3,
+      3,
+      2,
+      3,
+      1
+    ],
+    [
+      0,
+      2,
+      2,
+      1,
+      3,
+      2,
+      0
+    ],
+    [
+      3,
+      3,
+      1,
+      2,
+      3,
+      3,
+      2
+    ],
+    [
+      1,
+      0,
+      2,
+      3,
+      2,
+      1,
+      0
+    ]
+  ],
+  "feed_items": [
+    {
+      "id": "PO_OK_01",
+      "gateway": "None (PO_OK_01)",
+      "sourceIcon": "S",
+      "status": "UNRESOLVED",
+      "statusLabel": "Unresolved",
+      "time": "2026-08-30 17:26",
+      "amount": "₹5,000.00",
+      "isCredit": true
+    },
+    {
+      "id": "PO_REVIEW_01",
+      "gateway": "None (PO_REVIEW_01)",
+      "sourceIcon": "S",
+      "status": "UNRESOLVED",
+      "statusLabel": "Unresolved",
+      "time": "2026-08-30 17:26",
+      "amount": "₹3,000.00",
+      "isCredit": true
+    },
+    {
+      "id": "PO_ORPHAN_01",
+      "gateway": "None (PO_ORPHAN_01)",
+      "sourceIcon": "S",
+      "status": "UNRESOLVED",
+      "statusLabel": "Unresolved",
+      "time": "2026-08-30 17:26",
+      "amount": "₹1,500.00",
+      "isCredit": true
+    }
+  ],
+  "sample_results": [
+    {
+      "settlement_id": "PO_OK_01",
+      "decision": "UNRESOLVED",
+      "stage1": {
+        "payout_id": "PO_OK_01",
+        "transaction_ids": [
+          "TXN_INT_OK_01"
+        ],
+        "gross_sum_minor": 500000,
+        "payout_gross_minor": 500000,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.9499528769841269,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "stage2": {
+        "payout_id": "PO_OK_01",
+        "bank_entry_ids": [
+          "BNK_OK_01"
+        ],
+        "bank_credit_sum_minor": 488200,
+        "payout_net_minor": 488200,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.916621197089947,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "confidence_score": 0.933287037037037,
+      "score_margin": 0.0,
+      "validator_checks": {
+        "PAYOUT_INTERNAL_EQUATION": false,
+        "STAGE1_BALANCE": true,
+        "STAGE2_BALANCE": true,
+        "CURRENCY_CONSISTENCY": true,
+        "DATE_ORDER_VALIDITY": true
+      },
+      "failure_reasons": [
+        "Payout equation failed: gross=500,000 paise; fees=10,000 paise; refunds=0 paise; chargebacks=0 paise; expected net=490,000 paise; reported net=488,200 paise"
+      ],
+      "reconciliation_timestamp": "",
+      "is_fully_reconciled": false
+    },
+    {
+      "settlement_id": "PO_REVIEW_01",
+      "decision": "UNRESOLVED",
+      "stage1": {
+        "payout_id": "PO_REVIEW_01",
+        "transaction_ids": [
+          "TXN_INT_REVIEW_01"
+        ],
+        "gross_sum_minor": 300000,
+        "payout_gross_minor": 300000,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.9499528769841269,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "stage2": {
+        "payout_id": "PO_REVIEW_01",
+        "bank_entry_ids": [
+          "BNK_REVIEW_01"
+        ],
+        "bank_credit_sum_minor": 292920,
+        "payout_net_minor": 292920,
+        "balance_residual_minor": 0,
+        "confidence_score": 0.916621197089947,
+        "is_valid": true,
+        "failure_reasons": []
+      },
+      "confidence_score": 0.933287037037037,
+      "score_margin": 0.0,
+      "validator_checks": {
+        "PAYOUT_INTERNAL_EQUATION": false,
+        "STAGE1_BALANCE": true,
+        "STAGE2_BALANCE": true,
+        "CURRENCY_CONSISTENCY": true,
+        "DATE_ORDER_VALIDITY": true
+      },
+      "failure_reasons": [
+        "Payout equation failed: gross=300,000 paise; fees=6,000 paise; refunds=0 paise; chargebacks=0 paise; expected net=294,000 paise; reported net=292,920 paise"
+      ],
+      "reconciliation_timestamp": "",
+      "is_fully_reconciled": false
+    },
+    {
+      "settlement_id": "PO_ORPHAN_01",
+      "decision": "UNRESOLVED",
+      "stage1": {
+        "payout_id": "PO_ORPHAN_01",
+        "transaction_ids": [],
+        "gross_sum_minor": 0,
+        "payout_gross_minor": 150000,
+        "balance_residual_minor": 150000,
+        "confidence_score": 0.0,
+        "is_valid": false,
+        "failure_reasons": [
+          "NO_STAGE1_MATCH_FOUND"
+        ]
+      },
+      "stage2": {
+        "payout_id": "PO_ORPHAN_01",
+        "bank_entry_ids": [],
+        "bank_credit_sum_minor": 0,
+        "payout_net_minor": 146460,
+        "balance_residual_minor": 146460,
+        "confidence_score": 0.0,
+        "is_valid": false,
+        "failure_reasons": [
+          "NO_STAGE2_MATCH_FOUND"
+        ]
+      },
+      "confidence_score": 0.0,
+      "score_margin": 0.0,
+      "validator_checks": {
+        "PAYOUT_INTERNAL_EQUATION": false,
+        "STAGE1_BALANCE": false,
+        "STAGE2_BALANCE": false,
+        "CURRENCY_CONSISTENCY": true,
+        "DATE_ORDER_VALIDITY": true
+      },
+      "failure_reasons": [
+        "Payout equation failed: gross=150,000 paise; fees=3,000 paise; refunds=0 paise; chargebacks=0 paise; expected net=147,000 paise; reported net=146,460 paise",
+        "STAGE1_NO_VALID_TRANSACTIONS_MATCHED",
+        "STAGE2_NO_VALID_BANK_ENTRIES_MATCHED"
+      ],
+      "reconciliation_timestamp": "",
+      "is_fully_reconciled": false
+    }
+  ],
+  "exceptions": [
+    {
+      "exception_id": "EXC_PO_OK_01",
+      "source_id": "PO_OK_01",
+      "source_type": "PAYOUT",
+      "decision": "UNRESOLVED",
+      "category": "MALFORMED_PAYOUT_EQUATION",
+      "reason": "Payout equation failed: gross=500,000 paise; fees=10,000 paise; refunds=0 paise; chargebacks=0 paise; expected net=490,000 paise; reported net=488,200 paise",
+      "candidate_ids": [],
+      "amount_minor": 500000,
+      "currency": "INR",
+      "recommended_action": "Reject payout batch; alert gateway operations team of internal balance equation failure."
+    },
+    {
+      "exception_id": "EXC_PO_REVIEW_01",
+      "source_id": "PO_REVIEW_01",
+      "source_type": "PAYOUT",
+      "decision": "UNRESOLVED",
+      "category": "MALFORMED_PAYOUT_EQUATION",
+      "reason": "Payout equation failed: gross=300,000 paise; fees=6,000 paise; refunds=0 paise; chargebacks=0 paise; expected net=294,000 paise; reported net=292,920 paise",
+      "candidate_ids": [],
+      "amount_minor": 300000,
+      "currency": "USD",
+      "recommended_action": "Reject payout batch; alert gateway operations team of internal balance equation failure."
+    },
+    {
+      "exception_id": "EXC_PO_ORPHAN_01",
+      "source_id": "PO_ORPHAN_01",
+      "source_type": "PAYOUT",
+      "decision": "UNRESOLVED",
+      "category": "MALFORMED_PAYOUT_EQUATION",
+      "reason": "Payout equation failed: gross=150,000 paise; fees=3,000 paise; refunds=0 paise; chargebacks=0 paise; expected net=147,000 paise; reported net=146,460 paise; STAGE1_NO_VALID_TRANSACTIONS_MATCHED; STAGE2_NO_VALID_BANK_ENTRIES_MATCHED",
+      "candidate_ids": [],
+      "amount_minor": 150000,
+      "currency": "INR",
+      "recommended_action": "Reject payout batch; alert gateway operations team of internal balance equation failure."
+    }
+  ]
+}
