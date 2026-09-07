@@ -176,6 +176,19 @@ export default function ExceptionsPage() {
         </form>
       </GlassCard>
 
+      {/* Institutional Narration & Truncation Disclosure */}
+      <div className="mb-6 p-4 rounded-xl bg-white/[0.03] border border-white/10 text-white/70 text-xs font-mono flex items-start gap-3">
+        <AlertTriangle className="w-4 h-4 text-accent shrink-0 mt-0.5" />
+        <div>
+          <span className="font-bold text-white uppercase tracking-wider block mb-1">
+            Institutional Banking Narration Disclosure
+          </span>
+          <p className="leading-relaxed">
+            Note: Bank narrations reflect upstream core-banking truncation (30-character limit) as per institutional banking formats. Realm Verify reconstructs missing entity tokens via fuzzy semantic projection and cross-ledger constraint solving without guessing unvalidated amounts.
+          </p>
+        </div>
+      </div>
+
       {error && (
         <div className="mb-6 p-4 rounded-xl bg-status-unresolved/20 border border-status-unresolved/40 text-status-unresolved text-sm">
           {error}

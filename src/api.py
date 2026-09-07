@@ -860,6 +860,20 @@ def get_mongodb_status():
 @app.get("/api/agents/status", response_model=List[AgentTelemetry])
 def get_agent_status():
     """Return operational telemetry and consensus metrics for all 5 AI Agents."""
+    if CURRENT_RUN_FILE.exists():
+        try:
+            with open(CURRENT_RUN_FILE, "r", encoding="utf-8") as f:
+                cur = json.load(f)
+            return orchestrator.get_system_telemetry(
+                total_records=cur.get("total_source_records", 0),
+                auto_approved=cur.get("auto_approved_count", 0),
+                needs_review=cur.get("needs_review_count", 0),
+                unresolved=cur.get("unresolved_count", 0),
+                stage1_f1=cur.get("stage1_f1", 1.0),
+                stage2_f1=cur.get("stage2_f1", 0.993),
+            )
+        except Exception:
+            pass
     return orchestrator.get_system_telemetry()
 
 

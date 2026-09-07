@@ -20,8 +20,12 @@ import { AgentCard } from '@/components/agents/AgentCard';
 import { ExplainModal } from '@/components/explainability/ExplainModal';
 import { api } from '@/lib/api';
 import { AgentTelemetry, DecisionExplanation } from '@/lib/types';
+import { useCurrentRun } from '@/lib/RunContext';
 
 export default function AgentsPage() {
+  const { currentRun } = useCurrentRun();
+  const defaultSamples = ['PO_2303', 'PO_2327', 'PO_2186', 'PO_USR_BATCH_01', 'PO_2297'];
+  const [sampleIds, setSampleIds] = useState<string[]>(defaultSamples);
   const [agents, setAgents] = useState<AgentTelemetry[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [testSettlementId, setTestSettlementId] = useState<string>('PO_2303');
@@ -41,6 +45,18 @@ export default function AgentsPage() {
     }
   };
 
+  useEffect(() => {
+    if (currentRun?.sample_results && currentRun.sample_results.length > 0) {
+      const activeIds = currentRun.sample_results
+        .map((r) => r.settlement_id)
+        .filter(Boolean);
+      if (activeIds.length > 0) {
+        setSampleIds(activeIds.slice(0, 6));
+        setTestSettlementId((prev) => (defaultSamples.includes(prev) ? activeIds[0] : prev));
+      }
+    }
+  }, [currentRun]);
+
   const handleTestExplain = async (idToTest?: string) => {
     const sId = idToTest || testSettlementId;
     if (!sId) return;
@@ -57,7 +73,7 @@ export default function AgentsPage() {
 
   useEffect(() => {
     fetchAgentStatus();
-  }, []);
+  }, [currentRun?.run_id]);
 
   return (
     <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-8">
@@ -152,7 +168,7 @@ export default function AgentsPage() {
 
           <div className="flex flex-wrap items-center gap-2 text-xs font-mono text-white/50 pl-2">
             <span>Quick Samples:</span>
-            {['PO_2303', 'PO_2327', 'PO_2186', 'PO_USR_BATCH_01', 'PO_2297'].map((sId) => (
+            {sampleIds.map((sId) => (
               <button
                 key={sId}
                 onClick={() => {
