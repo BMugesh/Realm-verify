@@ -109,10 +109,10 @@ export const DarkBankBar: React.FC<DarkBankBarProps> = ({
         </div>
       </div>
 
-      {/* Middle Metric 1: Open Internal */}
+      {/* Middle Metric 1: Internal Ledger */}
       <div className="flex items-center justify-between lg:justify-start gap-4 px-2 sm:px-6 lg:border-l lg:border-white/10 relative z-10">
         <div>
-          <div className="text-xs font-mono uppercase text-white/50 mb-0.5">Open Internal</div>
+          <div className="text-xs font-mono uppercase text-white/50 mb-0.5">Internal Ledger</div>
           <div className="text-lg sm:text-xl font-bold font-mono text-white tracking-tight">
             {openInternalFormatted}
           </div>
@@ -142,10 +142,10 @@ export const DarkBankBar: React.FC<DarkBankBarProps> = ({
         </div>
       </div>
 
-      {/* Middle Metric 2: Open External / Settled */}
+      {/* Middle Metric 2: Reconciled Balance / Settled */}
       <div className="flex items-center justify-between lg:justify-start gap-4 px-2 sm:px-6 lg:border-l lg:border-white/10 relative z-10">
         <div>
-          <div className="text-xs font-mono uppercase text-white/50 mb-0.5">Open External</div>
+          <div className="text-xs font-mono uppercase text-white/50 mb-0.5">Reconciled Balance</div>
           <div className="text-lg sm:text-xl font-bold font-mono text-status-approved tracking-tight">
             {openExternalFormatted}
           </div>

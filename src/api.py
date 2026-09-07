@@ -764,13 +764,7 @@ def get_current_run_summary():
         except Exception:
             pass
 
-    # If file not present yet, trigger Seed 42 run to initialize
-    try:
-        req = ReconciliationRequest(seed=42, records=500)
-        resp = execute_realm_verify(req)
-        return {"has_run": True, "summary": resp["summary"]}
-    except Exception as e:
-        return {"has_run": False, "error": str(e), "summary": None}
+    return {"has_run": False, "summary": None}
 
 
 @app.get("/api/runs/{run_id}/summary")
