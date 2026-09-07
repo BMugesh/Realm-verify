@@ -408,17 +408,17 @@ python -m src.replay --run-id REALM_RUN_S42_1788085026
 
 ### Post-Submission Fixes (2026-09-07)
 
-Following the initial hackathon submission, the codebase underwent systematic hardening, edge-case remediation, and state synchronization fixes recorded in separate, chronological commits:
+Following the initial hackathon submission, the codebase underwent systematic hardening, edge-case remediation, and state synchronization fixes recorded in separate, chronological commits on `main`:
 
-- **Dashboard / Reconciliation Studio State Synchronization ([Issue #1](.github/ISSUES.md#issue-1-dashboard-and-reconciliation-studio-state-mismatch)):**
+- **Dashboard / Reconciliation Studio State Synchronization ([Commit 4f631c6](https://github.com/BMugesh/Realm-verify/commit/4f631c6c529d8ab7ed4308b54dd3d02a2065c986) · [Issue #1](.github/ISSUES.md#issue-1-dashboard-and-reconciliation-studio-state-mismatch)):**
   - *Diagnosis:* The backend endpoint `GET /api/runs/current/summary` was implicitly auto-generating a 500-record Seed 42 run whenever `CURRENT_RUN_FILE` was absent on disk. This auto-seeding side-effect overwrote client-side state resets and raced with custom user CSV uploads, leading to mismatched totals between the Executive Dashboard and the Reconciliation Studio.
   - *Resolution:* Removed auto-seeding side-effects in `src/api.py` to return an explicit `{ "has_run": False, "summary": None }` state when uninitialized. Standardized all telemetry cards (`DarkBankBar.tsx`, `DarkComparisonCards.tsx`) to read from the canonical `RunContext` single source of truth. Added regression test suite `tests/test_dashboard_studio_consistency.py` validating 100% metric equivalence across custom and synthetic workloads.
 
-- **Orphan Payout Explainability Diagnostics (`PO_B01_000001`) ([Issue #2](.github/ISSUES.md#issue-2-explainability-trace-missingdiagnostics-for-orphan-payout-po_b01_000001)):**
+- **Orphan Payout Explainability Diagnostics (`PO_B01_000001`) ([Commit e41c523](https://github.com/BMugesh/Realm-verify/commit/e41c523bff41d8da4ec29ffedc9e4c5d237f4d00) · [Issue #2](.github/ISSUES.md#issue-2-explainability-trace-missingdiagnostics-for-orphan-payout-po_b01_000001)):**
   - *Diagnosis:* In benchmark evaluation datasets where counterpart internal order items (`FLPK-ORD-530290` / `FLPK-ORD-417200`) were excluded from the uploaded internal ledger, `PO_B01_000001` legitimately had 0 candidate transactions in Stage 1 while Stage 2 matched bank credit `BNK_B01_000001`. The math engine correctly flagged the record as `UNRESOLVED`, but the narrative generator previously defaulted to generic failure copy.
   - *Resolution:* Enhanced `AuditorAgent.generate_narrative` and conversational fallback heuristics in `src/agents.py` / `src/assistant.py` to produce structured orphan diagnostics. The Explain modal now clearly details the missing internal order records, confirms the Stage 2 bank credit match, and outputs SOP remediation steps. Verified with 3 automated tests in `tests/test_orphan_explanation.py`.
 
-- **Dynamic Multi-Agent Telemetry & Institutional Disclosures:**
+- **Dynamic Multi-Agent Telemetry & Institutional Disclosures ([Commit 48b62d5](https://github.com/BMugesh/Realm-verify/commit/48b62d5fa99e7e5ed9926b3792bdabea086936dd)):**
   - *Telemetry:* `GET /api/agents/status` now dynamically computes live operational metrics (records processed, Stage 1/Stage 2 F1 scores) directly from the active run payload rather than static placeholder constants.
   - *Institutional Copy Disclosures:* Added transparent disclosures on `/exceptions` and `/agents` regarding upstream core-banking 30-character narration truncation and fuzzy semantic projection.
 
