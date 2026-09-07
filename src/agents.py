@@ -287,9 +287,20 @@ class AuditorAgent:
         elif dec == DecisionStatus.NEEDS_REVIEW:
             summary = f"Flagged for human operator review: {'; '.join(reasons)}."
             rec_action = "Inspect reference tokens and counterpart account details. Confirm manual reconciliation in exception workspace."
-        else:
-            summary = f"Unresolved ledger anomaly: {'; '.join(reasons) if reasons else 'Missing counterpart records'}."
-            rec_action = "Raise ticket with gateway/bank support to investigate missing counterpart payment settlement."
+        elif dec == DecisionStatus.UNRESOLVED:
+            if (not s1_txns or txn_gross_sum == 0) and s2_banks and bank_credit_sum == payout_net:
+                summary = (
+                    f"Unlinked Orphan Payout: 0 candidate internal transactions found within search window / token similarity threshold "
+                    f"against target gross {format_inr(payout_gross)} (residual: {format_inr(payout_gross)}). "
+                    f"Stage 2 bank deposit of {format_inr(payout_net)} was successfully matched to [{', '.join(s2_banks)}], but internal ledger source invoice is missing."
+                )
+                rec_action = (
+                    "Investigate missing internal order/invoice in source database or ERP. "
+                    "If payout was processed outside core platform, upload missing transaction record or execute manual override."
+                )
+            else:
+                summary = f"Unresolved ledger anomaly: {'; '.join(reasons) if reasons else 'Missing counterpart records'}."
+                rec_action = "Raise ticket with gateway/bank support to investigate missing counterpart payment settlement."
 
         return DecisionExplanation(
             settlement_id=s_id,

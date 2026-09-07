@@ -341,10 +341,16 @@ class ReconciliationAssistant:
                 )
             else:
                 reasons_str = "; ".join(facts.failure_reasons) if facts.failure_reasons else "balance discrepancy"
-                s1_expl = (
-                    f"Stage 1 matched {facts.stage_1_sum_formatted} against target payout {facts.gross_amount_formatted} "
-                    f"(residual: {facts.stage_1_residual_formatted})."
-                )
+                if not facts.stage_1_matched_txns or facts.stage_1_sum_paise == 0:
+                    s1_expl = (
+                        f"Stage 1 (Internal Ledger): 0 candidate internal transactions found within the search window / token similarity threshold "
+                        f"against payout gross {facts.gross_amount_formatted} (Stage 1 residual: {facts.stage_1_residual_formatted})."
+                    )
+                else:
+                    s1_expl = (
+                        f"Stage 1 matched {facts.stage_1_sum_formatted} across {len(facts.stage_1_matched_txns)} transaction(s) "
+                        f"against target payout {facts.gross_amount_formatted} (residual: {facts.stage_1_residual_formatted})."
+                    )
                 s2_expl = (
                     f"Stage 2 matched {facts.stage_2_sum_formatted} against net settlement {facts.net_amount_formatted} "
                     f"(residual: {facts.stage_2_residual_formatted})."

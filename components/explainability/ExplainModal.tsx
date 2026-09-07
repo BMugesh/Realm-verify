@@ -272,7 +272,9 @@ export const ExplainModal: React.FC<ExplainModalProps> = ({ explanation, onClose
                       </div>
                       <div className="text-[10px] font-mono mt-1">
                         {s1HasZeroTxns ? (
-                          <span className="text-red-400 font-medium">0 candidate txns matched</span>
+                          <span className="text-red-400 font-medium leading-tight block">
+                            No candidate internal transactions found in search window/token index
+                          </span>
                         ) : (
                           <span className="text-white/40">Source ledger verified</span>
                         )}
