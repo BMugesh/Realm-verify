@@ -10,6 +10,7 @@ import json
 import logging
 import os
 import sqlite3
+import threading
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
@@ -22,7 +23,7 @@ logger = logging.getLogger("realm_verify.rl_feedback")
 
 
 class ChatFeedbackPayload(BaseModel):
-    record_id: str
+    record_id: Optional[str] = "GLOBAL"
     message_id: str
     reward: int = Field(..., description="+1 for positive/accurate, -1 for negative/mistake")
     feedback_text: Optional[str] = Field(default="", description="Operator correction notes")
@@ -177,18 +178,22 @@ class RLFeedbackEngine:
             )
             conn.commit()
 
-        # Cloud sync to MongoDB Atlas
+        # Cloud sync to MongoDB Atlas in background daemon thread
         try:
-            mongo_atlas_store.save_chat_message({
-                "message_id": msg_id,
-                "session_id": session_id,
-                "record_id": record_id,
-                "role": role,
-                "content": content,
-                "citations": citations,
-                "source": source,
-                "timestamp": now,
-            })
+            threading.Thread(
+                target=mongo_atlas_store.save_chat_message,
+                args=({
+                    "message_id": msg_id,
+                    "session_id": session_id,
+                    "record_id": record_id,
+                    "role": role,
+                    "content": content,
+                    "citations": citations,
+                    "source": source,
+                    "timestamp": now,
+                },),
+                daemon=True
+            ).start()
         except Exception:
             pass
 
@@ -296,15 +301,19 @@ class RLFeedbackEngine:
         )
 
         try:
-            mongo_atlas_store.save_feedback({
-                "feedback_id": feedback_id,
-                "message_id": payload.message_id,
-                "record_id": payload.record_id,
-                "reward": payload.reward,
-                "feedback_text": payload.feedback_text,
-                "correction_rule": correction_rule,
-                "created_at": now,
-            })
+            threading.Thread(
+                target=mongo_atlas_store.save_feedback,
+                args=({
+                    "feedback_id": feedback_id,
+                    "message_id": payload.message_id,
+                    "record_id": payload.record_id,
+                    "reward": payload.reward,
+                    "feedback_text": payload.feedback_text,
+                    "correction_rule": correction_rule,
+                    "created_at": now,
+                },),
+                daemon=True
+            ).start()
         except Exception:
             pass
 

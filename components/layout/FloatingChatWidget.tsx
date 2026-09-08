@@ -72,63 +72,10 @@ export const FloatingChatWidget: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isSpeedDialOpen, setIsSpeedDialOpen] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
-  const [selectedRecordId, setSelectedRecordId] = useState<string>('PO_B01_000001');
-  const [isRecordSelectorOpen, setIsRecordSelectorOpen] = useState(false);
-  const [customRecordInput, setCustomRecordInput] = useState('');
 
   useEffect(() => {
     setMounted(true);
   }, []);
-
-  // Extract available record IDs from active run
-  const sampleRecords: string[] = [];
-  if (currentRun?.sample_results && currentRun.sample_results.length > 0) {
-    currentRun.sample_results.forEach((r) => {
-      if (r.settlement_id && !sampleRecords.includes(r.settlement_id)) {
-        sampleRecords.push(r.settlement_id);
-      }
-    });
-  }
-
-  if (currentRun?.exceptions && currentRun.exceptions.length > 0) {
-    currentRun.exceptions.forEach((e) => {
-      if (e.source_id && !sampleRecords.includes(e.source_id)) {
-        sampleRecords.push(e.source_id);
-      }
-    });
-  }
-
-  const availableRecords =
-    sampleRecords.length > 0
-      ? sampleRecords.slice(0, 15)
-      : [
-          'PO_B01_000001',
-          'PO_B01_000002',
-          'PO_B01_000003',
-          'PO_B01_000004',
-          'PO_B01_000005',
-          'PO_UNRESOLVED_001',
-        ];
-
-  useEffect(() => {
-    if (availableRecords.length > 0 && !availableRecords.includes(selectedRecordId)) {
-      setSelectedRecordId(availableRecords[0]);
-    }
-  }, [currentRun?.run_id]);
-
-  const handleSelectRecord = (id: string) => {
-    setSelectedRecordId(id);
-    setIsRecordSelectorOpen(false);
-  };
-
-  const handleCustomRecordSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (customRecordInput.trim()) {
-      setSelectedRecordId(customRecordInput.trim());
-      setCustomRecordInput('');
-      setIsRecordSelectorOpen(false);
-    }
-  };
 
   const handleOpenWithAgent = (agentPrompt: string) => {
     setIsSpeedDialOpen(false);
@@ -228,82 +175,9 @@ export const FloatingChatWidget: React.FC = () => {
               </div>
             </div>
 
-            {/* Record Scope Bar */}
-            <div className="px-4 py-2 bg-[#0B1322] border-b border-white/10 flex items-center justify-between gap-2 shrink-0 z-20">
-              <div className="relative flex-1 min-w-0">
-                <button
-                  onClick={() => setIsRecordSelectorOpen(!isRecordSelectorOpen)}
-                  className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-accent/40 text-xs font-mono text-white transition-all w-full justify-between"
-                >
-                  <div className="flex items-center gap-2 truncate">
-                    <span className="text-white/40 text-[10px] uppercase">Record:</span>
-                    <span className="font-bold text-accent truncate">{selectedRecordId}</span>
-                  </div>
-                  <ChevronDown
-                    className={`w-3.5 h-3.5 text-white/50 transition-transform ${
-                      isRecordSelectorOpen ? 'rotate-180 text-accent' : ''
-                    }`}
-                  />
-                </button>
-
-                {/* Dropdown Menu */}
-                {isRecordSelectorOpen && (
-                  <div className="absolute top-full left-0 mt-1.5 w-full sm:w-80 bg-[#0E1726] border border-white/15 rounded-2xl shadow-2xl p-2.5 z-50 animate-fade-up backdrop-blur-2xl">
-                    <div className="text-[10px] font-mono text-white/40 uppercase tracking-wider px-2 py-1 mb-1">
-                      Switch Active Record:
-                    </div>
-
-                    <form onSubmit={handleCustomRecordSubmit} className="mb-2">
-                      <div className="flex items-center gap-1.5 bg-black/40 border border-white/10 rounded-xl px-2.5 py-1.5 focus-within:border-accent/50">
-                        <Search className="w-3.5 h-3.5 text-white/40" />
-                        <input
-                          type="text"
-                          placeholder="Type record ID..."
-                          value={customRecordInput}
-                          onChange={(e) => setCustomRecordInput(e.target.value)}
-                          className="bg-transparent border-none outline-none text-xs font-mono text-white placeholder:text-white/30 flex-1"
-                        />
-                        <button
-                          type="submit"
-                          className="px-2 py-0.5 rounded bg-accent/20 text-accent text-[10px] font-mono font-bold hover:bg-accent hover:text-brand-dark transition-all"
-                        >
-                          Set
-                        </button>
-                      </div>
-                    </form>
-
-                    <div className="max-h-40 overflow-y-auto space-y-1 custom-scrollbar">
-                      {availableRecords.map((recId) => {
-                        const isCurrent = recId === selectedRecordId;
-                        return (
-                          <button
-                            key={recId}
-                            onClick={() => handleSelectRecord(recId)}
-                            className={`w-full text-left px-3 py-1.5 rounded-xl font-mono text-xs flex items-center justify-between transition-all ${
-                              isCurrent
-                                ? 'bg-accent/20 text-accent border border-accent/40 font-bold'
-                                : 'text-white/80 hover:text-white hover:bg-white/05 border border-transparent'
-                            }`}
-                          >
-                            <span className="truncate">{recId}</span>
-                            {isCurrent && <CheckCircle2 className="w-3.5 h-3.5 text-accent shrink-0" />}
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
-                )}
-              </div>
-
-              <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-accent/10 text-accent border border-accent/20 font-semibold shrink-0">
-                0-Paise AI
-              </span>
-            </div>
-
             {/* Embedded Assistant Core */}
             <div className="flex-1 min-h-0 relative">
               <ExplainChatAssistant
-                recordId={selectedRecordId}
                 runId={currentRun?.run_id}
                 isEmbedded
                 className="h-full rounded-none border-0 shadow-none bg-transparent"

@@ -34,7 +34,7 @@ import { ChatMessage, ChatResponse, DecisionStatus, ChatSessionItem } from '@/li
 import { MarkdownRenderer } from './MarkdownRenderer';
 
 interface ExplainChatAssistantProps {
-  recordId: string;
+  recordId?: string;
   runId?: string;
   initialDecision?: DecisionStatus;
   initialConfidence?: number;
@@ -54,11 +54,11 @@ interface MessageItem extends ChatMessage {
 }
 
 const QUICK_PROMPTS = [
-  { label: 'Why unresolved?', prompt: 'Why is this reconciliation record unresolved or in review?' },
-  { label: 'What is the residual?', prompt: "What is the exact 0-paise residual and balance difference for this record?" },
-  { label: 'Show Evidence Hash', prompt: 'How do I know this result is accurate? Show the SHA-256 evidence ledger hash.' },
-  { label: 'Candidate Matches', prompt: 'Show me the nearest candidate transaction and bank statement matches.' },
-  { label: 'Should I approve?', prompt: 'Should this match be approved or overridden?' },
+  { label: 'What is Realm Verify?', prompt: 'Can you tell me about this app clearly and why it was built?' },
+  { label: 'How 5 Agents work?', prompt: 'How do the 5 AI agents in Realm Verify work together to perform multi-stage reconciliation?' },
+  { label: '0-Paise Invariant', prompt: 'What is the deterministic 0-paise arithmetic guarantee and how does it prevent financial drift?' },
+  { label: 'Why unresolved?', prompt: 'Why is a reconciliation record unresolved or in review?' },
+  { label: 'Show Evidence Hash', prompt: 'How does cryptographic SHA-256 evidence chaining guarantee tamper-proof audit trails?' },
 ];
 
 export const ExplainChatAssistant: React.FC<ExplainChatAssistantProps> = ({
@@ -96,11 +96,11 @@ export const ExplainChatAssistant: React.FC<ExplainChatAssistantProps> = ({
     scrollToBottom();
   }, [messages, isLoading]);
 
-  // Load persistent history from SQLite whenever recordId changes
+  // Load persistent history from SQLite whenever recordId or runId changes
   useEffect(() => {
     const loadHistory = async () => {
       try {
-        const historyData = await api.getChatHistory(recordId);
+        const historyData = await api.getChatHistory(recordId || 'GLOBAL');
         if (historyData.sessions) {
           setPastSessions(historyData.sessions);
         }
@@ -128,22 +128,30 @@ export const ExplainChatAssistant: React.FC<ExplainChatAssistantProps> = ({
           }
         } else {
           // Default initial welcome
+          const welcomeContent = recordId
+            ? `Welcome to **Realm Verify**. I am your dedicated **Reconciliation Explain Assistant** for record \`${recordId}\`.\n\nI am grounded strictly in the **5-agent pipeline telemetry**, deterministic **0-paise arithmetic proofs**, and the **SHA-256 evidence chain**. How may I assist you with this reconciliation record or the platform?`
+            : `Welcome to **Realm Verify**. I am your **5-Agent AI Platform Assistant**.\n\nYou can ask me anything about:\n- **Why this app was built & how it works** (5-agent architecture, 0-paise mathematical proof, SHA-256 ledger chaining)\n- **How to use this website** (Reconciliation Studio, Exception Queue, Live Dashboard, Benchmarks)\n- **Any specific record** (e.g. \`PO_2113\`, \`PO_B01_000001\`) to inspect its multi-stage match breakdown, residuals, or audit evidence.\n\nHow may I help you today?`;
+
           setMessages([
             {
               id: 'welcome-msg',
               role: 'assistant',
-              content: `Thank you for accessing **Realm Verify**. I am your dedicated **Reconciliation Explain Assistant** for record \`${recordId}\`.\n\nI am grounded strictly in the **5-agent pipeline telemetry**, deterministic **0-paise arithmetic proofs**, and the **SHA-256 evidence chain**. How may I assist you with this reconciliation record?`,
+              content: welcomeContent,
               timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
             },
           ]);
         }
       } catch (e) {
         // Fallback welcome message
+        const welcomeContent = recordId
+          ? `Welcome to **Realm Verify**. I am your dedicated **Reconciliation Explain Assistant** for record \`${recordId}\`.\n\nI am grounded strictly in the **5-agent pipeline telemetry**, deterministic **0-paise arithmetic proofs**, and the **SHA-256 evidence chain**. How may I assist you with this reconciliation record or the platform?`
+          : `Welcome to **Realm Verify**. I am your **5-Agent AI Platform Assistant**.\n\nYou can ask me anything about:\n- **Why this app was built & how it works** (5-agent architecture, 0-paise mathematical proof, SHA-256 ledger chaining)\n- **How to use this website** (Reconciliation Studio, Exception Queue, Live Dashboard, Benchmarks)\n- **Any specific record** (e.g. \`PO_2113\`, \`PO_B01_000001\`) to inspect its multi-stage match breakdown, residuals, or audit evidence.\n\nHow may I help you today?`;
+
         setMessages([
           {
             id: 'welcome-msg',
             role: 'assistant',
-            content: `Thank you for accessing **Realm Verify**. I am your dedicated **Reconciliation Explain Assistant** for record \`${recordId}\`.\n\nI am grounded strictly in the **5-agent pipeline telemetry**, deterministic **0-paise arithmetic proofs**, and the **SHA-256 evidence chain**. How may I assist you with this reconciliation record?`,
+            content: welcomeContent,
             timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
           },
         ]);
@@ -250,7 +258,7 @@ export const ExplainChatAssistant: React.FC<ExplainChatAssistantProps> = ({
       );
 
       // Refresh learned rules
-      const updatedHistory = await api.getChatHistory(recordId);
+      const updatedHistory = await api.getChatHistory(recordId || 'GLOBAL');
       if (updatedHistory.learned_rules) {
         setLearnedRules(updatedHistory.learned_rules);
       }
@@ -273,7 +281,9 @@ export const ExplainChatAssistant: React.FC<ExplainChatAssistantProps> = ({
       {
         id: 'welcome-reset',
         role: 'assistant',
-        content: `New conversation thread initialized. Scoped to record \`${recordId}\`.\n\nAll subsequent questions and feedback will be recorded into the persistent evidence ledger. How can I help?`,
+        content: recordId
+          ? `New conversation thread initialized for record \`${recordId}\`.\n\nAll subsequent questions and feedback will be recorded into the persistent evidence ledger. How can I help?`
+          : `New conversation thread initialized for **Realm Verify**.\n\nYou can ask about the platform, website features, or any reconciliation record ID. How can I assist you?`,
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
       },
     ]);
@@ -303,10 +313,19 @@ export const ExplainChatAssistant: React.FC<ExplainChatAssistantProps> = ({
               </span>
             </div>
             <div className="flex items-center gap-2 text-[11px] font-mono text-white/50 mt-0.5">
-              <span>Record:</span>
-              <code className="text-accent font-bold bg-white/05 px-1.5 py-0.2 rounded border border-white/10">
-                {recordId}
-              </code>
+              {recordId ? (
+                <>
+                  <span>Record:</span>
+                  <code className="text-accent font-bold bg-white/05 px-1.5 py-0.2 rounded border border-white/10">
+                    {recordId}
+                  </code>
+                </>
+              ) : (
+                <>
+                  <span className="text-white/40">Multi-Ledger Scope:</span>
+                  <span className="text-accent font-bold">Active Run Intelligence</span>
+                </>
+              )}
             </div>
           </div>
         </div>
@@ -617,7 +636,11 @@ export const ExplainChatAssistant: React.FC<ExplainChatAssistantProps> = ({
             onChange={(e) => setInputValue(e.target.value)}
             onKeyDown={handleKeyDown}
             disabled={isLoading}
-            placeholder={`Ask anything about record ${recordId}...`}
+            placeholder={
+              recordId
+                ? `Ask about record ${recordId}, 0-paise proofs, or the app...`
+                : 'Ask about the app, 0-paise reconciliation, or any record (e.g. PO_2113)...'
+            }
             className="w-full px-4 py-2.5 sm:py-3 rounded-xl bg-white/[0.04] border border-white/15 focus:border-accent/60 focus:ring-1 focus:ring-accent/40 text-white text-xs sm:text-sm font-mono placeholder:text-white/30 outline-none transition-all pr-12 disabled:opacity-50"
           />
 

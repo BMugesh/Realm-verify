@@ -168,14 +168,14 @@ export const api = {
   getBenchmark: () => fetchJSON<BenchmarkReport>('/benchmark'),
 
   // Reconciliation Explain Assistant Chatbot & RL Feedback
-  sendChatMessage: (payload: { run_id?: string; record_id: string; message: string; session_id?: string; conversation_history?: import('./types').ChatMessage[] }) =>
+  sendChatMessage: (payload: { run_id?: string; record_id?: string; message: string; session_id?: string; conversation_history?: import('./types').ChatMessage[] }) =>
     fetchJSON<import('./types').ChatResponse>('/chat', {
       method: 'POST',
       body: JSON.stringify(payload),
     }),
 
-  getChatHistory: (recordId: string, limit: number = 50) =>
-    fetchJSON<import('./types').ChatHistoryResponse>(`/chat/history/${encodeURIComponent(recordId)}?limit=${limit}`),
+  getChatHistory: (recordId?: string, limit: number = 50) =>
+    fetchJSON<import('./types').ChatHistoryResponse>(`/chat/history/${encodeURIComponent(recordId || 'GLOBAL')}?limit=${limit}`),
 
   submitChatFeedback: (payload: import('./types').ChatFeedbackPayload) =>
     fetchJSON<import('./types').ChatFeedbackResponse>('/chat/feedback', {

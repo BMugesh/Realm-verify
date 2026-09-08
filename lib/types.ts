@@ -451,7 +451,7 @@ export interface ChatMessage {
 
 export interface ChatRequest {
   run_id?: string;
-  record_id: string;
+  record_id?: string;
   message: string;
   session_id?: string;
   conversation_history?: ChatMessage[];
@@ -459,10 +459,10 @@ export interface ChatRequest {
 
 export interface ChatResponse {
   reply: string;
-  record_id: string;
-  run_id: string;
-  citations: ChatCitations;
-  precomputed_facts: PrecomputedRecordFacts;
+  record_id?: string;
+  run_id?: string;
+  citations?: ChatCitations;
+  precomputed_facts?: PrecomputedRecordFacts;
   source: string;
   session_id?: string;
   message_id?: string;
@@ -470,7 +470,7 @@ export interface ChatResponse {
 }
 
 export interface ChatFeedbackPayload {
-  record_id: string;
+  record_id?: string;
   message_id: string;
   reward: number;
   feedback_text?: string;
