@@ -30,7 +30,7 @@ class PipelineConfig(BaseModel):
     # LLM Re-ranker & Explain Assistant
     llm_api_key: str | None = Field(default_factory=lambda: os.getenv("GROQ_API_KEY", os.getenv("LLM_API_KEY", None)))
     llm_base_url: str = Field(default_factory=lambda: os.getenv("LLM_BASE_URL", "https://api.groq.com/openai/v1"))
-    llm_model: str = Field(default_factory=lambda: os.getenv("LLM_MODEL", "openai/gpt-oss-120b"))
+    llm_model: str = Field(default_factory=lambda: os.getenv("LLM_MODEL", "llama-3.1-8b-instant"))
 
 # Global default config
 DEFAULT_CONFIG = PipelineConfig()

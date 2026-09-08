@@ -63,7 +63,7 @@ This guide provides step-by-step instructions for deploying **Realm Verify** to 
    | PYTHON_VERSION | 3.11.9 | Ensures Python 3.11 compatibility |
    | LLM_API_KEY | gsk_... | Groq API key for Explainable AI (Optional) |
    | LLM_BASE_URL | https://api.groq.com/openai/v1 | Groq endpoint |
-   | LLM_MODEL | llama-3.3-70b-versatile | High-speed LLM model |
+   | LLM_MODEL | llama-3.1-8b-instant | High-speed active Groq model |
    | MONGO_USERNAME | mkbm1307_db_user | (Optional: pre-configured) |
    | MONGO_PASSWORD | dYkrbBvA1uOEqhR | (Optional: pre-configured) |
    | MONGO_CLUSTER | ealm1.litipri.mongodb.net | (Optional: pre-configured) |

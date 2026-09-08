@@ -822,40 +822,53 @@ class ReconciliationAssistant:
         if getattr(self, "_llm_disabled", False):
             return None
 
-        try:
-            headers = {
-                "Authorization": f"Bearer {self.api_key}",
-                "Content-Type": "application/json"
-            }
-            body = {
-                "model": self.model,
-                "messages": messages,
-                "temperature": 0.1,
-                "max_tokens": 500,
-            }
+        candidate_models = [self.model]
+        for fallback in ["llama-3.1-8b-instant", "llama-3.3-70b-versatile", "mixtral-8x7b-32768", "gemma2-9b-it"]:
+            if fallback not in candidate_models:
+                candidate_models.append(fallback)
 
-            resp = requests.post(
-                f"{self.base_url.rstrip('/')}/chat/completions",
-                headers=headers,
-                json=body,
-                timeout=1.5
-            )
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json"
+        }
 
-            if resp.status_code == 200:
-                data = resp.json()
-                content = data["choices"][0]["message"]["content"].strip()
-                return content
-            elif resp.status_code in (401, 403):
-                logger.info("Groq API key not authenticated (%d). Disabling remote LLM for process.", resp.status_code)
-                self._llm_disabled = True
-                return None
-            else:
-                logger.warning("Groq API returned status %d: %s", resp.status_code, resp.text)
-                return None
-        except Exception as e:
-            logger.info("Groq assistant API call failed gracefully: %s", e)
-            self._llm_disabled = True
-            return None
+        for model_candidate in candidate_models:
+            try:
+                body = {
+                    "model": model_candidate,
+                    "messages": messages,
+                    "temperature": 0.1,
+                    "max_tokens": 500,
+                }
+
+                resp = requests.post(
+                    f"{self.base_url.rstrip('/')}/chat/completions",
+                    headers=headers,
+                    json=body,
+                    timeout=2.0
+                )
+
+                if resp.status_code == 200:
+                    data = resp.json()
+                    content = data["choices"][0]["message"]["content"].strip()
+                    if content:
+                        self.model = model_candidate
+                        return content
+                elif resp.status_code in (401, 403):
+                    logger.info("Groq API key not authenticated (%d). Disabling remote LLM for process.", resp.status_code)
+                    self._llm_disabled = True
+                    return None
+                elif resp.status_code == 404:
+                    # Model not found on Groq tier, try next candidate
+                    logger.info("Model '%s' not found on Groq (404). Trying next fallback model...", model_candidate)
+                    continue
+                else:
+                    logger.warning("Groq API returned status %d for model %s: %s", resp.status_code, model_candidate, resp.text)
+            except Exception as e:
+                logger.info("Groq API call attempt failed for model %s: %s", model_candidate, e)
+                continue
+
+        return None
 
 
 assistant_service = ReconciliationAssistant()

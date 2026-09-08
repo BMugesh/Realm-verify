@@ -14,7 +14,7 @@ services:
       - key: LLM_BASE_URL
         value: https://api.groq.com/openai/v1
       - key: LLM_MODEL
-        value: llama-3.3-70b-versatile
+        value: llama-3.1-8b-instant
       - key: MONGO_USERNAME
         sync: false
       - key: MONGO_PASSWORD
